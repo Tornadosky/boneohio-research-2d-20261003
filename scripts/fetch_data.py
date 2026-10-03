@@ -47,16 +47,20 @@ def main():
     if not selected:raise SystemExit('No matching groups')
     (ROOT/'downloads').mkdir(exist_ok=True)
     receipts=ROOT/'data/.shards';receipts.mkdir(parents=True,exist_ok=True)
+    def already_extracted(a):
+        marker=receipts/(a['name']+'.json')
+        if not marker.exists() or args.force:return False
+        receipt=json.loads(marker.read_text())
+        return receipt.get('sha256')==a['sha256'] and bool(receipt.get('paths')) and all((ROOT/p).is_file() for p in receipt['paths'])
+    pending=[a for a in selected if not already_extracted(a)]
     available=shutil.disk_usage(ROOT).free
-    required=sum(a['extracted_bytes'] for a in selected)+max(a['bytes'] for a in selected)
+    required=sum(a['extracted_bytes'] for a in pending)+max((a['bytes'] for a in pending),default=0)
     if available<required and args.force is False:
         raise SystemExit(f'Need approximately {required/2**30:.2f} GiB free; have {available/2**30:.2f}. Select fewer groups/days, or --force if existing files account for the difference.')
     for a in selected:
         done=receipts/(a['name']+'.json')
-        if done.exists() and not args.force:
-            receipt=json.loads(done.read_text())
-            if receipt.get('sha256')==a['sha256'] and receipt.get('paths') and all((ROOT/p).is_file() for p in receipt['paths']):
-                print('Already extracted:',a['name'],flush=True);continue
+        if already_extracted(a):
+            print('Already extracted:',a['name'],flush=True);continue
         dst=ROOT/'downloads'/a['name'];tmp=dst.with_name(dst.name+'.partial')
         if not dst.exists() or dst.stat().st_size!=a['bytes'] or digest(dst)!=a['sha256']:
             print(f"Downloading {a['name']} ({a['bytes']/2**20:.1f} MiB)",flush=True)

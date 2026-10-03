@@ -1,5 +1,5 @@
 {
-  "created_utc": "2026-10-03T17:28:24.925037+00:00",
+  "created_utc": "2026-10-03T17:59:30.275695+00:00",
   "scope": "all repository files except this manifest; public data shards separately in assets.json/data_manifest.json",
   "files": [
     {
@@ -499,8 +499,8 @@
     },
     {
       "path": "scripts/fetch_data.py",
-      "bytes": 4412,
-      "sha256": "d7d4e5592fd7d65e8c0d0790549110c8790804b7f32895d15a4eca6dda0f4d5a"
+      "bytes": 4603,
+      "sha256": "81fcc5659a420140406332326b879f90fbcfa018bd15cec45927ed97cd6c8729"
     },
     {
       "path": "scripts/run_baseline.py",
@@ -838,5 +838,5 @@
       "sha256": "cef9f6ec281e569467810ddd92f397e167ab3a1095f51b6f4832e51ece0eb187"
     }
   ],
-  "bytes": 52127658
+  "bytes": 52127849
 }
