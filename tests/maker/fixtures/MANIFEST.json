@@ -1,0 +1,69 @@
+{
+  "source_replay_sha256": "5275b4425b6f3ee5562e62e39ef623b55ddf1187df80eef42b8b01522c73ad7e",
+  "fixture_count": 3,
+  "original_archive": "Q99 decision replay 2026-10-03, captured accepted orders; anonymized subset",
+  "data_version": "BTC pendulumflow pflow_v1, frozen 2026-10-03",
+  "selection": "three known mechanism diagnostics; not held-out strategy validation",
+  "files": [
+    {
+      "file": "fixture_order_001/depth.parquet",
+      "bytes": 2934613,
+      "sha256": "1664adf3f38ae2279f5badad2d2b9aa8c72fb157c29284745b2bb7401df4dff1"
+    },
+    {
+      "file": "fixture_order_001/expected.json",
+      "bytes": 2602,
+      "sha256": "14845eb53586ecdf41a74b8912c21cf897584cfd2b28e84eb161cae436807051"
+    },
+    {
+      "file": "fixture_order_001/own_steps.parquet",
+      "bytes": 1786,
+      "sha256": "ad873720b9ec15450811c84f820013628360a75a360ac9314b509b29f999fb26"
+    },
+    {
+      "file": "fixture_order_001/trades.parquet",
+      "bytes": 18419,
+      "sha256": "cc74cf53af348e74e956b09e0d035028e9b6adfd5ca56d9a9f7445f84349aea5"
+    },
+    {
+      "file": "fixture_order_002/depth.parquet",
+      "bytes": 3888965,
+      "sha256": "b576831d401d4ac7057ee3339172b9b4a793c8066b7aad112beb6043c26e74a6"
+    },
+    {
+      "file": "fixture_order_002/expected.json",
+      "bytes": 2572,
+      "sha256": "4aabd95ff27b6e5f0b103a6b330b48fffc5b5bbd662243ad88e6adc376ac4c76"
+    },
+    {
+      "file": "fixture_order_002/own_steps.parquet",
+      "bytes": 1786,
+      "sha256": "c9a5604bdfc3f9ca1671699a478426ed0a99cd0f174ba9bac1ca3bb043f4e596"
+    },
+    {
+      "file": "fixture_order_002/trades.parquet",
+      "bytes": 21953,
+      "sha256": "03a1ed39cb86d1a499da8b7f4aec0c8a8088c6e695ff656cfce575d714512309"
+    },
+    {
+      "file": "fixture_order_003/depth.parquet",
+      "bytes": 3665454,
+      "sha256": "aa3ee65251ec113d3f964cc8f817fcdda68a006b54a51ce4e948e4fbed8ea2e4"
+    },
+    {
+      "file": "fixture_order_003/expected.json",
+      "bytes": 2690,
+      "sha256": "f15640479dc9ee9623b2a4c5cdddd25bd7712a191fd7836eb1ea5153f688346c"
+    },
+    {
+      "file": "fixture_order_003/own_steps.parquet",
+      "bytes": 1799,
+      "sha256": "7ad85d7adec28a94384cabba67f8d371c8a891cb18cf755db2ca6c0e96ba8ef8"
+    },
+    {
+      "file": "fixture_order_003/trades.parquet",
+      "bytes": 23014,
+      "sha256": "f1b33e35caca50153f5918286c28c9f984d0fe6a29852c4557a51c6abd296c2b"
+    }
+  ]
+}

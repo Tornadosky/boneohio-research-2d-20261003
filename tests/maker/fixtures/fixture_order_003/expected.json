@@ -1,0 +1,92 @@
+{
+  "fixture": "fixture_order_003",
+  "market_key": "btc_5m",
+  "contract_start_ms": 1790873100000,
+  "reason": "own_footprint_losing_fill",
+  "order": {
+    "outcome": 0,
+    "price_micros": 940000,
+    "quantity": 601.0,
+    "place_venue_ms": 1790873304662.0,
+    "cutoff_venue_ms": 1790873309353.0,
+    "cancel_venue_ms": 1790873309353.0,
+    "order_id": "fixture_order_003"
+  },
+  "live_filled_shares": 70.92,
+  "known_won": false,
+  "source_generated_expected": {
+    "eng": {
+      "simulated_shares": 12.220000000000027,
+      "first_fill_print_venue_ms": 1790873307233.0,
+      "queue_ahead_shares": 950.1
+    },
+    "eng_book": {
+      "simulated_shares": 12.220000000000027,
+      "first_fill_print_venue_ms": 1790873307233.0,
+      "queue_ahead_shares": 950.1
+    },
+    "eng_sh60": {
+      "simulated_shares": 12.220000000000027,
+      "first_fill_print_venue_ms": 1790873307233.0,
+      "queue_ahead_shares": 950.1
+    },
+    "eng_noown": {
+      "simulated_shares": 0.0,
+      "first_fill_print_venue_ms": null,
+      "queue_ahead_shares": 950.1
+    },
+    "eng_thr": {
+      "simulated_shares": 12.220000000000027,
+      "first_fill_print_venue_ms": 1790873307233.0,
+      "queue_ahead_shares": 950.1
+    },
+    "eng_own5": {
+      "simulated_shares": 3.2200000000000273,
+      "first_fill_print_venue_ms": 1790873307233.0,
+      "queue_ahead_shares": 349.1
+    },
+    "eng_fix": {
+      "simulated_shares": 3.2200000000000273,
+      "first_fill_print_venue_ms": 1790873307233.0,
+      "queue_ahead_shares": 349.1
+    },
+    "eng_ownft": {
+      "simulated_shares": 32.22000000000003,
+      "first_fill_print_venue_ms": 1790873307233.0,
+      "queue_ahead_shares": 349.1
+    },
+    "eng_ftfix": {
+      "simulated_shares": 32.22000000000003,
+      "first_fill_print_venue_ms": 1790873307233.0,
+      "queue_ahead_shares": 349.1
+    },
+    "fp3": {
+      "simulated_shares": 32.21999999999997,
+      "first_fill_print_venue_ms": 1790873307233.0,
+      "queue_ahead_shares": 349.1
+    },
+    "fp3_df1": {
+      "simulated_shares": 32.21999999999997,
+      "first_fill_print_venue_ms": 1790873307233.0,
+      "queue_ahead_shares": 349.1
+    },
+    "fp3_thr": {
+      "simulated_shares": 32.21999999999997,
+      "first_fill_print_venue_ms": 1790873307233.0,
+      "queue_ahead_shares": 349.1
+    },
+    "eng_dm": {
+      "simulated_shares": 72.2199999999998,
+      "first_fill_print_venue_ms": 1790873307033.0,
+      "queue_ahead_shares": 349.1
+    },
+    "fp3_dm": {
+      "simulated_shares": 72.2199999999998,
+      "first_fill_print_venue_ms": 1790873307033.0,
+      "queue_ahead_shares": 349.1
+    }
+  },
+  "depth_rows": 488298,
+  "trade_rows": 1715,
+  "own_step_rows": 4
+}

@@ -1,0 +1,47 @@
+{
+  "engine": "frozen-bi1-full-depth-v1",
+  "script_sha256": "5b9710d313d84cf85ceba857f11a99e7b547abe82e2443b36733d6b4b49ac73b",
+  "inputs": [
+    {
+      "path": "$VIPER_PTMP/exp/boneohio_20261001_ENTRY/stress/trades_h_F2.parquet",
+      "bytes": 139337,
+      "mtime_ns": 1790894142560906971,
+      "btc5_rows": 3840
+    },
+    {
+      "path": "$VIPER_PTMP/exp/boneohio_20261001_ENTRY/stress/trades_fwd_F2.parquet",
+      "bytes": 9796,
+      "mtime_ns": 1790905478892752687,
+      "btc5_rows": 75
+    }
+  ],
+  "cache": "$VIPER_PTMP/polycache_btc_twap/cache_btc_pflow_v1",
+  "latency_ms": [
+    300,
+    325,
+    350,
+    400,
+    500
+  ],
+  "decision_F_ms": 100,
+  "size_shares": 20,
+  "fee": "0.07*p*(1-p)*shares per consumed level",
+  "split_dates_reused": true,
+  "settlement_time": "contract_end_ms=cs+300000 proxy, not observed settlement transaction",
+  "clocks": "trigger t is cached Binance depth push E; decision dask saved at venue <= E+100ms; match uses Polymarket venue < E+L",
+  "latency_definition": "L is TOTAL E-to-match; added delays apply after frozen decision only; do not add F twice",
+  "limitations": [
+    "Conditional execution of saved intentions; signal and decision cache not rebuilt on local receive time.",
+    "AggTrade T feed is not substituted and this is not an E-versus-T functional test.",
+    "Invalid venue rows invalidate the side only once recorded ts_ns is before query, until a later source-sequence snapshot; no future-record filters.",
+    "Input coverage is frozen intent coverage, not a complete feed/market census; Oct 1 forward export may be partial.",
+    "Normalized ts_ns may be synthetic; no assumption of genuine local receipt is made.",
+    "Depth replay prunes levels below carried BBO and rejects BBO absent from ladder; no hidden-liquidity guarantee.",
+    "PnL is held-to-resolution with default fees; DD books payout at contract-end proxy, not live cash or marked-to-market.",
+    "No historical delay splice; fixed total latencies span documented 2026-09-04 14:00 UTC hold change.",
+    "All data reused; 10-01 is reused validation, not untouched holdout."
+  ],
+  "elapsed_seconds": 31.436739206314087,
+  "intents": 3915,
+  "contracts": 3052
+}

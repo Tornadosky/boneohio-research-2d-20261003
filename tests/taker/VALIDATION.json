@@ -1,0 +1,31 @@
+{
+  "scope": "Dated A2 execution adapter differential validation; not strategy discovery or universal live venue certification",
+  "orders": 483,
+  "latency_scenarios": 16,
+  "shares_cost_comparisons": 7728,
+  "mathematical_source_ast_equal": {
+    "execpar.py:fak": "3b27840c817129c9d4a0ae8bc31134c3a08c0f8cf7197582737c71f652c3a4b6",
+    "exec_exact.py:hold_ms": "9666c8794305037895f800180dee1ba9ba68c864edfb4498e678c0a38df028fe",
+    "exec_exact.py:snap_lat": "9be55402c2ece0630774db870cf1f6e80f15f6532a404b8b80ef364c2312cae2",
+    "exec_exact.py:execute": "97dd8815ac5b22be644e4664d6d942fa14d774c508c53a50ea3f32445dbcd6fe",
+    "exact_book.py:parse_arr": "9b450817d202207a09a5ab4310dda4342835e602e9db4236ef268e308621314e",
+    "exact_book.py:Book": "4e59869bd4f1c843c229d22a8db27f724541004f677cb28d67524d76db1dfee5",
+    "exact_book.py:views": "e7a5256da0335dead1ac1d31cd7efc3ea280ee57821a59850669d712c6d97e80"
+  },
+  "cohorts": {
+    "cohort_A": {
+      "orders": 454,
+      "archived_bt_pnl_vwap_fee": 10.582470861141696,
+      "port_pnl_per_level_fee": 10.582470861141688,
+      "port_total_fee": 2.1973279998414537,
+      "explicit_fee_convention_pnl_delta": -7.105427357601002e-15
+    },
+    "cohort_B": {
+      "orders": 29,
+      "archived_bt_pnl_vwap_fee": 0.010138305709154805,
+      "port_pnl_per_level_fee": 0.010138305709153972,
+      "port_total_fee": 0.30245599984145194,
+      "explicit_fee_convention_pnl_delta": -8.326672684688674e-16
+    }
+  }
+}

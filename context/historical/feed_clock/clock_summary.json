@@ -1,0 +1,183 @@
+{
+  "gt_orders": 43870,
+  "gt_prints": 43009,
+  "tx_with_multiple_print_tokens": 0,
+  "nonpositive_print_times": 0,
+  "gt_missing_print": 861,
+  "pair_missing_but_tx_assigned": 10815,
+  "pair_assigned_disagreements": 0,
+  "pair_shift_ms": {
+    "n": 32194,
+    "negative": 0,
+    "q0": 0.0,
+    "q1": 0.0,
+    "q10": 0.0,
+    "q50": 0.0,
+    "q90": 0.0,
+    "q99": 0.0,
+    "q100": 0.0
+  },
+  "api_minus_print_ms": {
+    "n": 43009,
+    "negative": 0,
+    "q0": 498.0,
+    "q1": 1102.0,
+    "q10": 1618.0,
+    "q50": 2467.0,
+    "q90": 3358.0,
+    "q99": 3994.0,
+    "q100": 6810.0
+  },
+  "inferred_m_equals_print_minus40": true,
+  "duplicate_print_rows": 0,
+  "duplicate_gt_keys": 0,
+  "multi_print_transactions": 0,
+  "tx_only_opposite_outcome_rows": 10815,
+  "tx_only_complement_price_within_1cent": 10770,
+  "tx_only_low_taker_rows": 0,
+  "join_note": "Transaction-only matches can be valid complement-side prints. No multi-token timestamp disagreement is observed; raw matched-print/order identity remains necessary to prove each mapping.",
+  "mixed_role_pairs": 0,
+  "raw_fill_rows": 43871,
+  "binance_by_period": {
+    "multivenue": {
+      "E_minus_T_ms": {
+        "n": 690527,
+        "negative": 0,
+        "q0": 0.0,
+        "q1": 0.0,
+        "q10": 0.0,
+        "q50": 13.0,
+        "q90": 150.0,
+        "q99": 151.0,
+        "q100": 214.0
+      },
+      "recv_minus_E_ms": {
+        "n": 690527,
+        "negative": 0,
+        "q0": 106.0,
+        "q1": 108.0,
+        "q10": 110.0,
+        "q50": 112.0,
+        "q90": 271.0,
+        "q99": 2423.0,
+        "q100": 1226298.0
+      },
+      "recv_minus_T_ms": {
+        "n": 690527,
+        "negative": 0,
+        "q0": 106.0,
+        "q1": 110.0,
+        "q10": 113.0,
+        "q50": 223.0,
+        "q90": 286.0,
+        "q99": 2558.0999999998603,
+        "q100": 1226298.0
+      }
+    },
+    "sep21_30": {
+      "E_minus_T_ms": {
+        "n": 13540471,
+        "negative": 0,
+        "q0": 0.0,
+        "q1": 0.0,
+        "q10": 0.0,
+        "q50": 1.0,
+        "q90": 150.0,
+        "q99": 151.0,
+        "q100": 1853.0
+      },
+      "recv_minus_E_ms": {
+        "n": 13540471,
+        "negative": 0,
+        "q0": 79.0,
+        "q1": 107.0,
+        "q10": 113.0,
+        "q50": 122.0,
+        "q90": 164.0,
+        "q99": 699.0,
+        "q100": 51015.0
+      },
+      "recv_minus_T_ms": {
+        "n": 13540471,
+        "negative": 0,
+        "q0": 81.0,
+        "q1": 111.0,
+        "q10": 117.0,
+        "q50": 131.0,
+        "q90": 268.0,
+        "q99": 740.0,
+        "q100": 51165.0
+      }
+    },
+    "oct1": {
+      "E_minus_T_ms": {
+        "n": 1235395,
+        "negative": 0,
+        "q0": 0.0,
+        "q1": 0.0,
+        "q10": 0.0,
+        "q50": 1.0,
+        "q90": 150.0,
+        "q99": 151.0,
+        "q100": 166.0
+      },
+      "recv_minus_E_ms": {
+        "n": 1235395,
+        "negative": 0,
+        "q0": 109.0,
+        "q1": 110.0,
+        "q10": 111.0,
+        "q50": 114.0,
+        "q90": 132.0,
+        "q99": 260.0,
+        "q100": 912.0
+      },
+      "recv_minus_T_ms": {
+        "n": 1235395,
+        "negative": 0,
+        "q0": 110.0,
+        "q1": 111.0,
+        "q10": 113.0,
+        "q50": 122.0,
+        "q90": 261.0,
+        "q99": 271.0,
+        "q100": 916.0
+      }
+    }
+  },
+  "binance_E_minus_T_ms": {
+    "n": 28714989,
+    "negative": 0,
+    "q0": 0.0,
+    "q1": 0.0,
+    "q10": 0.0,
+    "q50": 1.0,
+    "q90": 150.0,
+    "q99": 155.0,
+    "q100": 10523.0
+  },
+  "binance_recv_minus_E_ms": {
+    "n": 28714989,
+    "negative": 0,
+    "q0": 79.0,
+    "q1": 109.0,
+    "q10": 111.0,
+    "q50": 119.0,
+    "q90": 205.0,
+    "q99": 799.0,
+    "q100": 1226298.0
+  },
+  "binance_recv_minus_T_ms": {
+    "n": 28714989,
+    "negative": 0,
+    "q0": 81.0,
+    "q1": 111.0,
+    "q10": 114.0,
+    "q50": 132.0,
+    "q90": 270.0,
+    "q99": 1181.0,
+    "q100": 1226298.0
+  },
+  "binance_T_reversals": 0,
+  "binance_recv_reversals_in_T_order": 98
+}

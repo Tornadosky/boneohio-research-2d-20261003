@@ -1,0 +1,13 @@
+coin,mk,role,orders,missing_print,missing_pair,different_pair
+btc,btc_15m,MAKER,4951,92,1963,0
+btc,btc_15m,TAKER,1697,74,74,0
+btc,btc_5m,MAKER,21758,292,6361,0
+btc,btc_5m,TAKER,3931,224,224,0
+eth,eth_15m,MAKER,798,6,323,0
+eth,eth_15m,TAKER,698,20,20,0
+eth,eth_5m,MAKER,3448,41,1507,0
+eth,eth_5m,TAKER,2201,60,60,0
+sol,sol_15m,MAKER,578,10,274,0
+sol,sol_15m,TAKER,514,6,6,0
+sol,sol_5m,MAKER,1607,23,851,0
+sol,sol_5m,TAKER,1689,13,13,0

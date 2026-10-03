@@ -1,0 +1,334 @@
+{
+  "target_public_wallet": "0x48ac40fc545cf327edd5365435c3a9f385614a7e",
+  "retrieved_utc": "2026-10-03T16:25:13.390902+00:00",
+  "source_specification": "https://data-api.polymarket.com/v2/docs",
+  "walks": {
+    "all_trades": {
+      "endpoint": "https://data-api.polymarket.com/v2/trades",
+      "query_without_opaque_cursors": {
+        "user": "0x48ac40fc545cf327edd5365435c3a9f385614a7e",
+        "start": 1790726400,
+        "end": 1790899199,
+        "limit": 1000,
+        "taker_only": "false"
+      },
+      "requested_utc_start": "2026-09-30T00:00:00Z",
+      "requested_utc_end_exclusive": "2026-10-02T00:00:00Z",
+      "pull_started_utc": "2026-10-03T16:25:09.503324+00:00",
+      "pull_finished_utc": "2026-10-03T16:25:10.999703+00:00",
+      "cursor_exhausted": true,
+      "max_pages": 100,
+      "raw_rows": 3314,
+      "client_retained_rows": 3314,
+      "out_of_window_rows": 0,
+      "pages": [
+        {
+          "page": 1,
+          "response_sha256": "ad23a6acdda5cdc591a2114679921758bacd9a0005c8967972a40dd73c84b913",
+          "response_bytes": 857907,
+          "rows": 1000,
+          "timestamp_min": 1790834693,
+          "timestamp_max": 1790899149,
+          "has_more": true,
+          "next_cursor_present": true
+        },
+        {
+          "page": 2,
+          "response_sha256": "79b4c34d02c77a0689d2d6138a9758e46a620891df419ccdcc50ce6d9f2b2bd1",
+          "response_bytes": 860240,
+          "rows": 1000,
+          "timestamp_min": 1790788100,
+          "timestamp_max": 1790834669,
+          "has_more": true,
+          "next_cursor_present": true
+        },
+        {
+          "page": 3,
+          "response_sha256": "ff4a6309f0c8372e42958e256581318b57cc90642a67858b18fd768945b50d2f",
+          "response_bytes": 860353,
+          "rows": 1000,
+          "timestamp_min": 1790737148,
+          "timestamp_max": 1790788098,
+          "has_more": true,
+          "next_cursor_present": true
+        },
+        {
+          "page": 4,
+          "response_sha256": "ddb83ac0a6401ae3fe0078caf7bd21097a7a94432e6c42297fb105915f2b97bc",
+          "response_bytes": 270257,
+          "rows": 314,
+          "timestamp_min": 1790726502,
+          "timestamp_max": 1790737143,
+          "has_more": false,
+          "next_cursor_present": false
+        }
+      ]
+    },
+    "taker_trades": {
+      "endpoint": "https://data-api.polymarket.com/v2/trades",
+      "query_without_opaque_cursors": {
+        "user": "0x48ac40fc545cf327edd5365435c3a9f385614a7e",
+        "start": 1790726400,
+        "end": 1790899199,
+        "limit": 1000,
+        "taker_only": "true"
+      },
+      "requested_utc_start": "2026-09-30T00:00:00Z",
+      "requested_utc_end_exclusive": "2026-10-02T00:00:00Z",
+      "pull_started_utc": "2026-10-03T16:25:10.999736+00:00",
+      "pull_finished_utc": "2026-10-03T16:25:11.413107+00:00",
+      "cursor_exhausted": true,
+      "max_pages": 100,
+      "raw_rows": 828,
+      "client_retained_rows": 828,
+      "out_of_window_rows": 0,
+      "pages": [
+        {
+          "page": 1,
+          "response_sha256": "6d7681300e567a5aa8c1ed055cba9d5b876e8eac748faff5898b4f6954928435",
+          "response_bytes": 713301,
+          "rows": 828,
+          "timestamp_min": 1790726502,
+          "timestamp_max": 1790899145,
+          "has_more": false,
+          "next_cursor_present": false
+        }
+      ]
+    },
+    "activity": {
+      "endpoint": "https://data-api.polymarket.com/v2/activity",
+      "query_without_opaque_cursors": {
+        "user": "0x48ac40fc545cf327edd5365435c3a9f385614a7e",
+        "start": 1790726400,
+        "end": 1790899199,
+        "limit": 1000,
+        "exclude_deposits_withdrawals": "false"
+      },
+      "requested_utc_start": "2026-09-30T00:00:00Z",
+      "requested_utc_end_exclusive": "2026-10-02T00:00:00Z",
+      "pull_started_utc": "2026-10-03T16:25:11.463693+00:00",
+      "pull_finished_utc": "2026-10-03T16:25:13.285609+00:00",
+      "cursor_exhausted": true,
+      "max_pages": 100,
+      "raw_rows": 4333,
+      "client_retained_rows": 4333,
+      "out_of_window_rows": 0,
+      "pages": [
+        {
+          "page": 1,
+          "response_sha256": "01e5679d1030a9ba631b309db62959ea93b417bcb5f5c72514ba6509161fe247",
+          "response_bytes": 874695,
+          "rows": 1000,
+          "timestamp_min": 1790848764,
+          "timestamp_max": 1790899149,
+          "has_more": true,
+          "next_cursor_present": true
+        },
+        {
+          "page": 2,
+          "response_sha256": "8d6578f62bc1e602dfb0a9bfd77d2e36316aba507a3ee2791076dc9fd3c0713f",
+          "response_bytes": 873631,
+          "rows": 1000,
+          "timestamp_min": 1790812425,
+          "timestamp_max": 1790848764,
+          "has_more": true,
+          "next_cursor_present": true
+        },
+        {
+          "page": 3,
+          "response_sha256": "0bca344a4d1178d972021e12340e5803fed7c640061682e6702387732cdb6a86",
+          "response_bytes": 878015,
+          "rows": 1000,
+          "timestamp_min": 1790768613,
+          "timestamp_max": 1790812425,
+          "has_more": true,
+          "next_cursor_present": true
+        },
+        {
+          "page": 4,
+          "response_sha256": "83e0f6cca0097f72dfa2d1413a10fe217e8c1817e62c59e3b15acffad676015e",
+          "response_bytes": 877864,
+          "rows": 1000,
+          "timestamp_min": 1790734566,
+          "timestamp_max": 1790768613,
+          "has_more": true,
+          "next_cursor_present": true
+        },
+        {
+          "page": 5,
+          "response_sha256": "2ed69372eddb5701121cc505c67da093d3fdd1bafdc04b56c15b088690f4fc76",
+          "response_bytes": 291999,
+          "rows": 333,
+          "timestamp_min": 1790726498,
+          "timestamp_max": 1790734566,
+          "has_more": false,
+          "next_cursor_present": false
+        }
+      ]
+    }
+  },
+  "files": [
+    {
+      "path": "fresh_fills_two_days.parquet",
+      "sha256": "891a28d7c809eaaa22803395e4f87075dededa59995244064cd13c0782faf9bd",
+      "bytes": 236625,
+      "rows": 3314,
+      "columns": [
+        "side",
+        "token_id",
+        "condition_id",
+        "size",
+        "price",
+        "timestamp",
+        "slug",
+        "event_slug",
+        "outcome",
+        "outcome_index",
+        "transaction_hash",
+        "api_role",
+        "role_basis"
+      ],
+      "timestamp_min": 1790726502,
+      "timestamp_max": 1790899149
+    },
+    {
+      "path": "fresh_taker_fills_two_days.parquet",
+      "sha256": "cfb442d21d8f672db7b3ed11b247ca7f57fb55e99ffebc4f0130158039096029",
+      "bytes": 108074,
+      "rows": 828,
+      "columns": [
+        "side",
+        "token_id",
+        "condition_id",
+        "size",
+        "price",
+        "timestamp",
+        "slug",
+        "event_slug",
+        "outcome",
+        "outcome_index",
+        "transaction_hash"
+      ],
+      "timestamp_min": 1790726502,
+      "timestamp_max": 1790899145
+    },
+    {
+      "path": "fresh_activity_two_days.parquet",
+      "sha256": "a3f6cea7cb964c297f492b9a9f9b4db1b0432f14c6c89351c35efa530d2d8ec1",
+      "bytes": 305133,
+      "rows": 4333,
+      "columns": [
+        "side",
+        "token_id",
+        "asset",
+        "condition_id",
+        "size",
+        "price",
+        "timestamp",
+        "slug",
+        "event_slug",
+        "outcome",
+        "outcome_index",
+        "transaction_hash",
+        "type",
+        "usdc_size",
+        "usdcSize"
+      ],
+      "timestamp_min": 1790726498,
+      "timestamp_max": 1790899149
+    }
+  ],
+  "all_exact_duplicate_count": 0,
+  "taker_exact_duplicate_count": 0,
+  "taker_keys_missing_from_all": 0,
+  "activity_type_counts": {
+    "TRADE": 3314,
+    "REDEEM": 1014,
+    "MAKER_REBATE": 2,
+    "TAKER_REBATE": 2,
+    "WITHDRAWAL": 1
+  },
+  "activity_failure": null,
+  "public_service_status": {
+    "checked_utc": "2026-10-03T16:25:13.390876+00:00",
+    "source_sha256": "5d2b59ae26fad7da3cbb1b196a8a22695296a24545caba0e7c4c710cd14ae816",
+    "public_service_payload": {
+      "data": {
+        "computed_at": "2026-10-03T16:24:58Z",
+        "age_seconds": 15,
+        "serving": {
+          "lag_seconds": 1,
+          "worst": "custody_balances",
+          "mechanisms": [
+            {
+              "name": "activity_feed",
+              "age_seconds": 0
+            },
+            {
+              "name": "custody_balances",
+              "age_seconds": 1,
+              "blocks_behind": 1
+            },
+            {
+              "name": "pnl",
+              "age_seconds": 0,
+              "blocks_behind": 1
+            }
+          ]
+        },
+        "ingestion": {
+          "cursors": 175,
+          "network": "polygon",
+          "chain_id": 137,
+          "max_synced_block": 94893038,
+          "min_synced_block": 94893037,
+          "most_lagged": {
+            "source": "auto_redeem_binary_redemption",
+            "block": 94893037,
+            "behind_max": 1
+          },
+          "lagging": [
+            {
+              "source": "auto_redeem_binary_redemption",
+              "block": 94893037,
+              "behind_max": 1
+            },
+            {
+              "source": "auto_redeem_neg_risk_redemption",
+              "block": 94893037,
+              "behind_max": 1
+            },
+            {
+              "source": "auto_redeem_v2_neg_risk_redemption",
+              "block": 94893037,
+              "behind_max": 1
+            },
+            {
+              "source": "binary_module_bridge_positions_burned",
+              "block": 94893037,
+              "behind_max": 1
+            },
+            {
+              "source": "binary_module_event_prepared",
+              "block": 94893037,
+              "behind_max": 1
+            }
+          ]
+        }
+      }
+    }
+  },
+  "limits": [
+    "All rows are public API representations, not a zero-fill submission ledger.",
+    "API seconds are not observed receipt, submission or matching time.",
+    "NOT_IN_TAKER_PULL is provisional API role inference, not guaranteed maker status.",
+    "No historical resolution, fee, PnL or order lifecycle is invented for fresh rows.",
+    "End is requested inclusive END-1; client selection is strict [START,END).",
+    "Cursor exhaustion is bounded endpoint coverage, not independent blockchain completeness.",
+    "Nontrade cashflow availability depends on the public activity endpoint; no exact capital inference.",
+    "Fresh tail transaction decoding/venue linking is a separate output if performed."
+  ],
+  "script_sha256": "253345043a7ddea889281606433b11f046a610ce5e12e3a4debb152a85317538",
+  "script_path": "context/refresh_wallet.py",
+  "script_hash_added_utc": "2026-10-03T16:36:46.313684+00:00"
+}

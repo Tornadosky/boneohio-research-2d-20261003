@@ -1,0 +1,32 @@
+{
+  "contract_start_ms": 1790938500000,
+  "market_key": "btc_5m",
+  "selection": "Latest contract in archived A2 execution cohort; 4096 chronological rows beginning at first observed snapshot; earlier unseeded deltas excluded",
+  "columns": [
+    "venue_ts_ms",
+    "ts_ns",
+    "seq",
+    "is_yes",
+    "event_type",
+    "side",
+    "price_micros",
+    "size_micros",
+    "best_bid_micros",
+    "best_ask_micros",
+    "bid_prices",
+    "bid_sizes",
+    "ask_prices",
+    "ask_sizes"
+  ],
+  "rows": 4096,
+  "source": [
+    {
+      "file": "depth-events-0.parquet",
+      "sha256": "827b67c836c14e4614cff4cfae22821812eb32152eda8cad3f03fb653b2a1511"
+    }
+  ],
+  "output": {
+    "file": "real_depth_prefix.parquet",
+    "sha256": "2aaf1cad2f995ba0f9b60bec1694ba5cc0bd11f1846777faa969381e72d37e5c"
+  }
+}

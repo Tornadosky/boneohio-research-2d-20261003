@@ -1,0 +1,3 @@
+# Preserve distributed reference/fixture bytes for cross-platform SHA256 checks.
+* -text
+*.sh text eol=lf

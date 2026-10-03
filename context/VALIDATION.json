@@ -1,0 +1,95 @@
+{
+  "verified_utc": "2026-10-03T17:25:46.441157+00:00",
+  "unique_data_outputs_hashed": 63,
+  "hash_mismatches": [],
+  "python_scripts_compiled": [
+    "decode_fresh_tail.py",
+    "derive_fresh_wallet.py",
+    "export_context.py",
+    "inspect_pflow_clock.py",
+    "legacy_gt_reference.py",
+    "match_fresh_venue.py",
+    "rebuild_public_catalog.py",
+    "refresh_wallet.py"
+  ],
+  "fresh_cursor_exhaustion": {
+    "all_trades": true,
+    "taker_trades": true,
+    "activity": true
+  },
+  "fresh_duplicate_rows": 0,
+  "fresh_taker_keys_missing_from_all": 0,
+  "tail_transactions_requested": 307,
+  "tail_transactions_decoded": 307,
+  "tail_unresolved": 0,
+  "fresh_exact_identity_audit": {
+    "fresh_api_rows": 3314,
+    "matched_api_rows": 3314,
+    "unmatched_api_rows": 0,
+    "joined_rows": 3314,
+    "role_disagreements": 0,
+    "signed_orders": 1109
+  },
+  "native_feed_producer_source_sha256": {
+    "boneohio_20261002_PARITY/bin_trades.py": "4e5718d0c10742651487ce23bb814c710192bdab0021ae4acfbd49bcd5ddfa09",
+    "boneohio_20261002_PARITY/mv_extract.py": "89ef01c4fd3b7f93fdd946d01afd9fb4848d206391adf2dd7eaef8420d13bc34",
+    "boneohio_20261002_FINAL/final_audits.py": "a009761da82fcb799035e0919d7d7a25e43a2b08360b47f80d02556b5711d71c"
+  },
+  "public_scope_audit": {
+    "private_own_account_order_traces": false,
+    "counterpart_wallet_rows": false,
+    "credentials_or_signatures": false,
+    "CHD_raw_or_reconstructed_tape": false
+  },
+  "pending": [
+    "Eight BTC print links unresolved, one inside the stored partition range; broader tails/public source may resolve the rest.",
+    "Other-asset fresh print/lifecycle/settlement joins are outside this Bitcoin tape export.",
+    "True target decisions, placements, zero-fill submissions and authenticated user stream remain unavailable."
+  ],
+  "pflow_clock_audit": {
+    "sha256": "0fa1eeb42b55d21c4c4f0e04ca7be645a5128ded19c788ed2671ae0c0aa19787",
+    "main_hour_rules": {
+      "earliest": 48,
+      "last_active": 0,
+      "plain": 0
+    },
+    "source_hours": 50,
+    "missing_manifests": 0
+  },
+  "portable_matcher_semantic_checks": {
+    "direct": "passed",
+    "complement": "passed",
+    "identical_timestamp_multiple": "passed",
+    "missing_venue": "passed",
+    "zero_venue": "passed",
+    "missing_price": "passed",
+    "price_mismatch": "passed",
+    "direct_over_complement": "passed",
+    "unknown_opposite_token_side": "passed"
+  },
+  "fresh_public_print_attribution": {
+    "wallet_rows": 3314,
+    "catalog_mapped_rows": 2256,
+    "status_counts": {
+      "direct_single_price_consistent_candidate": 1613,
+      "outside_exported_token_catalog": 1058,
+      "complement_single_price_consistent_candidate": 635,
+      "no_matching_transaction_print": 8
+    },
+    "mapped_rows": 2248,
+    "candidate_rows": 2248,
+    "mapped_api_minus_print_ms": {
+      "n": 2248,
+      "negative": 0,
+      "p0": 844.0,
+      "p10": 1512.4,
+      "p50": 2213.0,
+      "p90": 2957.0,
+      "p99": 3444.53,
+      "p100": 3937.0
+    },
+    "latest_mapped_venue_ms": 1790899145894.0
+  },
+  "fresh_public_print_source_tapes": 253,
+  "unresolved_api_after_last_stored_print": 7
+}

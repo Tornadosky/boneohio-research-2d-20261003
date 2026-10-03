@@ -1,0 +1,89 @@
+{
+  "description": "Dated source with private path/cohort labels redacted; mathematical functions unchanged",
+  "redactions": [
+    "private source HOME/data roots",
+    "own execution host/cohort labels"
+  ],
+  "files": [
+    {
+      "file": "vendor/taker/a2_20261003/e2e.py",
+      "original_sha256": "b6e742f6df9c6ba3a2c956e79a74329edd7d5cc68aaa744c4b9ef2b5079f8f49",
+      "distributed_sha256": "5a7bce6d0cfa4086cfb4ff66a2141373a5ee440ec09c38d0554a2053c5838bce"
+    },
+    {
+      "file": "vendor/taker/a2_20261003/exact_book.py",
+      "original_sha256": "f366a42c31b880b0d5ef7b4624602f541671c12683be7a9337e2220314c4c505",
+      "distributed_sha256": "ea9d18bc5c662c7ac783395dbfb8273fd5f0f70f5d99155118e3820ee11cc3f7"
+    },
+    {
+      "file": "vendor/taker/a2_20261003/exec_exact.py",
+      "original_sha256": "15ce796779b305cc6da6a4e102abc9258f226b4c248cb9d2b858fd2da2789ddb",
+      "distributed_sha256": "15ce796779b305cc6da6a4e102abc9258f226b4c248cb9d2b858fd2da2789ddb"
+    },
+    {
+      "file": "vendor/taker/a2_20261003/execpar.py",
+      "original_sha256": "beb43e18affe00f20691005fd85a91e10eeb539d8054318c56f091fe150784a3",
+      "distributed_sha256": "b5f3075989306384fb656b00d2155de582064556c3976051f957fa143b0bef5d"
+    },
+    {
+      "file": "vendor/taker/a2_20261003/p3_v57_model.json",
+      "original_sha256": "537f113f7716f4fc5de2d80b3b1918ca100947099b3d4e8079307f2be20a3973",
+      "distributed_sha256": "537f113f7716f4fc5de2d80b3b1918ca100947099b3d4e8079307f2be20a3973"
+    },
+    {
+      "file": "vendor/taker/a2_20261003/RESULT.md",
+      "original_sha256": "1d8eaf0bc63e4c9ebc3c1baa933bda4ae2e617ee1820d6fa7221bb8163f1aea4",
+      "distributed_sha256": "d3524bd66949375187f7f68c21e91370d896317836d550c49bc608008bb250fb"
+    },
+    {
+      "file": "vendor/taker/a2_20261003/simsize.py",
+      "original_sha256": "1bb09f4ad059b5c5f9b52f2384bf9dcb5db8a50b8d0cc5f348883ca330a123ca",
+      "distributed_sha256": "af5d468887d06dba900e7f9bcd27e22134747d44d24002a62bb01ccf9af61f3f"
+    },
+    {
+      "file": "vendor/taker/a2_20261003/sizing.py",
+      "original_sha256": "d6466ec492d11589348afd0db26b000b1c2eb7fce141157674f3948c80963142",
+      "distributed_sha256": "e50c362e71ad2b5ef46d219df4bcd494bd32903c9c716aee657fdae3d6068eff"
+    },
+    {
+      "file": "vendor/taker/audit_20261002/CONTRACT.md",
+      "original_sha256": "5c537d0eabb232fa15f9220c85264d19872c7b8bfc9d478fba91179ec8952f8c",
+      "distributed_sha256": "5c537d0eabb232fa15f9220c85264d19872c7b8bfc9d478fba91179ec8952f8c"
+    },
+    {
+      "file": "vendor/taker/audit_20261002/ENGINE_AUDIT.md",
+      "original_sha256": "728f088e814da07c5f31a627989b3f5ec4ff0a3cf4e9b1207853d98e56bd895f",
+      "distributed_sha256": "cdfc3475ee1015e5857982d04c4dad1a92a59372634f0d5ab0e7f1cde16ea7e1"
+    },
+    {
+      "file": "vendor/taker/audit_20261002/QUALIFICATION.md",
+      "original_sha256": "49d3c49ab66183f168888c30590af7c403d2a3275cac0282653d9b2b5d5951c9",
+      "distributed_sha256": "49d3c49ab66183f168888c30590af7c403d2a3275cac0282653d9b2b5d5951c9"
+    },
+    {
+      "file": "vendor/taker/audit_20261002/RESULT.md",
+      "original_sha256": "4ed5d33cd3863744d4cd33b2adea86dcffc0045a2b80f6cac840e9e7b3866b91",
+      "distributed_sha256": "e283ab27baae1d5902ca667ccbdf85ddda380cc30b5aa43f230608ec49ee3ec8"
+    },
+    {
+      "file": "vendor/taker/audit_20261002/taker_contract.py",
+      "original_sha256": "8eb7dba6f0952e23700f503e1de92cc12f8508d8519aa9b3364ff7e89bc20cf8",
+      "distributed_sha256": "8eb7dba6f0952e23700f503e1de92cc12f8508d8519aa9b3364ff7e89bc20cf8"
+    },
+    {
+      "file": "tests/taker/fixtures/EXECPAR.json",
+      "original_sha256": "ff4c7b79efcf8f68e805dcb89452c78a35da092848dcb82e744e083173e3549b",
+      "distributed_sha256": "a34ae297d128dc1963bc6479de9572d3870b0cd06463fce7a9a3bc841dc7aef0"
+    },
+    {
+      "file": "tests/taker/fixtures/E2E.json",
+      "original_sha256": "44431cbde8accdb5781164dbf05ae0c267ff20bb9a3231fc2ef2ef4d184e55f9",
+      "distributed_sha256": "d9be1f83df6334d38dcde943f199534a12287ea17cdf63e9706a9b48e3e92cbd"
+    },
+    {
+      "file": "vendor/taker/a2_20261003/chd_top_v2.py",
+      "original_sha256": "423f133551c6e6e9cdaf9785126359fd9c6fa6621bbc7a39153724ca7466239e",
+      "distributed_sha256": "e68c26447db024613a2a6c28b1eb4bd5691a94bd9162e5ca9f3b3c5fbcf92137"
+    }
+  ]
+}

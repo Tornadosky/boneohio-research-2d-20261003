@@ -1,0 +1,43 @@
+{
+ "window_ms": {
+  "cohort_A": 1790859711000,
+  "cohort_B": 1790890149825
+ },
+ "pool_end_ms": 1790949300000,
+ "cohort_A": {
+  "intents_bt": 49,
+  "intents_live": 49,
+  "intents_both": 49,
+  "bt_only": 0,
+  "live_only": 0,
+  "principal_eq": 0.9795918367346939,
+  "a2_mult_eq": 0.9795918367346939,
+  "gate_agree": 0.9795918367346939,
+  "sent_both": 35,
+  "fill_agree_on_sent_both": 0.9714285714285714,
+  "shares_live": 128.611164,
+  "shares_bt": 128.52413104126842,
+  "pnl_live": 0.49549458809109437,
+  "pnl_bt": 0.5446478235686046,
+  "contracts_live": 23,
+  "contracts_bt": 24
+ },
+ "cohort_B": {
+  "intents_bt": 42,
+  "intents_live": 42,
+  "intents_both": 42,
+  "bt_only": 0,
+  "live_only": 0,
+  "principal_eq": 0.9761904761904762,
+  "a2_mult_eq": 0.9761904761904762,
+  "gate_agree": 0.9761904761904762,
+  "sent_both": 29,
+  "fill_agree_on_sent_both": 1.0,
+  "shares_live": 108.07277900000001,
+  "shares_bt": 109.09352873930585,
+  "pnl_live": 0.010130522319054647,
+  "pnl_bt": 0.029146468974462214,
+  "contracts_live": 18,
+  "contracts_bt": 19
+ }
+}

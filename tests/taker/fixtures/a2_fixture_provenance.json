@@ -1,0 +1,43 @@
+{
+  "description": "All 483 archived A2 execpar observations, public economic allowlist plus exact arrival inputs",
+  "orders": 483,
+  "delays": [
+    0,
+    25,
+    50,
+    75,
+    100,
+    125,
+    150,
+    175,
+    200,
+    225,
+    250,
+    275,
+    300,
+    350,
+    400,
+    500
+  ],
+  "source": [
+    {
+      "file": "exec_parity.parquet",
+      "sha256": "c57a2d480131391d7f9a97d874b476e42592c295f30c779698a01529550156fb",
+      "experiment": "tailtaker_20261003_A2PARITY"
+    },
+    {
+      "file": "exact_views.parquet",
+      "sha256": "a466be4b9630fa942b4e1e2699d0307ade77963683553e51dc55d3f2926a5547",
+      "experiment": "tailtaker_20261003_A2PARITY"
+    }
+  ],
+  "extraction_output_before_anonymization": {
+    "file": "a2_execution_inputs.parquet",
+    "sha256": "6d1b9501b0c920229132c8bc03352ad1fb08c94ac74b77c79567d187f0203622"
+  },
+  "output": {
+    "file": "a2_execution_inputs.parquet",
+    "sha256": "90581c82d1ce6eda148f5f20dbdde22c9fd64acfdce08ba7ce1fabb978394ef3",
+    "anonymization": "Order IDs removed; anonymous sequential fixture IDs; cohort labels replaced"
+  }
+}

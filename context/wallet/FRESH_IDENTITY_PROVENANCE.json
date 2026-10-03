@@ -1,0 +1,109 @@
+{
+  "derived_utc": "2026-10-03T16:31:48.561628+00:00",
+  "script_sha256": "eab058b134d38e32a4fee69de08cfb8ac1daee75f3756619d2a3ec6a23992c9d",
+  "sources": [
+    {
+      "file": "fresh_fills_two_days.parquet",
+      "sha256": "891a28d7c809eaaa22803395e4f87075dededa59995244064cd13c0782faf9bd"
+    },
+    {
+      "file": "chain_order_fill_links.parquet",
+      "sha256": "bbbd0b090cfc92873abfef1b752021d1b332e245b2d77b965b8b8ae0e25eb32d"
+    },
+    {
+      "file": "fresh_tail_chain_links.parquet",
+      "sha256": "4654663bf4f59115fe6577620d2969daad7ae223eb997bbe443126ed9dcdf293"
+    }
+  ],
+  "fresh_api_rows": 3314,
+  "fresh_api_transactions": 3314,
+  "matched_api_rows": 3314,
+  "unmatched_api_rows": 0,
+  "joined_rows": 3314,
+  "role_disagreements": 0,
+  "signed_orders": 1109,
+  "order_arm_counts": {
+    "near_099": 844,
+    "other_limit": 265
+  },
+  "order_role_counts": {
+    "T": 584,
+    "M": 289,
+    "MT": 236
+  },
+  "outputs": [
+    {
+      "path": "fresh_order_fill_identity_two_days.parquet",
+      "rows": 3314,
+      "columns": [
+        "side_api",
+        "token_id",
+        "condition_id",
+        "size",
+        "price",
+        "timestamp",
+        "slug",
+        "event_slug",
+        "outcome",
+        "outcome_index",
+        "transaction_hash",
+        "api_role",
+        "role_basis",
+        "api_fill_row_id",
+        "tx",
+        "block",
+        "cond",
+        "idx",
+        "token",
+        "maker_amt",
+        "taker_amt",
+        "side_chain",
+        "sig_type",
+        "order_ts_ms",
+        "salt",
+        "fill_amt",
+        "fee_amt",
+        "decoded_role",
+        "order_limit",
+        "requested_shares",
+        "chain_join_type",
+        "api_vs_decoded_role_agreement"
+      ],
+      "sha256": "9acb2978727c799c6d6fd0360490cd1a346ed5e65663ec0158e72eb89d97c726",
+      "bytes": 496905
+    },
+    {
+      "path": "fresh_signed_orders_two_days.parquet",
+      "rows": 1109,
+      "columns": [
+        "salt",
+        "token",
+        "signed_timestamp_field_ms",
+        "order_limit",
+        "requested_shares",
+        "chain_side",
+        "n_filled_transactions",
+        "observed_roles",
+        "raw_maker_asset_fill_total",
+        "raw_fee_total",
+        "api_first_fill_seconds",
+        "api_last_fill_seconds",
+        "api_observed_shares",
+        "api_observed_usdc",
+        "arm_by_observed_limit"
+      ],
+      "sha256": "5328190628fe10f7ec26e26c77fe46538fe27d5be86dc63c0a0f61cedb78f772",
+      "bytes": 95255
+    }
+  ],
+  "limits": [
+    "Exact transaction+token join only. No inferred complement join is fabricated.",
+    "API timestamps remain second-granularity reporting times, not decision/submission time.",
+    "Order identity/roles/amounts are decoded public filled calldata only.",
+    "Signed timestamp field is observed but its signing/submission interpretation is not certified.",
+    "Maker lifecycle, venue prints, outcomes, fees/PnL/capital paths need separate qualified joins.",
+    "No zero-fill orders; aggregate economics on this filled sample are selected by execution.",
+    "Near_099 classification is by observed limit, not proof of GTC order type.",
+    "Summary covers fills inside the two-day slice, not each order full lifetime."
+  ]
+}

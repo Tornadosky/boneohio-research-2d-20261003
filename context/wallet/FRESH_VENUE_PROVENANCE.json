@@ -1,0 +1,1766 @@
+{
+  "created_utc": "2026-10-03T17:21:28.455610+00:00",
+  "script_sha256": "9c816751907c236a5b90fadf96b7384bf9bb2ad5ee2278ef5ec63b236cd95589",
+  "source_fresh_fills_sha256": "891a28d7c809eaaa22803395e4f87075dededa59995244064cd13c0782faf9bd",
+  "source_assets_sha256": "fd67dbc7b7489274697739cb2c5c8cc6474a4feb88bb341c0501a3b396af0df8",
+  "source_fresh_identity_sha256": "9acb2978727c799c6d6fd0360490cd1a346ed5e65663ec0158e72eb89d97c726",
+  "price_tolerance": 0.01,
+  "max_contracts": null,
+  "wallet_rows": 3314,
+  "catalog_mapped_rows": 2256,
+  "status_counts": {
+    "direct_single_price_consistent_candidate": 1613,
+    "outside_exported_token_catalog": 1058,
+    "complement_single_price_consistent_candidate": 635,
+    "no_matching_transaction_print": 8
+  },
+  "mapped_rows": 2248,
+  "candidate_rows": 2248,
+  "mapped_api_minus_print_ms": {
+    "n": 2248,
+    "negative": 0,
+    "p0": 844.0,
+    "p10": 1512.4,
+    "p50": 2213.0,
+    "p90": 2957.0,
+    "p99": 3444.53,
+    "p100": 3937.0
+  },
+  "latest_mapped_venue_ms": 1790899145894.0,
+  "input_tapes": [
+    {
+      "file": "poly/trade_tape/market_key=btc_15m/contract_start_ms=1790726400000/session_id=pflow/trades-0.parquet",
+      "sha256": "52b175c5c2d5e8701388a96b89b4b9b51bfc5c41e2e256503e7a2ebb1e01c9d2",
+      "bytes": 77548,
+      "rows": 942
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_15m/contract_start_ms=1790731800000/session_id=pflow/trades-0.parquet",
+      "sha256": "d936ade4d225b6db48a79a23af62f0a0e7962a11ddb5688cf873707d9792ee70",
+      "bytes": 65970,
+      "rows": 756
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_15m/contract_start_ms=1790732700000/session_id=pflow/trades-0.parquet",
+      "sha256": "83b285ac3cc8cff06f0fab2c9e18e90016b8c1f8a6907fe5311650bd872cb71e",
+      "bytes": 141021,
+      "rows": 2029
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_15m/contract_start_ms=1790733600000/session_id=pflow/trades-0.parquet",
+      "sha256": "bbe6d8b99dc52139fca7f8c3ebbe92d53404410f17bac992e745c92fa8990119",
+      "bytes": 58078,
+      "rows": 626
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_15m/contract_start_ms=1790737200000/session_id=pflow/trades-0.parquet",
+      "sha256": "7f36be75ffb6403326c0f92851592cfaff4e27bcb4cf8f0c2919dca14ea02104",
+      "bytes": 71335,
+      "rows": 839
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_15m/contract_start_ms=1790738100000/session_id=pflow/trades-0.parquet",
+      "sha256": "6bebddb71681afff040b1d3db29b04fcd6716be128aeb3463d6fa6424ef50632",
+      "bytes": 94684,
+      "rows": 1191
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_15m/contract_start_ms=1790739000000/session_id=pflow/trades-0.parquet",
+      "sha256": "7c72161510902db50a0cb98d279882838ba02c57321c672e9aecdd10ca51c89f",
+      "bytes": 63259,
+      "rows": 715
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_15m/contract_start_ms=1790747100000/session_id=pflow/trades-0.parquet",
+      "sha256": "8fc867be1f02a5572dfd81d4c366de696f1b764b09c67635af809cda90a30773",
+      "bytes": 43600,
+      "rows": 405
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_15m/contract_start_ms=1790748900000/session_id=pflow/trades-0.parquet",
+      "sha256": "4aa2c40c921877d45883f30c79cc77ba3234a90626ae9536d829053300573c67",
+      "bytes": 98940,
+      "rows": 1253
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_15m/contract_start_ms=1790749800000/session_id=pflow/trades-0.parquet",
+      "sha256": "b8f6ad6f9595c58996c8099bd9adbce910234823a23e383bdf28e07c2b37ef94",
+      "bytes": 67604,
+      "rows": 777
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_15m/contract_start_ms=1790751600000/session_id=pflow/trades-0.parquet",
+      "sha256": "a63b8afc1ba7a3c960886a68209a554b30cc70ac75f7b31fdfab74f08bce59f6",
+      "bytes": 64741,
+      "rows": 731
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_15m/contract_start_ms=1790752500000/session_id=pflow/trades-0.parquet",
+      "sha256": "bd8b7db65927fd434e640549f1f9a4f1f72a8fdd2b0e6d4cb21ac75dc7cbc83a",
+      "bytes": 46293,
+      "rows": 448
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_15m/contract_start_ms=1790754300000/session_id=pflow/trades-0.parquet",
+      "sha256": "2f4628bcc0ad12d98403c02ed65ea2f055afcdda3e6098a1d7d254a2abc20b6d",
+      "bytes": 85211,
+      "rows": 1056
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_15m/contract_start_ms=1790755200000/session_id=pflow/trades-0.parquet",
+      "sha256": "72c5f8f734a8e14af987321c2226d7790dcbc09d6b170cb4eb51324292d18d69",
+      "bytes": 48692,
+      "rows": 483
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_15m/contract_start_ms=1790756100000/session_id=pflow/trades-0.parquet",
+      "sha256": "5a45a9516ed346739b2b488a7101b684b5b1de233c57b45cb19775fcda02ceca",
+      "bytes": 92756,
+      "rows": 1166
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_15m/contract_start_ms=1790758800000/session_id=pflow/trades-0.parquet",
+      "sha256": "4509c77d3d5ba5cab16aff2af8a25067355569df7b04ab11488d07afbefe7547",
+      "bytes": 47692,
+      "rows": 469
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_15m/contract_start_ms=1790770500000/session_id=pflow/trades-0.parquet",
+      "sha256": "d6fc8fba6b6a54cebf6f77391e28458ac45187cff8dd71f99a293fca1dab47eb",
+      "bytes": 91637,
+      "rows": 1134
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_15m/contract_start_ms=1790771400000/session_id=pflow/trades-0.parquet",
+      "sha256": "fc4376a579c98cda08638d2ad9ab2d8ccd665fd9045186ec95b626345180e15c",
+      "bytes": 61741,
+      "rows": 692
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_15m/contract_start_ms=1790783100000/session_id=pflow/trades-0.parquet",
+      "sha256": "043ec9de7c9a843e397fa3693059fc44c43adc86ffab31eb531bd6e9320e1d44",
+      "bytes": 107928,
+      "rows": 1400
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_15m/contract_start_ms=1790785800000/session_id=pflow/trades-0.parquet",
+      "sha256": "d75502ca378c5ab4b9335d19c4b9f0fda1401bbbd4653cbb3993d2bfa9249694",
+      "bytes": 77676,
+      "rows": 934
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_15m/contract_start_ms=1790788500000/session_id=pflow/trades-0.parquet",
+      "sha256": "ab38e2c9d87a1041e7495bbd5eb7682a8bb1544173b9ae236f6be0af770377be",
+      "bytes": 44640,
+      "rows": 421
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_15m/contract_start_ms=1790791200000/session_id=pflow/trades-0.parquet",
+      "sha256": "8a4905ba78e503e4bff3d852748a2818928de9e075b80b546d4d40ec32e4789b",
+      "bytes": 88892,
+      "rows": 1103
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_15m/contract_start_ms=1790794800000/session_id=pflow/trades-0.parquet",
+      "sha256": "888f62c642595752d0f52fd12177300cdbe0595b9c0d84313d80f8e201079d3a",
+      "bytes": 42593,
+      "rows": 387
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_15m/contract_start_ms=1790804700000/session_id=pflow/trades-0.parquet",
+      "sha256": "a805ebdfddd67d839b852968d941e74f957573e0259ba448487012002a37485c",
+      "bytes": 51049,
+      "rows": 519
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_15m/contract_start_ms=1790807400000/session_id=pflow/trades-0.parquet",
+      "sha256": "360752d65779c50b347219e9b87b4f1cf6e0df1151acffb7625936fd5cc54766",
+      "bytes": 77706,
+      "rows": 943
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_15m/contract_start_ms=1790809200000/session_id=pflow/trades-0.parquet",
+      "sha256": "061724bbf971225fb98dd4fa85716eaea83929554ab7112503b0672d50bb7ff5",
+      "bytes": 97876,
+      "rows": 1240
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_15m/contract_start_ms=1790810100000/session_id=pflow/trades-0.parquet",
+      "sha256": "d859233819ee58e965ea4ddc49e0fc7323b1d30f1b782f8d2dbfcfb4941f669b",
+      "bytes": 200213,
+      "rows": 2991
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_15m/contract_start_ms=1790811900000/session_id=pflow/trades-0.parquet",
+      "sha256": "704d89b057390efa06c1cd854b6b9a215784cbd29e8b89a1dbd286d05f31e907",
+      "bytes": 99519,
+      "rows": 1262
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_15m/contract_start_ms=1790815500000/session_id=pflow/trades-0.parquet",
+      "sha256": "98299c3a8fcc0b08ad36115b7e3bdda7e12b8dce9b28a1fe16609fcef252e40a",
+      "bytes": 57436,
+      "rows": 612
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_15m/contract_start_ms=1790818200000/session_id=pflow/trades-0.parquet",
+      "sha256": "a430af1c54de4e48a5eb0b28c00ff802a57f2df5225750bbc5e82b6130ecaca1",
+      "bytes": 80178,
+      "rows": 998
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_15m/contract_start_ms=1790820900000/session_id=pflow/trades-0.parquet",
+      "sha256": "2986ac24897d7179d1a9cff6e18c032b1fa129883a937abb49f1262925850f06",
+      "bytes": 54474,
+      "rows": 580
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_15m/contract_start_ms=1790822700000/session_id=pflow/trades-0.parquet",
+      "sha256": "83545de42f33aa97776dd139c89360cdaa4876ffd0f2c2758e917b8e8d86916d",
+      "bytes": 50088,
+      "rows": 507
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_15m/contract_start_ms=1790824500000/session_id=pflow/trades-0.parquet",
+      "sha256": "a9880c05055b2944e7d79292b3062cf999d7505e266877a1210086de3045baa0",
+      "bytes": 80993,
+      "rows": 993
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_15m/contract_start_ms=1790829000000/session_id=pflow/trades-0.parquet",
+      "sha256": "cfeea091a428a1329789570910f40de481a4574f21a6b8bcf681b1b832dfd340",
+      "bytes": 79211,
+      "rows": 968
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_15m/contract_start_ms=1790830800000/session_id=pflow/trades-0.parquet",
+      "sha256": "7c9ae1aedc5e2b667a9a6261c4c8649e92d338ac88d4d65787ee9b26dff7f482",
+      "bytes": 53831,
+      "rows": 560
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_15m/contract_start_ms=1790834400000/session_id=pflow/trades-0.parquet",
+      "sha256": "7d6a6871940043fe03d584901bc81ee7efc5e191806bdd6fcb4c56029f73a751",
+      "bytes": 55832,
+      "rows": 593
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_15m/contract_start_ms=1790837100000/session_id=pflow/trades-0.parquet",
+      "sha256": "c46bd2c4e18e511de2ec71fae4854d4d2e84f8cd892dccf8eb19c455cebfd07b",
+      "bytes": 93243,
+      "rows": 1164
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_15m/contract_start_ms=1790838000000/session_id=pflow/trades-0.parquet",
+      "sha256": "e3cc4bcfbc3fa2d3d9982fa5baac1268ffffb32b6c5850976b2b4e7878e7f08e",
+      "bytes": 73609,
+      "rows": 873
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_15m/contract_start_ms=1790846100000/session_id=pflow/trades-0.parquet",
+      "sha256": "dda3c12b6d20dc77cba80e7f393813b65a8af1763ebc7cf042f9d0cb37947d4b",
+      "bytes": 63294,
+      "rows": 711
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_15m/contract_start_ms=1790847900000/session_id=pflow/trades-0.parquet",
+      "sha256": "8ce42f81fd2e812f9b13735c413bd96c4617962a86bf7780260c59c7d92e713e",
+      "bytes": 67185,
+      "rows": 774
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_15m/contract_start_ms=1790856900000/session_id=pflow/trades-0.parquet",
+      "sha256": "c19e0f29a4b48650e52e025dbea5e87196c8b866465deca008b8d75bc2570afb",
+      "bytes": 137126,
+      "rows": 1943
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_15m/contract_start_ms=1790865000000/session_id=pflow/trades-0.parquet",
+      "sha256": "adcb8a8ec8985c225fa756e0de9c860dc8607cea0e52e3c1bf449317299e9e12",
+      "bytes": 90335,
+      "rows": 1109
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_15m/contract_start_ms=1790873100000/session_id=pflow/trades-0.parquet",
+      "sha256": "12e4969bf89518e704649b1bc3b1bad795c044e084257e599fb25f29fbe21494",
+      "bytes": 52297,
+      "rows": 533
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_15m/contract_start_ms=1790874000000/session_id=pflow/trades-0.parquet",
+      "sha256": "2ce7fb4e8c7de03beaa657a24092ceffc9c0fc28bee2742296c563bb9ee0fe66",
+      "bytes": 46941,
+      "rows": 454
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_15m/contract_start_ms=1790876700000/session_id=pflow/trades-0.parquet",
+      "sha256": "e772e518dfe8e444a5565361883f37f0835a26c29156b5c30ca21b9f1d9aec7e",
+      "bytes": 70028,
+      "rows": 824
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_15m/contract_start_ms=1790879400000/session_id=pflow/trades-0.parquet",
+      "sha256": "53d8bda0a688479711136c1cc1369df04a15da8b618f27aa04640d6f3a097f81",
+      "bytes": 51782,
+      "rows": 527
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_15m/contract_start_ms=1790882100000/session_id=pflow/trades-0.parquet",
+      "sha256": "ce5e62312ed836fb66dcccfa5d3d29506db424fd301172cff725c0ecab9030d5",
+      "bytes": 45421,
+      "rows": 430
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_15m/contract_start_ms=1790885700000/session_id=pflow/trades-0.parquet",
+      "sha256": "222bd0d817436844f14c131eb7994ce8badd30c29c4d3b65815a75d1bcd51be4",
+      "bytes": 73981,
+      "rows": 886
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_15m/contract_start_ms=1790888400000/session_id=pflow/trades-0.parquet",
+      "sha256": "eb8147c96756400543e8030e7540b34a7f640621aece3c8a90748614a2bb0139",
+      "bytes": 58975,
+      "rows": 644
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_15m/contract_start_ms=1790893800000/session_id=pflow/trades-0.parquet",
+      "sha256": "37d496800c220b49d55de8c19e7ccde660ba47cbd0cbbf841b68139baad03465",
+      "bytes": 140536,
+      "rows": 2017
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_15m/contract_start_ms=1790894700000/session_id=pflow/trades-0.parquet",
+      "sha256": "30c209e70d28d174e7de98fdca0734fe855a52dd4668b2b2ed19e96f0b206591",
+      "bytes": 193680,
+      "rows": 2892
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_15m/contract_start_ms=1790896500000/session_id=pflow/trades-0.parquet",
+      "sha256": "7c325df2ada3a476895c5f14d7757fb307b30a8a83b87161a2848c9e6d621b3e",
+      "bytes": 40124,
+      "rows": 348
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_15m/contract_start_ms=1790897400000/session_id=pflow/trades-0.parquet",
+      "sha256": "70beab3bcd0374ab03c0b73ca8225780c0b54cb628c942869b734cda860fb2e5",
+      "bytes": 78974,
+      "rows": 965
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_15m/contract_start_ms=1790898300000/session_id=pflow/trades-0.parquet",
+      "sha256": "76a574081c41cfc95bcbfc6c230ef761747057adeb8dbe9a4f6658e7af890664",
+      "bytes": 463054,
+      "rows": 7348
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790726400000/session_id=pflow/trades-0.parquet",
+      "sha256": "94797b7f212c0e99136927b416be3a8129fff488139f50d111e7c8a808048565",
+      "bytes": 175228,
+      "rows": 2599
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790726700000/session_id=pflow/trades-0.parquet",
+      "sha256": "d623bce4dac251cc6f89dcae9884ed481f79cbb9728007937880c5a103bf806a",
+      "bytes": 102643,
+      "rows": 1331
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790727300000/session_id=pflow/trades-0.parquet",
+      "sha256": "a76cd45423d7a35f48c23ee2db4cda27c1f1d51f04aa1bfc096171c02e16cbcc",
+      "bytes": 81121,
+      "rows": 1014
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790727600000/session_id=pflow/trades-0.parquet",
+      "sha256": "a5f82e366af5f4e2d6a40a51dcb4b4b78bb0739b82dff1f339b43dfea9da18f7",
+      "bytes": 137743,
+      "rows": 1974
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790728800000/session_id=pflow/trades-0.parquet",
+      "sha256": "7a742f306f45fde7e982379f2bcb4b9a66550edd708d47f780766b330e2d5367",
+      "bytes": 110871,
+      "rows": 1469
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790729100000/session_id=pflow/trades-0.parquet",
+      "sha256": "c60c2ad1db9e44a4167b010e81571f8659261c6cba1c2e86f049be2bba825f41",
+      "bytes": 102622,
+      "rows": 1337
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790729700000/session_id=pflow/trades-0.parquet",
+      "sha256": "a2c4a346bb01b8d33905d41ff7fa5dbde1f6b13959dcf2fa52614084ef0c3060",
+      "bytes": 89063,
+      "rows": 1115
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790730000000/session_id=pflow/trades-0.parquet",
+      "sha256": "aac3980c7ea18ef54a6aecdd3b2655d57be4618328888a3b7f3eb179af5b163a",
+      "bytes": 256244,
+      "rows": 3934
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790730300000/session_id=pflow/trades-0.parquet",
+      "sha256": "526ca6f1278e1726e4d175d475c2ea477e2c91d461d6ea15bde1ce3136c69aac",
+      "bytes": 314320,
+      "rows": 4867
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790731200000/session_id=pflow/trades-0.parquet",
+      "sha256": "0c725260a8ca0b30d0a3c99d42e57b21f30c12d44fd09583638f5fbfa0c02f22",
+      "bytes": 83338,
+      "rows": 1037
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790733900000/session_id=pflow/trades-0.parquet",
+      "sha256": "019c13d849240513f51d045a565e31a03937c388266dcf25e1937183b7f6af20",
+      "bytes": 63130,
+      "rows": 725
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790734500000/session_id=pflow/trades-0.parquet",
+      "sha256": "3dc9ab3f05354de81922ba264fcc2dbfead095216e39f589a64816c60917d8a4",
+      "bytes": 91251,
+      "rows": 1158
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790734800000/session_id=pflow/trades-0.parquet",
+      "sha256": "b35905bf97dd1a0d97dddf051c8537d01315f8491d950d0cdef35bfe5446f15b",
+      "bytes": 74070,
+      "rows": 901
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790735700000/session_id=pflow/trades-0.parquet",
+      "sha256": "d9b23e57d30e2fbb624adab1876b2932568a9c0859aeca2839dab13744bd6019",
+      "bytes": 109115,
+      "rows": 1432
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790736300000/session_id=pflow/trades-0.parquet",
+      "sha256": "1ba541f3b0c0c3719cc456bbc71f9278a7cbfc140ef6911aff45ed5e27875b79",
+      "bytes": 70087,
+      "rows": 832
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790737200000/session_id=pflow/trades-0.parquet",
+      "sha256": "30acc4e1361598eff36a3d7952c180833c979d36b3b0e0b66073e0166c4a2899",
+      "bytes": 133782,
+      "rows": 1829
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790739000000/session_id=pflow/trades-0.parquet",
+      "sha256": "8e4c0200e5e312a61017d5151a42dd12cad4de05f33e425436f74c679f317747",
+      "bytes": 79698,
+      "rows": 992
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790739300000/session_id=pflow/trades-0.parquet",
+      "sha256": "368f0137c6c37c2a566df3496ef4ac4de4e9389787e7a2992f983e97b532af8d",
+      "bytes": 84142,
+      "rows": 1047
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790739900000/session_id=pflow/trades-0.parquet",
+      "sha256": "73612552ac633d985f75429834d47a9f173b0b747b368d1d82af725bf33bd773",
+      "bytes": 65599,
+      "rows": 767
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790740200000/session_id=pflow/trades-0.parquet",
+      "sha256": "4efd3c272776ff3573996f103df9bbf3c119b0449cbffc1b8a7837f9288e2227",
+      "bytes": 96937,
+      "rows": 1236
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790740800000/session_id=pflow/trades-0.parquet",
+      "sha256": "d9f84dbe52c41e0b412f860f26317f5c696a25060f13fa349c24893d51e10d97",
+      "bytes": 63738,
+      "rows": 734
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790741100000/session_id=pflow/trades-0.parquet",
+      "sha256": "cfb3b53109166206084c5dec91fa9b36d8768c8d5759937fc532b451b85c3610",
+      "bytes": 71696,
+      "rows": 863
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790742900000/session_id=pflow/trades-0.parquet",
+      "sha256": "baac55bd189d327245cf8bec272668897d253fbd381fb23e4c222b2f53140d77",
+      "bytes": 77553,
+      "rows": 959
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790744100000/session_id=pflow/trades-0.parquet",
+      "sha256": "2d154b22928a519ed718a139000f6942b17c6f49486d6e58e364483f340b9b5a",
+      "bytes": 195011,
+      "rows": 2912
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790744700000/session_id=pflow/trades-0.parquet",
+      "sha256": "69856df32053dbe0e19feb0539fce98358e7bbbbdcdedde39b356538ca9a722e",
+      "bytes": 285359,
+      "rows": 4384
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790745000000/session_id=pflow/trades-0.parquet",
+      "sha256": "352ed5cd44a13576150656d1bc6ce416ea64ed0cba175d751216926dfa54f7b0",
+      "bytes": 172997,
+      "rows": 2546
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790745300000/session_id=pflow/trades-0.parquet",
+      "sha256": "c0ec56cb49f728462f0449fc7dea4411e1cf0b17af4541a30b6e11d8544acd84",
+      "bytes": 166093,
+      "rows": 2438
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790745600000/session_id=pflow/trades-0.parquet",
+      "sha256": "80326c6c0ec12b1e178f349aa40cfbb69979692bb3346c15b753439da6d9f960",
+      "bytes": 119200,
+      "rows": 1594
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790746200000/session_id=pflow/trades-0.parquet",
+      "sha256": "4ac70d4911d6e470069de2244ab2d7d27910272ed575782326f47387618e3c21",
+      "bytes": 119832,
+      "rows": 1615
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790746500000/session_id=pflow/trades-0.parquet",
+      "sha256": "32dd55037ebef3f6c70526c8fa058ac4f81e9b9c974aadffdc2a538ef4ecc9a3",
+      "bytes": 161103,
+      "rows": 2332
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790747100000/session_id=pflow/trades-0.parquet",
+      "sha256": "fa5681078f5ae8993182b1eae2c5d403c36d46e6e3e4d5c12c1a78cfbe349405",
+      "bytes": 93226,
+      "rows": 1182
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790747700000/session_id=pflow/trades-0.parquet",
+      "sha256": "244b1342e05272611f99a146b631e5f486c590a28ec6ba072af7e41b904e3692",
+      "bytes": 126532,
+      "rows": 1723
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790748000000/session_id=pflow/trades-0.parquet",
+      "sha256": "5d5ecf0ebb85ea75713613dea9aba8141348e7a065459d976de662bff746f642",
+      "bytes": 162058,
+      "rows": 2339
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790749500000/session_id=pflow/trades-0.parquet",
+      "sha256": "93686441d64f3a3334ee49bc243ec716b97de81aa0ac155e8c098206af150d9e",
+      "bytes": 117538,
+      "rows": 1574
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790750100000/session_id=pflow/trades-0.parquet",
+      "sha256": "03b29ba1ea60afc8a3afcf64fb99526a4f341c7554c458166a6fd2e70058414e",
+      "bytes": 154129,
+      "rows": 2230
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790750400000/session_id=pflow/trades-0.parquet",
+      "sha256": "f8dcfc2dfce68a6756099bdfe04858ff2abb8436c3050124f8e2ce9d05122637",
+      "bytes": 132840,
+      "rows": 1894
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790751600000/session_id=pflow/trades-0.parquet",
+      "sha256": "56beaa567b6bb7c3a7726141996c97bb019235ac35014c898bb689958ae4f728",
+      "bytes": 132904,
+      "rows": 1889
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790752800000/session_id=pflow/trades-0.parquet",
+      "sha256": "d81f70b630747c47b297ede8b138b74f8539f525fba25a53f9b5350af4cc08fa",
+      "bytes": 77526,
+      "rows": 955
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790753100000/session_id=pflow/trades-0.parquet",
+      "sha256": "daeb1290611baf96a110bb808ccd133b53b67f1031b1df59ab05f486a0745077",
+      "bytes": 128550,
+      "rows": 1742
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790754300000/session_id=pflow/trades-0.parquet",
+      "sha256": "66e5208185d2ef3da19028219e5d3927804e262d369059e3db38be0b4b33f12a",
+      "bytes": 158831,
+      "rows": 2299
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790755200000/session_id=pflow/trades-0.parquet",
+      "sha256": "b94e1b9eaee7ae02613c557f4fd3482b5fba5cc39e7a6c4e950b59fa3179bd00",
+      "bytes": 229640,
+      "rows": 3492
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790756100000/session_id=pflow/trades-0.parquet",
+      "sha256": "e734e097ccb60d5200e369f283771695d5a17e8139c8e74f5a75ea8900ff0991",
+      "bytes": 152786,
+      "rows": 2237
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790756400000/session_id=pflow/trades-0.parquet",
+      "sha256": "8a6debdabe3fe79561b3a6ae3a381d8f9aed6d5ec1319b4d48d114645d088eeb",
+      "bytes": 274563,
+      "rows": 4181
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790757000000/session_id=pflow/trades-0.parquet",
+      "sha256": "d4bdda26a7602860a0052d0dd8b33398c9304836217d62d6d2f0293d633d28c0",
+      "bytes": 98365,
+      "rows": 1275
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790757300000/session_id=pflow/trades-0.parquet",
+      "sha256": "0399e22ca9d0aeb54060d32ad09cbf8ecf8204a26fc19af6720e4353c6df96ff",
+      "bytes": 172692,
+      "rows": 2542
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790757900000/session_id=pflow/trades-0.parquet",
+      "sha256": "e402345030e701d0d64ca4f62c93842a96d25f38851179af8604d361353649e7",
+      "bytes": 192126,
+      "rows": 2878
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790758800000/session_id=pflow/trades-0.parquet",
+      "sha256": "0d1d1faa5f5b17431ed8e9e6c6085a22d5a48718f69b1c5dc293684443c932d7",
+      "bytes": 73727,
+      "rows": 891
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790759100000/session_id=pflow/trades-0.parquet",
+      "sha256": "80b43dd09c3d38487361a94fbd139989d9eb748158b1768a0e8624758da3411d",
+      "bytes": 83040,
+      "rows": 1040
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790759700000/session_id=pflow/trades-0.parquet",
+      "sha256": "5df79a0716eefc73bd73919f4283374c05ebafd00f4d98d4b8526b0b069547fe",
+      "bytes": 122884,
+      "rows": 1658
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790760000000/session_id=pflow/trades-0.parquet",
+      "sha256": "fe2b43173cc67a2384c648e8df239e32dd8ca32718728188e9d446fad6dff950",
+      "bytes": 115447,
+      "rows": 1532
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790760600000/session_id=pflow/trades-0.parquet",
+      "sha256": "14dba24801317973365e505130a9183c2bc580c17fea152e20cbb82e2f3d76e1",
+      "bytes": 100376,
+      "rows": 1310
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790762400000/session_id=pflow/trades-0.parquet",
+      "sha256": "361ede80036a775c14e29bd6bdda98ff7f047edba331758347f58f6187899a73",
+      "bytes": 101637,
+      "rows": 1328
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790763600000/session_id=pflow/trades-0.parquet",
+      "sha256": "2be9d354e80f0d4c70fe8302ec1011eedf6cfe2b8014e4359e0a52f934c0430f",
+      "bytes": 120138,
+      "rows": 1610
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790765400000/session_id=pflow/trades-0.parquet",
+      "sha256": "719775e5d281222ccaf97960aa520e7feab55e06982f28a46563f406eaff7730",
+      "bytes": 106401,
+      "rows": 1383
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790766000000/session_id=pflow/trades-0.parquet",
+      "sha256": "316894cb066b63c0ac8e176da65634ecb3422b2dd1f4192a3377b288ebd279b4",
+      "bytes": 69798,
+      "rows": 836
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790766900000/session_id=pflow/trades-0.parquet",
+      "sha256": "812743654cf12da0c4a9aabdb16d9910b671891591cf8cbf7ee4a877a1a08da3",
+      "bytes": 144074,
+      "rows": 2064
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790767200000/session_id=pflow/trades-0.parquet",
+      "sha256": "0e9897a908cab156e81fe3770b3eba82dc8fc5ca407de8944dd6e635b55747f0",
+      "bytes": 112379,
+      "rows": 1489
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790768400000/session_id=pflow/trades-0.parquet",
+      "sha256": "28ecc2f4ca9870a41530b68b7996e439dc7c1ddba2d084163c14414c2a8c7da2",
+      "bytes": 87343,
+      "rows": 1091
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790770800000/session_id=pflow/trades-0.parquet",
+      "sha256": "819af85282d4d560eceb5d0e84e4bf60b4bfc05f74775bcce8b6dc0db658d90c",
+      "bytes": 105642,
+      "rows": 1376
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790771400000/session_id=pflow/trades-0.parquet",
+      "sha256": "422889077e3c0f657283357e686cf9741435bbe1bf7fa3767c7ccdc5006435a9",
+      "bytes": 113590,
+      "rows": 1520
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790773800000/session_id=pflow/trades-0.parquet",
+      "sha256": "c5e866fa881fe1d9537006edd85debdb7be7c1e2036910a387f57393460dc82c",
+      "bytes": 142912,
+      "rows": 2047
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790774400000/session_id=pflow/trades-0.parquet",
+      "sha256": "db3b5ee3b5e572b97da038ef031dfbe8341c0dbbda37e6b96dcbf0724fbe03c0",
+      "bytes": 137570,
+      "rows": 1964
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790774700000/session_id=pflow/trades-0.parquet",
+      "sha256": "ce2092128c267a88e9af8b363ccaeec33fcf923b1caf3869d0bbc35582492054",
+      "bytes": 115457,
+      "rows": 1531
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790775900000/session_id=pflow/trades-0.parquet",
+      "sha256": "2f70cd22f96cf4424e96b33d0ca29769ed2c938014d28b4207be68a9fb8c6cfb",
+      "bytes": 152866,
+      "rows": 2201
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790780100000/session_id=pflow/trades-0.parquet",
+      "sha256": "4f92c41f48496b314af381f7364cec3af5ac58ef3bf5297a242052e1d8c4dc7a",
+      "bytes": 152887,
+      "rows": 2190
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790781600000/session_id=pflow/trades-0.parquet",
+      "sha256": "252ea6b57f173af080705794fa192bd74b9203b0d59fc53e1c4ff05b74423944",
+      "bytes": 169346,
+      "rows": 2468
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790781900000/session_id=pflow/trades-0.parquet",
+      "sha256": "42bd679766a8dd16dd084c3444db7cded4e1315cec2f290fad6fd5611564ee86",
+      "bytes": 141978,
+      "rows": 2032
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790785800000/session_id=pflow/trades-0.parquet",
+      "sha256": "33874ec53a37ce61a4f99e29a27108142a77b912fbdd860efc1df47b16eb0366",
+      "bytes": 141395,
+      "rows": 2018
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790786100000/session_id=pflow/trades-0.parquet",
+      "sha256": "1cc3038e2b44f96cafb59a567089a31a0d433817fe49c6a0c3ca9fd3ba7323ba",
+      "bytes": 90666,
+      "rows": 1136
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790786400000/session_id=pflow/trades-0.parquet",
+      "sha256": "95951da7ab2252957442e94de593b113acc00834c0c9d614e6fa25d6dff400ea",
+      "bytes": 97507,
+      "rows": 1242
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790787600000/session_id=pflow/trades-0.parquet",
+      "sha256": "a72add3165a0ca2d1798a9fae127bff69944639d29433115df7bd21affe6964d",
+      "bytes": 160063,
+      "rows": 2312
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790787900000/session_id=pflow/trades-0.parquet",
+      "sha256": "49a10541f7354a2bb23258691cd66a71a8baf970369cd94bb4c0be54f83a1f6d",
+      "bytes": 106051,
+      "rows": 1378
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790788200000/session_id=pflow/trades-0.parquet",
+      "sha256": "6f5cfc35dbfe4b51f4efc661380f2d4fea9de01a2823c262b7433e65299d10a2",
+      "bytes": 106181,
+      "rows": 1385
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790788500000/session_id=pflow/trades-0.parquet",
+      "sha256": "160876d701d1b3b6b23065ce3d79a92ea68737dc098139ed06b54a7b6ef5938e",
+      "bytes": 68276,
+      "rows": 803
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790789100000/session_id=pflow/trades-0.parquet",
+      "sha256": "2f8a9b59eeaabf98d40bc4ac0283da0ba140e31032b4df8039732dfea267173c",
+      "bytes": 132526,
+      "rows": 1799
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790789700000/session_id=pflow/trades-0.parquet",
+      "sha256": "08c23d90f8ad367612157e59c9c6c92fe44fd85d819124e4338046468e6ff374",
+      "bytes": 119982,
+      "rows": 1597
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790790300000/session_id=pflow/trades-0.parquet",
+      "sha256": "a1cf32d750a4edbbeb8fe2950f62295c2e52d83d2c2483c86202faecc8db2078",
+      "bytes": 106771,
+      "rows": 1389
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790791800000/session_id=pflow/trades-0.parquet",
+      "sha256": "1ae30e05b657313e85f825dfa4a9c86d3ea92e5c1bca1cd5acda03b7669c0cba",
+      "bytes": 132152,
+      "rows": 1876
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790795400000/session_id=pflow/trades-0.parquet",
+      "sha256": "4d7d01e740638305fd99439d1efba3a228ede3ce5c12829678236d9b52991ac6",
+      "bytes": 91195,
+      "rows": 1155
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790795700000/session_id=pflow/trades-0.parquet",
+      "sha256": "881b3f13e94869e13bb9084e5459ff114cb4ea04bec63c7903e2ab1f50fb4741",
+      "bytes": 80458,
+      "rows": 1007
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790796600000/session_id=pflow/trades-0.parquet",
+      "sha256": "b6634400684fdb70c267128b9b37215612125afa73fef3bd7a16baf7c2d96f2d",
+      "bytes": 92577,
+      "rows": 1170
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790796900000/session_id=pflow/trades-0.parquet",
+      "sha256": "c947e9d766b016f53f2b8bfaec39801fced6969fa139991a3caf056635b2fb61",
+      "bytes": 97183,
+      "rows": 1240
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790797500000/session_id=pflow/trades-0.parquet",
+      "sha256": "a4d33094b9fce15335b69d6b145005d01354d47f08e46384a51e01a30a74e56a",
+      "bytes": 115446,
+      "rows": 1539
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790797800000/session_id=pflow/trades-0.parquet",
+      "sha256": "7125a1f93b5a9976623ab4c2e4ea034faaddcb14e9134e67c3927781c3e587fb",
+      "bytes": 96801,
+      "rows": 1248
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790798400000/session_id=pflow/trades-0.parquet",
+      "sha256": "73436db667a953b23d7cc3a5b2ca49c1a541f341fd623b71d58feb475e1cc974",
+      "bytes": 178323,
+      "rows": 2609
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790799900000/session_id=pflow/trades-0.parquet",
+      "sha256": "e8297f0d1076a73a6e5d916863f0f3725fbe2ab4d0b5dbbcf439063da06fe561",
+      "bytes": 115274,
+      "rows": 1526
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790802000000/session_id=pflow/trades-0.parquet",
+      "sha256": "2fd43ace6087d876ea2496f8b3b8aeb77e67cddb338e8849c651dfc6bdd296ea",
+      "bytes": 76435,
+      "rows": 938
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790802600000/session_id=pflow/trades-0.parquet",
+      "sha256": "8afea0dd70d40eab462d098b754034942c55daa08df0b7b50d1708751515e442",
+      "bytes": 114598,
+      "rows": 1514
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790803800000/session_id=pflow/trades-0.parquet",
+      "sha256": "fdf7c18857f64518e00add5b52b2e9877f8d5eca9c5ac6f59b39185f85b39455",
+      "bytes": 104456,
+      "rows": 1360
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790804100000/session_id=pflow/trades-0.parquet",
+      "sha256": "a8640e16d72d619593861fb4a2cb6a5c5efce10d5cfe6763bec1c9b0a4df1e7b",
+      "bytes": 129477,
+      "rows": 1763
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790805600000/session_id=pflow/trades-0.parquet",
+      "sha256": "9027828c92f51edace6d1993e5c13d52afed4c8d609fa330ea1e278f2422e7ea",
+      "bytes": 89459,
+      "rows": 1122
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790805900000/session_id=pflow/trades-0.parquet",
+      "sha256": "5619895ea8ff41afd6b192d0fff1b803c432e2acc704df5213893c2ce70b98de",
+      "bytes": 68054,
+      "rows": 807
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790806200000/session_id=pflow/trades-0.parquet",
+      "sha256": "7f7686cee3ac222c6893b626f82ce979e0068c81189bd98bcbed6407e99cfb41",
+      "bytes": 62078,
+      "rows": 704
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790806800000/session_id=pflow/trades-0.parquet",
+      "sha256": "4156a2187d43cdf99ca287c855d0bfd13073e9ea9ae808df091477a2c4181e91",
+      "bytes": 70352,
+      "rows": 837
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790807100000/session_id=pflow/trades-0.parquet",
+      "sha256": "736c26f2c251415428352f3fce5bdb7b67220469e41be0bf29a4cbbea3516288",
+      "bytes": 63719,
+      "rows": 729
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790808000000/session_id=pflow/trades-0.parquet",
+      "sha256": "10a7d8d673ced1f626f78b5e8c4cd110bcf7bd73d4dcfcef5a3a1cd2df079f46",
+      "bytes": 123642,
+      "rows": 1663
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790808300000/session_id=pflow/trades-0.parquet",
+      "sha256": "2473a4f48fc053339585f778919d2e58889e7d0891d49f853f0de5932db8e48b",
+      "bytes": 92072,
+      "rows": 1161
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790809200000/session_id=pflow/trades-0.parquet",
+      "sha256": "8237e44e08dc56b6249104c28b3bc2c7ec91a871219bb25554039dc2da410072",
+      "bytes": 100466,
+      "rows": 1299
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790809500000/session_id=pflow/trades-0.parquet",
+      "sha256": "b2807b39692a047a8ec8124a46bdd31c28b53ee8fa99daac3ee31817572ae06c",
+      "bytes": 67353,
+      "rows": 792
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790809800000/session_id=pflow/trades-0.parquet",
+      "sha256": "e4d2e511e181efbf057baf606162b5de925c5768da422e8b722f58d3169b4e02",
+      "bytes": 85633,
+      "rows": 1056
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790811000000/session_id=pflow/trades-0.parquet",
+      "sha256": "64391ce99cbf374c6c91a1113d8925a67ee7bf3c7d0dc650d726af79eda894f4",
+      "bytes": 65704,
+      "rows": 759
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790812200000/session_id=pflow/trades-0.parquet",
+      "sha256": "85811bd7d201a4e530a6272cb4b6b5b6bed5c74b9394ba3c2ff3315aaa1d0ed1",
+      "bytes": 128893,
+      "rows": 1759
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790812500000/session_id=pflow/trades-0.parquet",
+      "sha256": "7c49af006ff8e10032395d37f2512da0f5ec5f0e92c1a7769250b9cd4d8b5c12",
+      "bytes": 110682,
+      "rows": 1454
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790813100000/session_id=pflow/trades-0.parquet",
+      "sha256": "587e9f47f5b806a9716b90d2805c89ae3232003d0e232256c4b6bd9ebaf12dc6",
+      "bytes": 92743,
+      "rows": 1174
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790813700000/session_id=pflow/trades-0.parquet",
+      "sha256": "00ef766dfdb65f6b6855b13a22aa028a82151a62db8305bd448ddd23d7c2c4f6",
+      "bytes": 68271,
+      "rows": 803
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790814000000/session_id=pflow/trades-0.parquet",
+      "sha256": "ec11db233bb101355d8872f93c355ed6de5c23adcbd2df4646713ad9897824bc",
+      "bytes": 102635,
+      "rows": 1330
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790814600000/session_id=pflow/trades-0.parquet",
+      "sha256": "f41900d6e994bd66d0112cae9a23e4e629e011b8ea878afaa014f7f2e57059e0",
+      "bytes": 131981,
+      "rows": 1875
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790814900000/session_id=pflow/trades-0.parquet",
+      "sha256": "d76f1c0ac4b6967998fa9c91c11cb4f9d6932a94c2dcc11d8848ba43b7909a02",
+      "bytes": 96838,
+      "rows": 1236
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790815200000/session_id=pflow/trades-0.parquet",
+      "sha256": "45acffb82fbb7b36f24fcf33b4501fc84cc7e99c040705a7fa201e3d6aaf9818",
+      "bytes": 98400,
+      "rows": 1257
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790816400000/session_id=pflow/trades-0.parquet",
+      "sha256": "deca0f609cd7c15bf28001506978a5efa02c47c44716cddfbad2790b683019d1",
+      "bytes": 236048,
+      "rows": 3592
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790817300000/session_id=pflow/trades-0.parquet",
+      "sha256": "f707ace3a05ec427c381bafba13278e9b8d4a9b6d1870d0a893b6ccfd0092423",
+      "bytes": 192792,
+      "rows": 2873
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790817600000/session_id=pflow/trades-0.parquet",
+      "sha256": "7bd71ae298f3d90a83f789260b1cae064aa8b08c35acd05d5ef7be0a4aeb7e01",
+      "bytes": 317669,
+      "rows": 4929
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790819100000/session_id=pflow/trades-0.parquet",
+      "sha256": "c0501b29bfe567c5b506e1728f8ab7e8ac044d05cfab9699ce726d2600d11950",
+      "bytes": 67298,
+      "rows": 790
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790819700000/session_id=pflow/trades-0.parquet",
+      "sha256": "b2615a9a65ea00db3deba6f1956bf120c2309ab094b402bcbdea64515c57c1e6",
+      "bytes": 100381,
+      "rows": 1287
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790820000000/session_id=pflow/trades-0.parquet",
+      "sha256": "65e4d647e5d5f9114b1a94a60a9e1722f71af9f5f998fc3a7597d747cc994714",
+      "bytes": 175258,
+      "rows": 2563
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790820300000/session_id=pflow/trades-0.parquet",
+      "sha256": "0e9f2ace74414ababb56d0a0ab1f128f5bd74d8b8f170526d34ddd6fdee196aa",
+      "bytes": 77610,
+      "rows": 953
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790820900000/session_id=pflow/trades-0.parquet",
+      "sha256": "f0a93156bdca5e7a4510c0fe20e3023bb9109e4f1ec17aae1eebe39b55115598",
+      "bytes": 61770,
+      "rows": 697
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790821500000/session_id=pflow/trades-0.parquet",
+      "sha256": "07dafa07c0ae0057871d26b1572bcd7b070296ebc3ae4ae0779019dd9fb05b31",
+      "bytes": 102818,
+      "rows": 1336
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790821800000/session_id=pflow/trades-0.parquet",
+      "sha256": "4f360639411008363a592c0c2e8169179dc4925d149a292a3ebe955e549e6ab7",
+      "bytes": 89394,
+      "rows": 1125
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790822100000/session_id=pflow/trades-0.parquet",
+      "sha256": "c9f2a06cdf9005b74f2da3d697715ff5939f2782e3a3fc6d145b650c3c1e1c48",
+      "bytes": 64615,
+      "rows": 744
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790822400000/session_id=pflow/trades-0.parquet",
+      "sha256": "74c27e8e2581be6dc404eded69755d7042540fd54e7c5443a2f02956d6df03de",
+      "bytes": 119653,
+      "rows": 1602
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790823600000/session_id=pflow/trades-0.parquet",
+      "sha256": "83d446be3b9191947ff44ec15e0f8398b9266c63aafa8a87eacf1626b52a6558",
+      "bytes": 92051,
+      "rows": 1161
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790824800000/session_id=pflow/trades-0.parquet",
+      "sha256": "9f56533c42492ca26e1c40d2b9927c69a4457ec57633b5dec12a1f4afd9c7065",
+      "bytes": 84100,
+      "rows": 1040
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790825400000/session_id=pflow/trades-0.parquet",
+      "sha256": "e11b08bd8117ae8baa05e2a79b1bb929f0a0200325dcd722d513be16c74bb0dd",
+      "bytes": 134348,
+      "rows": 1919
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790826000000/session_id=pflow/trades-0.parquet",
+      "sha256": "6c5a92c55ac7cff3cef1ab1e07d3f322ead19131832b06eb671aa864a7f23af2",
+      "bytes": 69594,
+      "rows": 826
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790826900000/session_id=pflow/trades-0.parquet",
+      "sha256": "0d7e278864476e1fd8d9499b6a2711a204fbce55d2290466ab9f30733b2f3c8a",
+      "bytes": 90840,
+      "rows": 1139
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790827200000/session_id=pflow/trades-0.parquet",
+      "sha256": "f1636374ab03e1c57f18ec8a8386638eebaac8daaeb3a8fa5d675f121645a9f5",
+      "bytes": 117017,
+      "rows": 1552
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790827500000/session_id=pflow/trades-0.parquet",
+      "sha256": "0c26e3fb225a56b0cf441c31b0fc897aeb55331aadf667211b546743a91df783",
+      "bytes": 129494,
+      "rows": 1752
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790827800000/session_id=pflow/trades-0.parquet",
+      "sha256": "85875b9dfbb378d64809731aab95cda000e2b5d2f8acfc26742573456b3f0f5e",
+      "bytes": 69530,
+      "rows": 823
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790829000000/session_id=pflow/trades-0.parquet",
+      "sha256": "4f3eefbb675d63f38d9836b84568a7f9866c884a116576ddb9740aa5ae380f2d",
+      "bytes": 89417,
+      "rows": 1125
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790829300000/session_id=pflow/trades-0.parquet",
+      "sha256": "dc87b7c780becc2762ea75e81ddd0c894dd5952a7c40af6560a05cb74b3bb01e",
+      "bytes": 60349,
+      "rows": 673
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790829600000/session_id=pflow/trades-0.parquet",
+      "sha256": "18f7fb3ffca3cc5046ac1819a434689a4fc8b6ad5f5fef3507377b78f699580c",
+      "bytes": 112775,
+      "rows": 1490
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790830500000/session_id=pflow/trades-0.parquet",
+      "sha256": "618d4055dcf74750e3aa8f546b6ca888b4b1da183272dd0b393a46ad5d120830",
+      "bytes": 69687,
+      "rows": 832
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790831700000/session_id=pflow/trades-0.parquet",
+      "sha256": "91e042753ce422cd5b38da9dd3941af3b53aedbc9f17dfcee04bd170dc853211",
+      "bytes": 102230,
+      "rows": 1322
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790832000000/session_id=pflow/trades-0.parquet",
+      "sha256": "2309ae871af9ddcfc29a497a4b1f509e288391f5908ebb3eb9515e0becdcbc63",
+      "bytes": 122364,
+      "rows": 1636
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790833800000/session_id=pflow/trades-0.parquet",
+      "sha256": "587084b25d119a34adb1afba3d7c97d45364d0888ff41b2e146a1fb66e955ab8",
+      "bytes": 58857,
+      "rows": 654
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790834100000/session_id=pflow/trades-0.parquet",
+      "sha256": "aacf39876223564ab5fb7b06c56b5c357e9d68a122d6377d902d4ee06986071d",
+      "bytes": 64913,
+      "rows": 755
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790834700000/session_id=pflow/trades-0.parquet",
+      "sha256": "dfceeda68d01810431510794c99c4b6eb3077b868cbbef449b8943f6e96be6bb",
+      "bytes": 110347,
+      "rows": 1451
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790835000000/session_id=pflow/trades-0.parquet",
+      "sha256": "737c2d9f61073fdf4a94c2e46465b982ee2ead60de21a0a82a75d6951b4be4a9",
+      "bytes": 60741,
+      "rows": 684
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790835900000/session_id=pflow/trades-0.parquet",
+      "sha256": "93187603a76ccecf9caab374d49e19dbb6df6a26a99d845449ef94a2c0fe7981",
+      "bytes": 146716,
+      "rows": 2086
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790836200000/session_id=pflow/trades-0.parquet",
+      "sha256": "9a27335b5e9e4d5b1e70df5ff485d1691b3ac9d1c983d1d8300b3706d7fca00b",
+      "bytes": 71328,
+      "rows": 854
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790836500000/session_id=pflow/trades-0.parquet",
+      "sha256": "50737cd38b347143e2e626e460db9d90ca67db322e600e5698934c878df6c59f",
+      "bytes": 94108,
+      "rows": 1197
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790837100000/session_id=pflow/trades-0.parquet",
+      "sha256": "374f7bd1e6e3357dd6c9b18aeedd9b28303c7589d05f02bd99de2dee1e9fa685",
+      "bytes": 145456,
+      "rows": 2075
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790838300000/session_id=pflow/trades-0.parquet",
+      "sha256": "fe25d345c52c81a3a679c2bc0c824b5a688ed3a73d47d4a87f78e3db6ed9fba5",
+      "bytes": 88464,
+      "rows": 1103
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790838900000/session_id=pflow/trades-0.parquet",
+      "sha256": "8f32c14425fb2517c22ef87fbbdb1f781c973a27e77b0b1ceb1f14a31781f323",
+      "bytes": 77454,
+      "rows": 953
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790840400000/session_id=pflow/trades-0.parquet",
+      "sha256": "1fa9b6a3517a07f180a03b1cb21bdd4a863cab1557e742f4bdf47d7348ed16d1",
+      "bytes": 224075,
+      "rows": 3378
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790841300000/session_id=pflow/trades-0.parquet",
+      "sha256": "c9c7428352076a12a6413e073113006151cafc756e4c0a817b66945799dd567c",
+      "bytes": 88545,
+      "rows": 1105
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790842800000/session_id=pflow/trades-0.parquet",
+      "sha256": "760202a81940234f732f34bcffdc7719396cae5fd193efed0e3c2bcd4a47ca90",
+      "bytes": 158422,
+      "rows": 2290
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790844000000/session_id=pflow/trades-0.parquet",
+      "sha256": "8f28d169ca685f045c4cef8eeb2b0ad14860e3cf53403a8c398450fe817df365",
+      "bytes": 94988,
+      "rows": 1208
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790844600000/session_id=pflow/trades-0.parquet",
+      "sha256": "2e2d3f611b25d59dbbc45b200aab52fdf7e788c59a1c6e086960a7e5041174dd",
+      "bytes": 166380,
+      "rows": 2422
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790845200000/session_id=pflow/trades-0.parquet",
+      "sha256": "19ed6c775f7fc59cb2c2d3c3130051c8786431beb8e2ed8992af7eccbeb6da7e",
+      "bytes": 115939,
+      "rows": 1544
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790845800000/session_id=pflow/trades-0.parquet",
+      "sha256": "b1b8cbebfcb7309f5757aa47629148fe06f2b17834bec6a282524a90ce16820a",
+      "bytes": 107206,
+      "rows": 1407
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790847000000/session_id=pflow/trades-0.parquet",
+      "sha256": "55a9366d436a7ac5d5ce9314ddf9056b8a448e47ed5a2e0b0cbe9a5a18dc2a15",
+      "bytes": 75958,
+      "rows": 930
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790847300000/session_id=pflow/trades-0.parquet",
+      "sha256": "d9217185716ba8c1a20d8917d83ad1476fbf9c953018509230b86a78ec030f7c",
+      "bytes": 109509,
+      "rows": 1436
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790847900000/session_id=pflow/trades-0.parquet",
+      "sha256": "8b2edbc911878c7e17f30f7d280502a458d077806c6d9f073cd9ab723a2ebfa5",
+      "bytes": 135047,
+      "rows": 1933
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790848200000/session_id=pflow/trades-0.parquet",
+      "sha256": "1006c578e6888d9d81fdf863e1df235ed8eedc9c8cdc63ab84503401ec22b5bb",
+      "bytes": 73748,
+      "rows": 893
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790848500000/session_id=pflow/trades-0.parquet",
+      "sha256": "f2f2c29f80289880c66e5df0af09fe2eb7e09c5293162edfb9732678fe703d48",
+      "bytes": 102365,
+      "rows": 1327
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790848800000/session_id=pflow/trades-0.parquet",
+      "sha256": "6e96fe09dcbfba6f1baf037c42ceddee5d0dd6e41d156f91c61aa033b948e48b",
+      "bytes": 64289,
+      "rows": 753
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790849700000/session_id=pflow/trades-0.parquet",
+      "sha256": "bbf3d27d987db2a51baa9280b6a9baf9df4f359f8ef1c1bb4d2133fa8c348f85",
+      "bytes": 127966,
+      "rows": 1706
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790853000000/session_id=pflow/trades-0.parquet",
+      "sha256": "de2d715372230ffcb110819eaae82729205de07a22bbe4b8011a60c3af7fa936",
+      "bytes": 134647,
+      "rows": 1830
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790853900000/session_id=pflow/trades-0.parquet",
+      "sha256": "73a64def3e28d9b1303971a3c8d4ebbf35f926e4d4b570a066de069d9c2f5922",
+      "bytes": 124268,
+      "rows": 1673
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790854500000/session_id=pflow/trades-0.parquet",
+      "sha256": "494a6849e8ca1a7770dcccfe7adcd3067aab662e341c166904e3e6fb95d091f6",
+      "bytes": 58879,
+      "rows": 655
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790855100000/session_id=pflow/trades-0.parquet",
+      "sha256": "396042690202ea8b89d69a18073dc7f0a9add04925d8ea4945d71b095e2149f9",
+      "bytes": 99518,
+      "rows": 1276
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790856300000/session_id=pflow/trades-0.parquet",
+      "sha256": "293be34102a6091d73dde8c52f71d10beaeacf16efa8ae9720f10e01badfc069",
+      "bytes": 97450,
+      "rows": 1240
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790856900000/session_id=pflow/trades-0.parquet",
+      "sha256": "ee84437e8b28b671f7d89c6e595c7a798c1f208c1f30482f1b4d3bd2c1947920",
+      "bytes": 91147,
+      "rows": 1153
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790859300000/session_id=pflow/trades-0.parquet",
+      "sha256": "938c95ff4dae662ad71dc780bb42f3b216a973250d16ca045f318a7dc0921701",
+      "bytes": 141941,
+      "rows": 2026
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790862600000/session_id=pflow/trades-0.parquet",
+      "sha256": "aa3bdd36be91289af84c21995fda71a4b96228c7eb9a16ed7506f18287dc740e",
+      "bytes": 142060,
+      "rows": 2035
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790864400000/session_id=pflow/trades-0.parquet",
+      "sha256": "34af3b403c3359742b1b097292f1a40640bce6390b19b8ba203c28bdf7c74eb4",
+      "bytes": 191886,
+      "rows": 2801
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790866200000/session_id=pflow/trades-0.parquet",
+      "sha256": "a9fdc6fa32ea8ef5cf757e705a9e8c8bce51163a1edbdfb8a72e2f68ea655542",
+      "bytes": 175567,
+      "rows": 2558
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790866500000/session_id=pflow/trades-0.parquet",
+      "sha256": "2073faf087e19025539bb3031c1adf3a1de9282408550d99a289c815d0f1e330",
+      "bytes": 122412,
+      "rows": 1633
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790870700000/session_id=pflow/trades-0.parquet",
+      "sha256": "c88a3ab4bb67ccfa565a7e6c72a0aadf7f47dc1d82c7046209387848602fc238",
+      "bytes": 136476,
+      "rows": 1862
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790872500000/session_id=pflow/trades-0.parquet",
+      "sha256": "eb4355c0dd7f88fc2367069af41dbb97d65a3099208e9e04dcbad9692174d58a",
+      "bytes": 106643,
+      "rows": 1385
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790874000000/session_id=pflow/trades-0.parquet",
+      "sha256": "4cf68d621dea4eb44cb2c3797aeeebdd30bf94a16aaf4d16986f077532341fbe",
+      "bytes": 75448,
+      "rows": 914
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790874900000/session_id=pflow/trades-0.parquet",
+      "sha256": "304d19a42e77f3c0896c083a43cd63efa31838e0d6b5ff3c4081f6d82afe6d73",
+      "bytes": 67364,
+      "rows": 788
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790875200000/session_id=pflow/trades-0.parquet",
+      "sha256": "a5d412a6a8ae83e326f6865e585064f10a7f0652fb85cc7b51fccbf8e3f2df6a",
+      "bytes": 141002,
+      "rows": 2009
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790875800000/session_id=pflow/trades-0.parquet",
+      "sha256": "aa67f7d89e3cfe2ead5714268b9b3d0d044f20df8454234383ccd5d7d5a92ca0",
+      "bytes": 155202,
+      "rows": 2225
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790877000000/session_id=pflow/trades-0.parquet",
+      "sha256": "9e7e240ec1a46180e073a6d5a5725eb2da530ff369012fa3257d8ee321d0ebcc",
+      "bytes": 132062,
+      "rows": 1793
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790877300000/session_id=pflow/trades-0.parquet",
+      "sha256": "b69c35da936a50791844f6ffdbb380f17d9bd35f265e07364b3b8f7e3f389ba3",
+      "bytes": 102525,
+      "rows": 1322
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790881200000/session_id=pflow/trades-0.parquet",
+      "sha256": "081b14433a5ca58eef2bce673b7c8484ba158b03bc3647fc0bd5043cc0972894",
+      "bytes": 105932,
+      "rows": 1377
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790883600000/session_id=pflow/trades-0.parquet",
+      "sha256": "419f82dd27d6f4127944aada01b65cce8917273cf7f8c64282f72fefa2d50fb9",
+      "bytes": 193447,
+      "rows": 2865
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790883900000/session_id=pflow/trades-0.parquet",
+      "sha256": "912237623f35defe695281c38dcff89619727333965ab7da6e0487f4925c8786",
+      "bytes": 112044,
+      "rows": 1477
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790885700000/session_id=pflow/trades-0.parquet",
+      "sha256": "d5d67705b51e1b2c6c3faed67578fb84e3615002b8fe7100767da5a31265d089",
+      "bytes": 176258,
+      "rows": 2592
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790886000000/session_id=pflow/trades-0.parquet",
+      "sha256": "ec8b4ccfb951825b0881724a11f35a4a31c6cfc9e917612b1ba68a2821642f8c",
+      "bytes": 124566,
+      "rows": 1683
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790886600000/session_id=pflow/trades-0.parquet",
+      "sha256": "53aebe7ff0c9e3750f91cfe222500944c6fd7de8166282eb38390da0b26e9f6d",
+      "bytes": 112955,
+      "rows": 1500
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790887200000/session_id=pflow/trades-0.parquet",
+      "sha256": "867ad1cf7cf1785cbccda94f90a19ffd41eb5e09930e0a09ade52c9f598f2cd7",
+      "bytes": 68836,
+      "rows": 815
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790887500000/session_id=pflow/trades-0.parquet",
+      "sha256": "b7c1bdbe67e525f563d3290245f5de02b01acae2e24b049f620abaf918ce0f90",
+      "bytes": 121835,
+      "rows": 1625
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790887800000/session_id=pflow/trades-0.parquet",
+      "sha256": "bbec1c98286708b16f4c4959af38be30c65a087bd256366e0ef3a87b94cbc43a",
+      "bytes": 128271,
+      "rows": 1732
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790891100000/session_id=pflow/trades-0.parquet",
+      "sha256": "f05ad77d811af65aaa4af97499f64538ec2c78505540e02e1ba46d7e4c626a63",
+      "bytes": 84278,
+      "rows": 1048
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790891400000/session_id=pflow/trades-0.parquet",
+      "sha256": "80a81785212b64535f04973f0e09313edc7c5bdc704dec99a0acf0b62cf7033c",
+      "bytes": 76439,
+      "rows": 936
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790892000000/session_id=pflow/trades-0.parquet",
+      "sha256": "84f1ff9b937fd204be453273e8d113e8e347580013135d1f4d440ea722a38555",
+      "bytes": 59593,
+      "rows": 666
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790892300000/session_id=pflow/trades-0.parquet",
+      "sha256": "83a8f77f9b94a5e8ab5df62029fab66b5da047a9afecfe76394e43401736ce78",
+      "bytes": 124884,
+      "rows": 1678
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790893800000/session_id=pflow/trades-0.parquet",
+      "sha256": "543300547fab76c7bed4fb8965de7fc41783a2ed532da9cbe4f540f47e98edec",
+      "bytes": 93042,
+      "rows": 1177
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790894100000/session_id=pflow/trades-0.parquet",
+      "sha256": "0f47acf43e3a6f90e67f7893d94f5595169c752afaba615852bebaca48bdc1a5",
+      "bytes": 58702,
+      "rows": 655
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790896500000/session_id=pflow/trades-0.parquet",
+      "sha256": "3061ab826877288f1e9c78a076a119267f96db00a6431ae0afe475919459b437",
+      "bytes": 81842,
+      "rows": 1019
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790897100000/session_id=pflow/trades-0.parquet",
+      "sha256": "b7653d99227fae468f66e9db1a081304be7e317003bc8ef2f6734e2547005b5e",
+      "bytes": 180488,
+      "rows": 2667
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790897400000/session_id=pflow/trades-0.parquet",
+      "sha256": "017302dd8ef6eebb7c951c004a170726adab96d8cfffdce54f202b404378c3a1",
+      "bytes": 162761,
+      "rows": 2406
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790897700000/session_id=pflow/trades-0.parquet",
+      "sha256": "866d9be1c93869239ec229ce3015b54a3b0b9e3771b8d0b88b538dfbf76b8442",
+      "bytes": 127381,
+      "rows": 1737
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790898000000/session_id=pflow/trades-0.parquet",
+      "sha256": "ec4b74485ec5cfe694309ad8692c3cf68810362dcb0486df2af708be0f347298",
+      "bytes": 104862,
+      "rows": 1369
+    },
+    {
+      "file": "poly/trade_tape/market_key=btc_5m/contract_start_ms=1790898600000/session_id=pflow/trades-0.parquet",
+      "sha256": "10cec5da7381c35f379c04c2e698c94a87fc47f88b5f7102a5e01ddcbd3fd8c7",
+      "bytes": 95813,
+      "rows": 1223
+    }
+  ],
+  "outputs": [
+    {
+      "file": "fresh_fill_venue_links.parquet",
+      "sha256": "77b084d4825caa86c76df4cf48468b0294be20613980c154f177a89d8deacd92",
+      "bytes": 365675,
+      "rows": 3314,
+      "columns": [
+        "side",
+        "token_id",
+        "condition_id",
+        "size",
+        "price",
+        "timestamp",
+        "slug",
+        "event_slug",
+        "outcome",
+        "outcome_index",
+        "transaction_hash",
+        "api_role",
+        "role_basis",
+        "wallet_row_id",
+        "salt",
+        "decoded_role",
+        "order_ts_ms",
+        "order_limit",
+        "requested_shares",
+        "market_key",
+        "contract_start_ms",
+        "contract_end_ms",
+        "is_yes",
+        "api_after_contract_end_ms",
+        "direct_candidate_count",
+        "complement_candidate_count",
+        "mapped_print_venue_ms",
+        "mapped_print_cache_ns",
+        "mapped_print_price",
+        "api_minus_mapped_print_ms",
+        "first_candidate_venue_ms",
+        "last_candidate_venue_ms",
+        "print_link_status",
+        "selected_candidate_id",
+        "partition_source_print_rows",
+        "partition_first_venue_ms",
+        "partition_last_venue_ms",
+        "api_minus_partition_last_venue_ms",
+        "api_timestamp_after_partition_last_print",
+        "api_timestamp_before_partition_first_print"
+      ]
+    },
+    {
+      "file": "fresh_venue_print_candidates.parquet",
+      "sha256": "b832427c03e819bf539bff56103b3f8f92bca1874b4b3e718c6f3e9c0970a7ed",
+      "bytes": 214807,
+      "rows": 2248,
+      "columns": [
+        "session_id",
+        "seq",
+        "event_uid",
+        "venue_ts_ms",
+        "ts_ns",
+        "flags",
+        "token_id",
+        "is_yes",
+        "price_micros",
+        "size_micros",
+        "side",
+        "transaction_hash",
+        "source_row_ordinal",
+        "source_file",
+        "candidate_id",
+        "wallet_row_id",
+        "wallet_token_id",
+        "candidate_link_type",
+        "price_in_wallet_outcome",
+        "api_price_difference",
+        "price_within_tolerance",
+        "api_minus_venue_ms",
+        "source_print_shares",
+        "api_share_difference"
+      ]
+    }
+  ],
+  "unmatched_catalog_rows": [
+    {
+      "wallet_row_id": 320,
+      "transaction_hash": "0x679c9032092d5ff166b2d8716d69a386ccbc3c575a1c86316042aadd30965949",
+      "token_id": "70267824433042986539473473897180996933319940407560913373310244394921230601775",
+      "market_key": "btc_15m",
+      "contract_start_ms": 1790885700000.0,
+      "contract_end_ms": 1790886600000.0,
+      "timestamp": 1790886687,
+      "api_after_contract_end_ms": 87000.0,
+      "partition_first_venue_ms": 1790885395750.0,
+      "partition_last_venue_ms": 1790886631317.0,
+      "api_minus_partition_last_venue_ms": 55683.0,
+      "api_timestamp_after_partition_last_print": true
+    },
+    {
+      "wallet_row_id": 1463,
+      "transaction_hash": "0x3c04b5615be2f99bd1333e88bf815c5945b69a7405e36c9a616821304e8336e6",
+      "token_id": "75199889774548251935789501954813226322982174838216045930373429087175011308764",
+      "market_key": "btc_5m",
+      "contract_start_ms": 1790813100000.0,
+      "contract_end_ms": 1790813400000.0,
+      "timestamp": 1790813360,
+      "api_after_contract_end_ms": -40000.0,
+      "partition_first_venue_ms": 1790812837378.0,
+      "partition_last_venue_ms": 1790813428648.0,
+      "api_minus_partition_last_venue_ms": -68648.0,
+      "api_timestamp_after_partition_last_print": false
+    },
+    {
+      "wallet_row_id": 1658,
+      "transaction_hash": "0x6611b0e8eb0431a2530d8bfd5971e1cd08e4c2c285f5034a87e93709a20daf07",
+      "token_id": "81968314248228550312681205533395920082202906993622272553842549974572467810087",
+      "market_key": "btc_5m",
+      "contract_start_ms": 1790804100000.0,
+      "contract_end_ms": 1790804400000.0,
+      "timestamp": 1790804507,
+      "api_after_contract_end_ms": 107000.0,
+      "partition_first_venue_ms": 1790803823492.0,
+      "partition_last_venue_ms": 1790804410275.0,
+      "api_minus_partition_last_venue_ms": 96725.0,
+      "api_timestamp_after_partition_last_print": true
+    },
+    {
+      "wallet_row_id": 1659,
+      "transaction_hash": "0x7adf4cf01014641209b5a2f34c8fd6482c8cf509332ceff98c291b9c374cc3dd",
+      "token_id": "81968314248228550312681205533395920082202906993622272553842549974572467810087",
+      "market_key": "btc_5m",
+      "contract_start_ms": 1790804100000.0,
+      "contract_end_ms": 1790804400000.0,
+      "timestamp": 1790804463,
+      "api_after_contract_end_ms": 63000.0,
+      "partition_first_venue_ms": 1790803823492.0,
+      "partition_last_venue_ms": 1790804410275.0,
+      "api_minus_partition_last_venue_ms": 52725.0,
+      "api_timestamp_after_partition_last_print": true
+    },
+    {
+      "wallet_row_id": 2153,
+      "transaction_hash": "0x53d029861b55414f1379cb1c7545f7c8b29f1f135d667d06fac0c357fb540edd",
+      "token_id": "56577153309501457663678190972639737838241864150406594120542641638638331844214",
+      "market_key": "btc_15m",
+      "contract_start_ms": 1790783100000.0,
+      "contract_end_ms": 1790784000000.0,
+      "timestamp": 1790784063,
+      "api_after_contract_end_ms": 63000.0,
+      "partition_first_venue_ms": 1790782476434.0,
+      "partition_last_venue_ms": 1790784016723.0,
+      "api_minus_partition_last_venue_ms": 46277.0,
+      "api_timestamp_after_partition_last_print": true
+    },
+    {
+      "wallet_row_id": 2170,
+      "transaction_hash": "0x6491ab71209c303db784438fa67f917c2854dbd62f524b4f023ec36ad77fb559",
+      "token_id": "103467699460287382158523513432653533128048818736619585530772485698606415190617",
+      "market_key": "btc_5m",
+      "contract_start_ms": 1790780100000.0,
+      "contract_end_ms": 1790780400000.0,
+      "timestamp": 1790780481,
+      "api_after_contract_end_ms": 81000.0,
+      "partition_first_venue_ms": 1790779314560.0,
+      "partition_last_venue_ms": 1790780457858.0,
+      "api_minus_partition_last_venue_ms": 23142.0,
+      "api_timestamp_after_partition_last_print": true
+    },
+    {
+      "wallet_row_id": 2841,
+      "transaction_hash": "0xa0844e906a4225431f2fb4100d2be6467e71cdfefd3ad4e339a435f22584f3ff",
+      "token_id": "9331072391912004086835787969247287609552565105155512478221347332841928065174",
+      "market_key": "btc_5m",
+      "contract_start_ms": 1790744700000.0,
+      "contract_end_ms": 1790745000000.0,
+      "timestamp": 1790745071,
+      "api_after_contract_end_ms": 71000.0,
+      "partition_first_venue_ms": 1790743939126.0,
+      "partition_last_venue_ms": 1790745027291.0,
+      "api_minus_partition_last_venue_ms": 43709.0,
+      "api_timestamp_after_partition_last_print": true
+    },
+    {
+      "wallet_row_id": 2968,
+      "transaction_hash": "0x93a34173ec851f597e298073e92f2c54293cf9dc1f4f4a2c62709a097d2de134",
+      "token_id": "98569546996110298855600216519389034817829877932012900378474184405151664147370",
+      "market_key": "btc_15m",
+      "contract_start_ms": 1790738100000.0,
+      "contract_end_ms": 1790739000000.0,
+      "timestamp": 1790739063,
+      "api_after_contract_end_ms": 63000.0,
+      "partition_first_venue_ms": 1790737204756.0,
+      "partition_last_venue_ms": 1790739005090.0,
+      "api_minus_partition_last_venue_ms": 57910.0,
+      "api_timestamp_after_partition_last_print": true
+    }
+  ],
+  "legacy_reference": {
+    "file": "context/legacy_gt_reference.py",
+    "original_source": "boneohio_20261002_PARITY/gt.py",
+    "original_sha256": "b982cb48ab5d80312babb773b1cb6e3e49afd3cd752516dc2fbf95490f6c69b7",
+    "sanitized_sha256": "2f55e6e506174029a4b46dcf839dd08d7d0919f977d98d610ab2e2f45ee279b1"
+  },
+  "limits": [
+    "Retrospective public print attribution only; no observed wallet decision/submit/match time.",
+    "Direct transaction/token candidates are preferred; otherwise opposite catalog token is explicitly complemented.",
+    "Multiple preferred candidates leave mapped time null even if timestamps are equal.",
+    "No candidate is selected by minimum API lag, maximum edge, outcome, fill quantity or profitability.",
+    "A single price-consistent complement candidate remains an attribution candidate, not exact signed-order proof.",
+    "Source venue time must be positive; normalized cache clock is never substituted as venue time.",
+    "Every source candidate, price/quantity discrepancy and missing partition is preserved.",
+    "Partition first/last positive venue times are computed before transaction filtering; they are observed print ranges, not certified continuous capture.",
+    "API-after-partition flags diagnose interval censoring only; API seconds already lag public prints and cannot prove the missing event occurred beyond the tail.",
+    "No print-minus40 matching proxy or reaction latency is fabricated.",
+    "API time selection may censor prints at the requested interval edges; all-asset rows outside BTC catalog remain explicit.",
+    "Pflow collector clocks follow the audited per-row vendor witness merge; no CHD source is read."
+  ]
+}

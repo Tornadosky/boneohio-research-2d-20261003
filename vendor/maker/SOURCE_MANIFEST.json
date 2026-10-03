@@ -1,0 +1,67 @@
+{
+  "snapshot_date_utc": "2026-10-03",
+  "canonical_q99_engine": "q99_20261002_DEPLOYGAP/lat/pkg_v9fp",
+  "newer_recommendation": "notes/REPLAY.md eng_ftfix (footprint own removal + bounded trade-through)",
+  "original_files_are_reference_only": true,
+  "public_redaction": "Source paths, host names and private account aliases anonymized; extracted fill functions unchanged.",
+  "extracted_functions": [
+    "_cancel",
+    "_pm",
+    "above_asof",
+    "sim_dm",
+    "sim_engine",
+    "sim_fp3",
+    "token_bids"
+  ],
+  "files": [
+    {
+      "file": "replay.py",
+      "source": "q99_20261002_DEPLOYGAP/code/replay/replay.py",
+      "source_bytes": 24244,
+      "source_sha256": "5275b4425b6f3ee5562e62e39ef623b55ddf1187df80eef42b8b01522c73ad7e",
+      "distributed_bytes": 24765,
+      "distributed_sha256": "e29ce383d3c4817db285f95ea260749d2b29777494bf4df2a7e2c049edca16c2"
+    },
+    {
+      "file": "fillrep.py",
+      "source": "q99_20261002_DEPLOYGAP/code/fill/fillrep.py",
+      "source_bytes": 13499,
+      "source_sha256": "f099f56ab7e540de09242cd462e9210cddcb91d400f2c66a1376378bd8c4ad83",
+      "distributed_bytes": 13773,
+      "distributed_sha256": "7032fa5f4c6575c1170c48f5e1093d94a9a6cb54be63b88d3f98f230a3da170e"
+    },
+    {
+      "file": "queue99_backtester.py",
+      "source": "q99_20261002_DEPLOYGAP/lat/pkg_v9fp/queue99_backtester.py",
+      "source_bytes": 521011,
+      "source_sha256": "9a35c079aa5e22dd469db23cf6f607e22e871dbeaafbbdf682f1b2648113c6e3",
+      "distributed_bytes": 530129,
+      "distributed_sha256": "0d49f55e6d883b2e41e26d869a783fb8f0b96476b5b6acc57a607942ca200e68"
+    },
+    {
+      "file": "canonical_bone.py",
+      "source": "boneohio_20261002_FINAL/maker/canonical_bone.py",
+      "source_bytes": 4654,
+      "source_sha256": "6a344da9db1c768cf09f56127a920802865766b14e47c77e42405abb58517804",
+      "distributed_bytes": 4729,
+      "distributed_sha256": "ce6ee24366d5f7cd571514e1f8285c30c1543142e455123eadf2a877f26789be"
+    },
+    {
+      "file": "REPLAY.md",
+      "source": "q99_20261002_DEPLOYGAP/notes/REPLAY.md",
+      "source_bytes": 23480,
+      "source_sha256": "2217538a2909b3975d9f9df2b40988edb326bbfb2967b223929a44810aeba19f",
+      "distributed_bytes": 24422,
+      "distributed_sha256": "6ee1b416bdc4b2ab1f89eaf03a37f3a8945c9534517e77ea7f6f9a2da8d5b8f4"
+    },
+    {
+      "file": "RUNBOOK.md",
+      "source": "boneohio_20261002_FINAL/maker/RUNBOOK.md",
+      "source_bytes": 13713,
+      "source_sha256": "734f7048c2b76590113f9634878f2aba2f079b0770fd0a7deb464cbf93cd3b84",
+      "distributed_bytes": 13818,
+      "distributed_sha256": "bf15696787cdc7ff3b2a377f1a04d4d738e518c8e800d4b53235201535b0c23d"
+    }
+  ],
+  "extracted_sha256": "6ab536e136f3519c7375eb918aaec4572e4181bb4df75ffa6fc1318a20443be3"
+}

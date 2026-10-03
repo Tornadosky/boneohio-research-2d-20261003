@@ -1,0 +1,1110 @@
+{
+  "exported_utc": "2026-10-03T16:09:27.563322+00:00",
+  "task": "boneohio_20261003_BROWSER_BUNDLE",
+  "scope": "historical research evidence; latest market data is separate",
+  "pointer_roots": {
+    "$VIPER_PTMP": "source HPC scratch root; private account component removed",
+    "$VIPER_HOME": "source researcher home root; private account component removed"
+  },
+  "files": [
+    {
+      "source": "$VIPER_HOME/vania/boneohio_20261002_FINAL/RESULT.md",
+      "source_bytes": 14349,
+      "source_sha256": "4172256245bdebc416e52e25ad50b43010fff22db58376e7889177533b124727",
+      "output": "historical/FINAL_RESULT.md",
+      "output_bytes": 14360,
+      "output_sha256": "83c0b05b3ae865b950d34df9cfd153c0605c0a14f719529beb6fc45e71070d9e",
+      "transform": "UTF-8; research-root paths replaced with documented variables",
+      "interpretation": "FINAL authoritative; historical reused evidence"
+    },
+    {
+      "source": "$VIPER_HOME/vania/boneohio_20261002_FINAL/selection/RESULT.md",
+      "source_bytes": 10540,
+      "source_sha256": "94ef4b90b8c92e501a4ae93d05685a24ebc1fe5060a2a92d4f664970c6f4a3c3",
+      "output": "historical/SELECTION_RESULT.md",
+      "output_bytes": 10541,
+      "output_sha256": "8e0a163defcdf3d3369479da892b709f7b23e13209c7abab3af8ce413b606dd8",
+      "transform": "UTF-8; research-root paths replaced with documented variables",
+      "interpretation": "FINAL authoritative; historical reused evidence"
+    },
+    {
+      "source": "$VIPER_HOME/vania/boneohio_20261002_FINAL/taker/RESULT.md",
+      "source_bytes": 10393,
+      "source_sha256": "c9a4c62c437ecb6b27f41677d3c68fb3edc4ce41230145d8f39fc30c0d0a74f2",
+      "output": "historical/TAKER_RESULT.md",
+      "output_bytes": 10408,
+      "output_sha256": "6eec33c38461c76ed414c9e35affa6c4c0a852d4b6d01c7109e751349206ee39",
+      "transform": "UTF-8; research-root paths replaced with documented variables",
+      "interpretation": "FINAL authoritative; historical reused evidence"
+    },
+    {
+      "source": "$VIPER_HOME/vania/boneohio_20261002_FINAL/maker/RUNBOOK.md",
+      "source_bytes": 13713,
+      "source_sha256": "734f7048c2b76590113f9634878f2aba2f079b0770fd0a7deb464cbf93cd3b84",
+      "output": "historical/MAKER_RUNBOOK.md",
+      "output_bytes": 13724,
+      "output_sha256": "fdfb47a827e27688494dafa9cbc7072b39bbe9bc3810fff6bffdb344abd85479",
+      "transform": "UTF-8; research-root paths replaced with documented variables",
+      "interpretation": "FINAL authoritative; historical reused evidence"
+    },
+    {
+      "source": "$VIPER_PTMP/exp/boneohio_20261002_FINAL/baseline/summary.csv",
+      "source_bytes": 1206,
+      "source_sha256": "7f7f1447f8ed62ee7ea473a1191f2066509ee0435329757ec804e92fe2faa9d2",
+      "output": "historical/baseline/summary.csv",
+      "output_bytes": 1206,
+      "output_sha256": "7f7f1447f8ed62ee7ea473a1191f2066509ee0435329757ec804e92fe2faa9d2",
+      "transform": "UTF-8; research-root paths replaced with documented variables",
+      "interpretation": "FINAL authoritative; historical reused evidence"
+    },
+    {
+      "source": "$VIPER_PTMP/exp/boneohio_20261002_FINAL/baseline/daily.csv",
+      "source_bytes": 5158,
+      "source_sha256": "587f968b5e5555c63115e96e30e0ae91b3d52c6cb9e1c4fc16f65b59fc3c6ef7",
+      "output": "historical/baseline/daily.csv",
+      "output_bytes": 5158,
+      "output_sha256": "587f968b5e5555c63115e96e30e0ae91b3d52c6cb9e1c4fc16f65b59fc3c6ef7",
+      "transform": "UTF-8; research-root paths replaced with documented variables",
+      "interpretation": "FINAL authoritative; historical reused evidence"
+    },
+    {
+      "source": "$VIPER_PTMP/exp/boneohio_20261002_FINAL/maker/summary.csv",
+      "source_bytes": 11292,
+      "source_sha256": "fa9a992a5f5dc80e47b6b46545eb1768dc84479e8727dda83f3a9ef2d1ec48f9",
+      "output": "historical/maker/summary.csv",
+      "output_bytes": 11292,
+      "output_sha256": "fa9a992a5f5dc80e47b6b46545eb1768dc84479e8727dda83f3a9ef2d1ec48f9",
+      "transform": "UTF-8; research-root paths replaced with documented variables",
+      "interpretation": "FINAL authoritative; historical reused evidence"
+    },
+    {
+      "source": "$VIPER_PTMP/exp/boneohio_20261002_FINAL/maker/date_metrics.csv",
+      "source_bytes": 27713,
+      "source_sha256": "4a7df6c9ede6db0b2ec9edf527fec8bed601080e4429d3b81f6cafdab4045714",
+      "output": "historical/maker/date_metrics.csv",
+      "output_bytes": 27713,
+      "output_sha256": "4a7df6c9ede6db0b2ec9edf527fec8bed601080e4429d3b81f6cafdab4045714",
+      "transform": "UTF-8; research-root paths replaced with documented variables",
+      "interpretation": "FINAL authoritative; historical reused evidence"
+    },
+    {
+      "source": "$VIPER_PTMP/exp/boneohio_20261002_FINAL/maker/week_metrics.csv",
+      "source_bytes": 5547,
+      "source_sha256": "303d303254f4c23bf5c2d12039736583bbfe36952abc4100498f965bfd13ab65",
+      "output": "historical/maker/week_metrics.csv",
+      "output_bytes": 5547,
+      "output_sha256": "303d303254f4c23bf5c2d12039736583bbfe36952abc4100498f965bfd13ab65",
+      "transform": "UTF-8; research-root paths replaced with documented variables",
+      "interpretation": "FINAL authoritative; historical reused evidence"
+    },
+    {
+      "source": "$VIPER_PTMP/exp/boneohio_20261002_FINAL/maker/loser_orders.csv",
+      "source_bytes": 9903,
+      "source_sha256": "15804a86a4de55b91c80f71a7a90830097f207ae126135ebb93f9002dca9bb73",
+      "output": "historical/maker/loser_orders.csv",
+      "output_bytes": 9903,
+      "output_sha256": "15804a86a4de55b91c80f71a7a90830097f207ae126135ebb93f9002dca9bb73",
+      "transform": "UTF-8; research-root paths replaced with documented variables",
+      "interpretation": "FINAL authoritative; historical reused evidence"
+    },
+    {
+      "source": "$VIPER_PTMP/exp/boneohio_20261002_FINAL/maker/snapshot_down_resets.csv",
+      "source_bytes": 95,
+      "source_sha256": "aeaa3c9bb902b06cf081e9c0c25a3cdab0d5b94ffacce00685b02452fc0dd84c",
+      "output": "historical/maker/snapshot_down_resets.csv",
+      "output_bytes": 95,
+      "output_sha256": "aeaa3c9bb902b06cf081e9c0c25a3cdab0d5b94ffacce00685b02452fc0dd84c",
+      "transform": "UTF-8; research-root paths replaced with documented variables",
+      "interpretation": "FINAL authoritative; historical reused evidence"
+    },
+    {
+      "source": "$VIPER_PTMP/exp/boneohio_20261002_FINAL/maker/summary.json",
+      "source_bytes": 3500,
+      "source_sha256": "97255a52e07d79a8d26008a2f953fc83fc97a0bee9e6310288b8b6c08dd5e4f8",
+      "output": "historical/maker/summary.json",
+      "output_bytes": 3500,
+      "output_sha256": "97255a52e07d79a8d26008a2f953fc83fc97a0bee9e6310288b8b6c08dd5e4f8",
+      "transform": "UTF-8; research-root paths replaced with documented variables",
+      "interpretation": "FINAL authoritative; historical reused evidence"
+    },
+    {
+      "source": "$VIPER_PTMP/exp/boneohio_20261002_FINAL/maker/errors.json",
+      "source_bytes": 2,
+      "source_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "output": "historical/maker/errors.json",
+      "output_bytes": 2,
+      "output_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "transform": "UTF-8; research-root paths replaced with documented variables",
+      "interpretation": "FINAL authoritative; historical reused evidence"
+    },
+    {
+      "source": "$VIPER_PTMP/exp/boneohio_20261002_FINAL/maker/canonical/summary.csv",
+      "source_bytes": 6028,
+      "source_sha256": "c5b99ddf8fce2e19dacb31c377c43e1d20968d374bd56279a1e82e0dacd94739",
+      "output": "historical/maker/canonical/summary.csv",
+      "output_bytes": 6028,
+      "output_sha256": "c5b99ddf8fce2e19dacb31c377c43e1d20968d374bd56279a1e82e0dacd94739",
+      "transform": "UTF-8; research-root paths replaced with documented variables",
+      "interpretation": "FINAL authoritative; historical reused evidence"
+    },
+    {
+      "source": "$VIPER_PTMP/exp/boneohio_20261002_FINAL/maker/canonical/date_metrics.csv",
+      "source_bytes": 14384,
+      "source_sha256": "3abd2803467e7a89b8cd59d8b2899859382d81f76c30ae8522b16272372c2814",
+      "output": "historical/maker/canonical/date_metrics.csv",
+      "output_bytes": 14384,
+      "output_sha256": "3abd2803467e7a89b8cd59d8b2899859382d81f76c30ae8522b16272372c2814",
+      "transform": "UTF-8; research-root paths replaced with documented variables",
+      "interpretation": "FINAL authoritative; historical reused evidence"
+    },
+    {
+      "source": "$VIPER_PTMP/exp/boneohio_20261002_FINAL/maker/canonical/week_metrics.csv",
+      "source_bytes": 2958,
+      "source_sha256": "1af1c62861cc7223d9ed1dd654ddc3cd14e8d456ec1fe793169376e2785d1c4a",
+      "output": "historical/maker/canonical/week_metrics.csv",
+      "output_bytes": 2958,
+      "output_sha256": "1af1c62861cc7223d9ed1dd654ddc3cd14e8d456ec1fe793169376e2785d1c4a",
+      "transform": "UTF-8; research-root paths replaced with documented variables",
+      "interpretation": "FINAL authoritative; historical reused evidence"
+    },
+    {
+      "source": "$VIPER_PTMP/exp/boneohio_20261002_FINAL/maker/canonical/loser_orders.csv",
+      "source_bytes": 4901,
+      "source_sha256": "7ebaa646d87c6a895affc0c7c667c86e2c4ef00ccd095d59f6d4fdc27ccfc6e1",
+      "output": "historical/maker/canonical/loser_orders.csv",
+      "output_bytes": 4901,
+      "output_sha256": "7ebaa646d87c6a895affc0c7c667c86e2c4ef00ccd095d59f6d4fdc27ccfc6e1",
+      "transform": "UTF-8; research-root paths replaced with documented variables",
+      "interpretation": "FINAL authoritative; historical reused evidence"
+    },
+    {
+      "source": "$VIPER_PTMP/exp/boneohio_20261002_FINAL/maker/canonical/queue_variants.parquet",
+      "source_bytes": 137544,
+      "source_sha256": "49be508b9ab7012e053d3d9aaca1a11cdf9bd166255b13df7410f0b9b0ddcf9d",
+      "output": "historical/maker/canonical/queue_variants.parquet",
+      "output_bytes": 137544,
+      "output_sha256": "49be508b9ab7012e053d3d9aaca1a11cdf9bd166255b13df7410f0b9b0ddcf9d",
+      "transform": "byte-identical curated historical evidence",
+      "rows": 3384,
+      "columns": [
+        "salt",
+        "coin",
+        "mk",
+        "cs",
+        "ce",
+        "roles",
+        "state",
+        "rem0",
+        "real_sh",
+        "real_first",
+        "won",
+        "t0",
+        "t1",
+        "footprint_seq",
+        "footprint_candidates",
+        "ahead_seq_footprint",
+        "tick001",
+        "variant",
+        "sim_sh",
+        "sim_first",
+        "live_qualifying_prints",
+        "live_prints_with_better_depth",
+        "live_better_depth_subtracted",
+        "date",
+        "week",
+        "real_pnl",
+        "sim_pnl"
+      ]
+    },
+    {
+      "source": "$VIPER_PTMP/exp/boneohio_20261002_FINAL/maker/canonical/errors.json",
+      "source_bytes": 2,
+      "source_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "output": "historical/maker/canonical/errors.json",
+      "output_bytes": 2,
+      "output_sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "transform": "UTF-8; research-root paths replaced with documented variables",
+      "interpretation": "FINAL authoritative; historical reused evidence"
+    },
+    {
+      "source": "$VIPER_PTMP/exp/boneohio_20261002_FINAL/maker/own99/summary.csv",
+      "source_bytes": 7316,
+      "source_sha256": "22593b1dff7a916aef64dda0efc9d811a0561192aa321c4766ea7ef538af344b",
+      "output": "historical/maker/own99/summary.csv",
+      "output_bytes": 7316,
+      "output_sha256": "22593b1dff7a916aef64dda0efc9d811a0561192aa321c4766ea7ef538af344b",
+      "transform": "UTF-8; research-root paths replaced with documented variables",
+      "interpretation": "FINAL authoritative; historical reused evidence"
+    },
+    {
+      "source": "$VIPER_PTMP/exp/boneohio_20261002_FINAL/maker/own99/daily.csv",
+      "source_bytes": 3937,
+      "source_sha256": "df03501ea694e3e5ee5cdacfffef5ad53b0334d8fef6aaec6fa5da4e9db0cf42",
+      "output": "historical/maker/own99/daily.csv",
+      "output_bytes": 3937,
+      "output_sha256": "df03501ea694e3e5ee5cdacfffef5ad53b0334d8fef6aaec6fa5da4e9db0cf42",
+      "transform": "UTF-8; research-root paths replaced with documented variables",
+      "interpretation": "FINAL authoritative; historical reused evidence"
+    },
+    {
+      "source": "$VIPER_PTMP/exp/boneohio_20261002_FINAL/taker/latency_summary.csv",
+      "source_bytes": 8261,
+      "source_sha256": "49d35d86c255e44840aabe6af6e166cdac5ab18bb12206fb442815159d766cb0",
+      "output": "historical/taker/latency_summary.csv",
+      "output_bytes": 8261,
+      "output_sha256": "49d35d86c255e44840aabe6af6e166cdac5ab18bb12206fb442815159d766cb0",
+      "transform": "UTF-8; research-root paths replaced with documented variables",
+      "interpretation": "FINAL authoritative; historical reused evidence"
+    },
+    {
+      "source": "$VIPER_PTMP/exp/boneohio_20261002_FINAL/taker/daily.csv",
+      "source_bytes": 63995,
+      "source_sha256": "f0a9cc115dfd92ca360a8f5edc0a0431cb8eb372eb3022ec8579cb7d890ec796",
+      "output": "historical/taker/daily.csv",
+      "output_bytes": 63995,
+      "output_sha256": "f0a9cc115dfd92ca360a8f5edc0a0431cb8eb372eb3022ec8579cb7d890ec796",
+      "transform": "UTF-8; research-root paths replaced with documented variables",
+      "interpretation": "FINAL authoritative; historical reused evidence"
+    },
+    {
+      "source": "$VIPER_PTMP/exp/boneohio_20261002_FINAL/taker/weekly.csv",
+      "source_bytes": 9073,
+      "source_sha256": "96b124e1ac886edba4a5706bc16567405b9a195d42cad90b83dd509d5677e68a",
+      "output": "historical/taker/weekly.csv",
+      "output_bytes": 9073,
+      "output_sha256": "96b124e1ac886edba4a5706bc16567405b9a195d42cad90b83dd509d5677e68a",
+      "transform": "UTF-8; research-root paths replaced with documented variables",
+      "interpretation": "FINAL authoritative; historical reused evidence"
+    },
+    {
+      "source": "$VIPER_PTMP/exp/boneohio_20261002_FINAL/taker/coverage.csv",
+      "source_bytes": 621,
+      "source_sha256": "fb60e075d2fd0f4518be3843819c2cf11900b8f0f36c3238f156e967761ab804",
+      "output": "historical/taker/coverage.csv",
+      "output_bytes": 621,
+      "output_sha256": "fb60e075d2fd0f4518be3843819c2cf11900b8f0f36c3238f156e967761ab804",
+      "transform": "UTF-8; research-root paths replaced with documented variables",
+      "interpretation": "FINAL authoritative; historical reused evidence"
+    },
+    {
+      "source": "$VIPER_PTMP/exp/boneohio_20261002_FINAL/taker/contract_audit.csv",
+      "source_bytes": 106858,
+      "source_sha256": "f816cc3a5168d8b811870252c5512cf6b8fbb4ba30ac8d8b2317d587353b2284",
+      "output": "historical/taker/contract_audit.csv",
+      "output_bytes": 106858,
+      "output_sha256": "f816cc3a5168d8b811870252c5512cf6b8fbb4ba30ac8d8b2317d587353b2284",
+      "transform": "UTF-8; research-root paths replaced with documented variables",
+      "interpretation": "FINAL authoritative; historical reused evidence"
+    },
+    {
+      "source": "$VIPER_PTMP/exp/boneohio_20261002_FINAL/taker/metadata.json",
+      "source_bytes": 2214,
+      "source_sha256": "633bf007de522d8fb03f6d49ac2e1b5fd3b64c196f3e7eefa13feaf1bd94515a",
+      "output": "historical/taker/metadata.json",
+      "output_bytes": 2205,
+      "output_sha256": "6cec9dffec78df95a8e835a4fba2c813051e33b7bfb9bec87a0de67814273e5b",
+      "transform": "UTF-8; research-root paths replaced with documented variables",
+      "interpretation": "FINAL authoritative; historical reused evidence"
+    },
+    {
+      "source": "$VIPER_PTMP/exp/boneohio_20261002_FINAL/selection/selection_metrics.csv",
+      "source_bytes": 19393,
+      "source_sha256": "77720bdf43365a38ebc26e3a7040e521576aa2f4891d71f5d7280452db0c8913",
+      "output": "historical/selection/selection_metrics.csv",
+      "output_bytes": 19393,
+      "output_sha256": "77720bdf43365a38ebc26e3a7040e521576aa2f4891d71f5d7280452db0c8913",
+      "transform": "UTF-8; research-root paths replaced with documented variables",
+      "interpretation": "FINAL authoritative; historical reused evidence"
+    },
+    {
+      "source": "$VIPER_PTMP/exp/boneohio_20261002_FINAL/selection/selection_daily.csv",
+      "source_bytes": 123815,
+      "source_sha256": "4d8ecd8d3e647facd0418da3a7e558191b76c1dfe07b1b0ecdf825a3a3d5a986",
+      "output": "historical/selection/selection_daily.csv",
+      "output_bytes": 123815,
+      "output_sha256": "4d8ecd8d3e647facd0418da3a7e558191b76c1dfe07b1b0ecdf825a3a3d5a986",
+      "transform": "UTF-8; research-root paths replaced with documented variables",
+      "interpretation": "FINAL authoritative; historical reused evidence"
+    },
+    {
+      "source": "$VIPER_PTMP/exp/boneohio_20261002_FINAL/selection/selection_weekly.csv",
+      "source_bytes": 26384,
+      "source_sha256": "1a4bce1da42fb4ae02a562337b198b5101f426f0eac082598a53a4776c90a006",
+      "output": "historical/selection/selection_weekly.csv",
+      "output_bytes": 26384,
+      "output_sha256": "1a4bce1da42fb4ae02a562337b198b5101f426f0eac082598a53a4776c90a006",
+      "transform": "UTF-8; research-root paths replaced with documented variables",
+      "interpretation": "FINAL authoritative; historical reused evidence"
+    },
+    {
+      "source": "$VIPER_PTMP/exp/boneohio_20261002_FINAL/selection/coverage_daily.csv",
+      "source_bytes": 1300,
+      "source_sha256": "76b474a9e050c8b85268122f65d6cf01c362487843b80e1ed49862ad7dffe583",
+      "output": "historical/selection/coverage_daily.csv",
+      "output_bytes": 1300,
+      "output_sha256": "76b474a9e050c8b85268122f65d6cf01c362487843b80e1ed49862ad7dffe583",
+      "transform": "UTF-8; research-root paths replaced with documented variables",
+      "interpretation": "FINAL authoritative; historical reused evidence"
+    },
+    {
+      "source": "$VIPER_PTMP/exp/boneohio_20261002_FINAL/selection/candidate_timing.csv",
+      "source_bytes": 249,
+      "source_sha256": "1df53e7575722cbf9786ddecd37d1bd700e57dfd0493f5231ada54ab528c955a",
+      "output": "historical/selection/candidate_timing.csv",
+      "output_bytes": 249,
+      "output_sha256": "1df53e7575722cbf9786ddecd37d1bd700e57dfd0493f5231ada54ab528c955a",
+      "transform": "UTF-8; research-root paths replaced with documented variables",
+      "interpretation": "FINAL authoritative; historical reused evidence"
+    },
+    {
+      "source": "$VIPER_PTMP/exp/boneohio_20261002_FINAL/selection/activity_scope.csv",
+      "source_bytes": 689,
+      "source_sha256": "9eca546dd9c1f905a6af8884ca0533eebc520c7304172fc03483a5bac7c60b4d",
+      "output": "historical/selection/activity_scope.csv",
+      "output_bytes": 689,
+      "output_sha256": "9eca546dd9c1f905a6af8884ca0533eebc520c7304172fc03483a5bac7c60b4d",
+      "transform": "UTF-8; research-root paths replaced with documented variables",
+      "interpretation": "FINAL authoritative; historical reused evidence"
+    },
+    {
+      "source": "$VIPER_PTMP/exp/boneohio_20261002_FINAL/selection/selection_strata.csv",
+      "source_bytes": 2614,
+      "source_sha256": "a0f04216086b45f8481472394d5bc03cae00aef23872fc66d84399cb0ebb7f18",
+      "output": "historical/selection/selection_strata.csv",
+      "output_bytes": 2614,
+      "output_sha256": "a0f04216086b45f8481472394d5bc03cae00aef23872fc66d84399cb0ebb7f18",
+      "transform": "UTF-8; research-root paths replaced with documented variables",
+      "interpretation": "FINAL authoritative; historical reused evidence"
+    },
+    {
+      "source": "$VIPER_PTMP/exp/boneohio_20261002_FINAL/selection/methodology.json",
+      "source_bytes": 4598,
+      "source_sha256": "404697ac6dc239848ee93735e29969d5440668b839284cdc0c55f552952d7f01",
+      "output": "historical/selection/methodology.json",
+      "output_bytes": 4598,
+      "output_sha256": "404697ac6dc239848ee93735e29969d5440668b839284cdc0c55f552952d7f01",
+      "transform": "UTF-8; research-root paths replaced with documented variables",
+      "interpretation": "FINAL authoritative; historical reused evidence"
+    },
+    {
+      "source": "$VIPER_PTMP/exp/boneohio_20261002_FINAL/selection/candidate_features.parquet",
+      "source_bytes": 1606507,
+      "source_sha256": "df34e03d8817735c52c94551a489b40232da67f8e3ccee22319dcc0a549ae499",
+      "output": "historical/selection/candidate_features.parquet",
+      "output_bytes": 1606507,
+      "output_sha256": "df34e03d8817735c52c94551a489b40232da67f8e3ccee22319dcc0a549ae499",
+      "transform": "byte-identical curated historical evidence",
+      "rows": 6161,
+      "columns": [
+        "cs",
+        "y",
+        "market_key",
+        "coin",
+        "t",
+        "tte",
+        "ask",
+        "ask_size",
+        "book_age",
+        "observed_print_ms",
+        "order_rows",
+        "real_order",
+        "candidate_minus_first_target_print_s",
+        "split",
+        "hour4",
+        "weekday",
+        "date",
+        "n_all_5m_d0",
+        "gross_usd_all_5m_d0",
+        "n_all_15m_d0",
+        "gross_usd_all_15m_d0",
+        "n_all_60m_d0",
+        "gross_usd_all_60m_d0",
+        "n_all_240m_d0",
+        "gross_usd_all_240m_d0",
+        "n_all_1440m_d0",
+        "gross_usd_all_1440m_d0",
+        "n_all_5m_d1000",
+        "gross_usd_all_5m_d1000",
+        "n_all_15m_d1000",
+        "gross_usd_all_15m_d1000",
+        "n_all_60m_d1000",
+        "gross_usd_all_60m_d1000",
+        "n_all_240m_d1000",
+        "gross_usd_all_240m_d1000",
+        "n_all_1440m_d1000",
+        "gross_usd_all_1440m_d1000",
+        "n_all_5m_d5000",
+        "gross_usd_all_5m_d5000",
+        "n_all_15m_d5000",
+        "gross_usd_all_15m_d5000",
+        "n_all_60m_d5000",
+        "gross_usd_all_60m_d5000",
+        "n_all_240m_d5000",
+        "gross_usd_all_240m_d5000",
+        "n_all_1440m_d5000",
+        "gross_usd_all_1440m_d5000",
+        "n_same_coin_15m_d0",
+        "gross_usd_same_coin_15m_d0",
+        "n_same_coin_60m_d0",
+        "gross_usd_same_coin_60m_d0",
+        "n_same_market_15m_d0",
+        "gross_usd_same_market_15m_d0",
+        "n_same_market_60m_d0",
+        "gross_usd_same_market_60m_d0",
+        "n_other_coin_15m_d0",
+        "gross_usd_other_coin_15m_d0",
+        "n_other_coin_60m_d0",
+        "gross_usd_other_coin_60m_d0",
+        "prior_other_contract_print_gap_s",
+        "open_other_contracts_d0",
+        "unexpired_other_gross_usd_d0",
+        "open_other_contracts_d1000",
+        "unexpired_other_gross_usd_d1000",
+        "open_other_contracts_d5000",
+        "unexpired_other_gross_usd_d5000",
+        "history_left_censored_60m",
+        "past_last_observed_wallet_print"
+      ]
+    },
+    {
+      "source": "$VIPER_PTMP/exp/boneohio_20261002_FINAL/selection/real_contract_tokens.parquet",
+      "source_bytes": 38872,
+      "source_sha256": "e93fa61a3721a3e83f76daeb5bf2844396d45ff84fe69227487134b38a647f8b",
+      "output": "historical/selection/real_contract_tokens.parquet",
+      "output_bytes": 38872,
+      "output_sha256": "e93fa61a3721a3e83f76daeb5bf2844396d45ff84fe69227487134b38a647f8b",
+      "transform": "byte-identical curated historical evidence",
+      "rows": 2299,
+      "columns": [
+        "market_key",
+        "cs",
+        "y",
+        "observed_print_ms",
+        "order_rows",
+        "real_order"
+      ]
+    },
+    {
+      "source": "$VIPER_PTMP/exp/boneohio_20261002_FINAL/feed_clock/availability.csv",
+      "source_bytes": 785,
+      "source_sha256": "69de15d99644bd464eb430ea39f54bf3729f2fce5873f1eede05134b6f01789a",
+      "output": "historical/feed_clock/availability.csv",
+      "output_bytes": 785,
+      "output_sha256": "69de15d99644bd464eb430ea39f54bf3729f2fce5873f1eede05134b6f01789a",
+      "transform": "UTF-8; research-root paths replaced with documented variables",
+      "interpretation": "FINAL authoritative; historical reused evidence"
+    },
+    {
+      "source": "$VIPER_PTMP/exp/boneohio_20261002_FINAL/feed_clock/clock_summary.json",
+      "source_bytes": 3949,
+      "source_sha256": "f19ea8ade7725619cae05733591bf30c85283764c926f61b703abb31c168e0fa",
+      "output": "historical/feed_clock/clock_summary.json",
+      "output_bytes": 3949,
+      "output_sha256": "f19ea8ade7725619cae05733591bf30c85283764c926f61b703abb31c168e0fa",
+      "transform": "UTF-8; research-root paths replaced with documented variables",
+      "interpretation": "FINAL authoritative; historical reused evidence"
+    },
+    {
+      "source": "$VIPER_PTMP/exp/boneohio_20261002_FINAL/feed_clock/feed_comparison.csv",
+      "source_bytes": 15390,
+      "source_sha256": "f8610e960fb0ccdff28b13f26595cb61817c8beaea250a7ff97ce5b13fab2c45",
+      "output": "historical/feed_clock/feed_comparison.csv",
+      "output_bytes": 15390,
+      "output_sha256": "f8610e960fb0ccdff28b13f26595cb61817c8beaea250a7ff97ce5b13fab2c45",
+      "transform": "UTF-8; research-root paths replaced with documented variables",
+      "interpretation": "FINAL authoritative; historical reused evidence"
+    },
+    {
+      "source": "$VIPER_PTMP/exp/boneohio_20261002_FINAL/feed_clock/fixed_wallet_pairs.csv",
+      "source_bytes": 54759,
+      "source_sha256": "8e292f2f64390e0ad9ff94c32eb84f33136b1de1381cded72430af0c1c5bc4bf",
+      "output": "historical/feed_clock/fixed_wallet_pairs.csv",
+      "output_bytes": 54759,
+      "output_sha256": "8e292f2f64390e0ad9ff94c32eb84f33136b1de1381cded72430af0c1c5bc4bf",
+      "transform": "UTF-8; research-root paths replaced with documented variables",
+      "interpretation": "FINAL authoritative; historical reused evidence"
+    },
+    {
+      "source": "$VIPER_PTMP/exp/boneohio_20261002_FINAL/feed_clock/incremental.csv",
+      "source_bytes": 5592,
+      "source_sha256": "c3c18835911f34a2999fd65b9dd341d94b0186f4ed39cfdbbfa3c1eacabea33e",
+      "output": "historical/feed_clock/incremental.csv",
+      "output_bytes": 5592,
+      "output_sha256": "c3c18835911f34a2999fd65b9dd341d94b0186f4ed39cfdbbfa3c1eacabea33e",
+      "transform": "UTF-8; research-root paths replaced with documented variables",
+      "interpretation": "FINAL authoritative; historical reused evidence"
+    },
+    {
+      "source": "$VIPER_PTMP/exp/boneohio_20261002_FINAL/feed_clock/join_scopes.csv",
+      "source_bytes": 434,
+      "source_sha256": "fa2a00d17c9ff3376c6e8f78327cc645c68d39160da60d7791bb36ee2bb6b7f6",
+      "output": "historical/feed_clock/join_scopes.csv",
+      "output_bytes": 434,
+      "output_sha256": "fa2a00d17c9ff3376c6e8f78327cc645c68d39160da60d7791bb36ee2bb6b7f6",
+      "transform": "UTF-8; research-root paths replaced with documented variables",
+      "interpretation": "FINAL authoritative; historical reused evidence"
+    },
+    {
+      "source": "$VIPER_PTMP/exp/boneohio_20261002_FINAL/feed_clock/join_exceptions.csv",
+      "source_bytes": 3404730,
+      "source_sha256": "ce5d33cef458f8625fa0a0411402a38a20389d97dd48b99e0a1e2bbcb2fc06a0",
+      "output": "historical/feed_clock/join_exceptions.csv",
+      "output_bytes": 3404730,
+      "output_sha256": "ce5d33cef458f8625fa0a0411402a38a20389d97dd48b99e0a1e2bbcb2fc06a0",
+      "transform": "UTF-8; research-root paths replaced with documented variables",
+      "interpretation": "FINAL authoritative; historical reused evidence"
+    },
+    {
+      "source": "$VIPER_PTMP/exp/boneohio_20261002_FINAL/feed_clock/lag_curves.csv",
+      "source_bytes": 15653,
+      "source_sha256": "90e2499aedddf097d1e52adb857bbf7e1125f90ad09fe9cea371461f137ec853",
+      "output": "historical/feed_clock/lag_curves.csv",
+      "output_bytes": 15653,
+      "output_sha256": "90e2499aedddf097d1e52adb857bbf7e1125f90ad09fe9cea371461f137ec853",
+      "transform": "UTF-8; research-root paths replaced with documented variables",
+      "interpretation": "FINAL authoritative; historical reused evidence"
+    },
+    {
+      "source": "$VIPER_PTMP/exp/boneohio_20261002_FINAL/feed_clock/methodology.json",
+      "source_bytes": 5214,
+      "source_sha256": "694d0b29ae3d785426da9434ad922e2d1948ce666489b9c4ecc831bdc2cfb252",
+      "output": "historical/feed_clock/methodology.json",
+      "output_bytes": 5214,
+      "output_sha256": "694d0b29ae3d785426da9434ad922e2d1948ce666489b9c4ecc831bdc2cfb252",
+      "transform": "UTF-8; research-root paths replaced with documented variables",
+      "interpretation": "FINAL authoritative; historical reused evidence"
+    },
+    {
+      "source": "$VIPER_PTMP/exp/boneohio_20261002_FINAL/feed_clock/unexplained.csv",
+      "source_bytes": 575,
+      "source_sha256": "d92eca6b0682d1b5002c68f78da2c43a190cedaffa9c282272d7092b2462e695",
+      "output": "historical/feed_clock/unexplained.csv",
+      "output_bytes": 575,
+      "output_sha256": "d92eca6b0682d1b5002c68f78da2c43a190cedaffa9c282272d7092b2462e695",
+      "transform": "UTF-8; research-root paths replaced with documented variables",
+      "interpretation": "FINAL authoritative; historical reused evidence"
+    },
+    {
+      "source": "$VIPER_HOME/vania/boneohio_20261002_FINAL/maker/role_metrics.csv",
+      "source_bytes": 3638,
+      "source_sha256": "79fcbf645133a4f44e752b6714331dee7fef0757edfd346d0a7506f1c5db87a1",
+      "output": "historical/maker/role_metrics.csv",
+      "output_bytes": 3638,
+      "output_sha256": "79fcbf645133a4f44e752b6714331dee7fef0757edfd346d0a7506f1c5db87a1",
+      "transform": "UTF-8; research-root paths replaced with documented variables",
+      "interpretation": "FINAL authoritative; historical reused evidence"
+    },
+    {
+      "source": "$VIPER_PTMP/exp/boneohio_20261001_ENTRY/fills_pnl.parquet",
+      "source_bytes": 24712941,
+      "source_sha256": "50f2a3c0b8b881040617cd8ff1c85a584984b16f32ebcc64c1c51742a223fd4e",
+      "output": "wallet/fills_history.parquet",
+      "output_bytes": 13136200,
+      "output_sha256": "e24f0da6993d29404815c6e636fdcb36c90b5668ae0e1fffd81af48dd032d85d",
+      "transform": "all original rows; explicit column whitelist; Zstandard Parquet",
+      "rows": 162688,
+      "columns": [
+        "side",
+        "token_id",
+        "condition_id",
+        "size",
+        "price",
+        "timestamp",
+        "slug",
+        "event_slug",
+        "outcome",
+        "outcome_index",
+        "transaction_hash",
+        "role",
+        "coin",
+        "tf",
+        "start",
+        "usd",
+        "won",
+        "fee",
+        "pnl",
+        "band"
+      ],
+      "ranges": {
+        "timestamp": {
+          "min": 1786752000.0,
+          "max": 1790888918.0,
+          "nonnull": 162688
+        }
+      },
+      "counts": {
+        "coin": {
+          "btc": 90917,
+          "eth": 23049,
+          "xrp": 12278,
+          "sol": 12045,
+          "hype": 9694,
+          "doge": 6842,
+          "bnb": 5364,
+          "bitcoin": 1291,
+          "zec": 427,
+          "ethereum": 404,
+          "solana": 377
+        },
+        "tf": {
+          "5m": 127150,
+          "15m": 32998,
+          "1h": 2540
+        },
+        "role": {
+          "MAKER": 108995,
+          "TAKER": 53693
+        }
+      },
+      "interpretation": "Public fill API history and historical derived labels. API seconds are not decision time. Role is API taker-only membership; settlement/fee/PnL are research-derived, not live cashflow. Observed fills cannot reveal zero-fill orders or capital. Right-censored at source maximum timestamp."
+    },
+    {
+      "source": "$VIPER_PTMP/exp/boneohio_20261001_ENTRY/bone_orders.parquet",
+      "source_bytes": 3099350,
+      "source_sha256": "18b6dc7fdc87f22b9bb7adad20d95ca75784b00a1c46ec78c9220072bea28a57",
+      "output": "wallet/decoded_order_summary.parquet",
+      "output_bytes": 2142439,
+      "output_sha256": "e3862a96a636e8c6d943a1a602036515fe4b106ac679144f58dfd7b155f4828f",
+      "transform": "all original rows; explicit column whitelist; Zstandard Parquet",
+      "rows": 23751,
+      "columns": [
+        "salt",
+        "order_ts",
+        "token",
+        "limit",
+        "req_sh",
+        "side",
+        "n_tx",
+        "roles",
+        "taker_usdc",
+        "maker_usdc",
+        "first_ms",
+        "last_ms",
+        "block0",
+        "coin",
+        "coin_slug",
+        "tf",
+        "slug",
+        "market_key",
+        "cs",
+        "ce",
+        "is_yes",
+        "won",
+        "sig_type",
+        "fill_sh",
+        "age_first_ms"
+      ],
+      "ranges": {
+        "order_ts": {
+          "min": 1788998314154.0,
+          "max": 1790888603116.0,
+          "nonnull": 23751
+        },
+        "first_ms": {
+          "min": 1788998419079.0,
+          "max": 1790858942174.0,
+          "nonnull": 12864
+        },
+        "last_ms": {
+          "min": 1788998419079.0,
+          "max": 1790858942174.0,
+          "nonnull": 12864
+        },
+        "cs": {
+          "min": 1788998100000.0,
+          "max": 1790884800000.0,
+          "nonnull": 13261
+        },
+        "ce": {
+          "min": 1788998400000.0,
+          "max": 1790888400000.0,
+          "nonnull": 13261
+        }
+      },
+      "counts": {
+        "coin": {
+          "null": 10490,
+          "btc": 6517,
+          "eth": 3776,
+          "sol": 2968
+        },
+        "tf": {
+          "5m": 16909,
+          "15m": 6237,
+          "1h": 605
+        },
+        "market_key": {
+          "null": 10490,
+          "btc_5m": 4396,
+          "eth_5m": 2768,
+          "sol_5m": 2116,
+          "btc_15m": 1901,
+          "eth_15m": 891,
+          "sol_15m": 712,
+          "btc_1h": 220,
+          "sol_1h": 140,
+          "eth_1h": 117
+        },
+        "roles": {
+          "T": 14344,
+          "MT": 5577,
+          "M": 3830
+        }
+      },
+      "interpretation": "All 23,751 historically decoded filled signed-order salts. No zero-fill submissions. order_ts is a calldata field, not proven signing/submission time. first_ms/last_ms are transaction print mappings; fill_sh is a limit-price-based research derivation."
+    },
+    {
+      "source": "$VIPER_PTMP/exp/boneohio_20261002_PARITY/b_orders.parquet",
+      "source_bytes": 1461084,
+      "source_sha256": "5faa39fb99e7ded23ed1a4bf2c17e020fa473482d8cd380ee792d689683d1057",
+      "output": "wallet/maker_lifecycle_history.parquet",
+      "output_bytes": 998754,
+      "output_sha256": "ed06a5ab3a6b051ab504b9ffa499698ce6d076d59ed2cb4916b8facccfdc32e8",
+      "transform": "all original rows; explicit column whitelist; Zstandard Parquet",
+      "rows": 8875,
+      "columns": [
+        "salt",
+        "order_ts",
+        "token",
+        "limit",
+        "req_sh",
+        "side",
+        "n_tx",
+        "roles",
+        "taker_usdc",
+        "maker_usdc",
+        "first_ms",
+        "last_ms",
+        "block0",
+        "coin",
+        "coin_slug",
+        "tf",
+        "slug",
+        "market_key",
+        "cs",
+        "ce",
+        "is_yes",
+        "won",
+        "sig_type",
+        "fill_sh",
+        "age_first_ms",
+        "found",
+        "post_ms",
+        "state",
+        "t_end",
+        "remain_end",
+        "start",
+        "next_start",
+        "prev_end",
+        "prev_state"
+      ],
+      "ranges": {
+        "order_ts": {
+          "min": 1788998374286.0,
+          "max": 1790888326773.0,
+          "nonnull": 8875
+        },
+        "first_ms": {
+          "min": 1788998424550.0,
+          "max": 1790858942174.0,
+          "nonnull": 8803
+        },
+        "last_ms": {
+          "min": 1788998424550.0,
+          "max": 1790858942174.0,
+          "nonnull": 8803
+        },
+        "cs": {
+          "min": 1788998100000.0,
+          "max": 1790884800000.0,
+          "nonnull": 8875
+        },
+        "ce": {
+          "min": 1788998400000.0,
+          "max": 1790888400000.0,
+          "nonnull": 8875
+        },
+        "post_ms": {
+          "min": 1788998901867.0,
+          "max": 1790858933901.0,
+          "nonnull": 5731
+        },
+        "t_end": {
+          "min": 1788998903183.0,
+          "max": 1790855983017.0,
+          "nonnull": 1907
+        }
+      },
+      "counts": {
+        "coin": {
+          "btc": 3866,
+          "eth": 2541,
+          "sol": 2468
+        },
+        "tf": {
+          "5m": 6159,
+          "15m": 2239,
+          "1h": 477
+        },
+        "market_key": {
+          "btc_5m": 2558,
+          "eth_5m": 1836,
+          "sol_5m": 1765,
+          "btc_15m": 1088,
+          "eth_15m": 588,
+          "sol_15m": 563,
+          "btc_1h": 220,
+          "sol_1h": 140,
+          "eth_1h": 117
+        },
+        "roles": {
+          "MT": 3933,
+          "T": 2987,
+          "M": 1955
+        },
+        "state": {
+          "alive": 3824,
+          "null": 3144,
+          "cancel": 1365,
+          "filled": 542
+        }
+      },
+      "interpretation": "Observed 0.99 filled-order history on BTC/ETH/SOL. post_ms/state/t_end are book-size fingerprint reconstructions, not authenticated user-WS receipts. state=alive is censored; synthetic replay cap is not observed exit. start falls back to first fill if no post fingerprint; never use as exact submission label."
+    },
+    {
+      "source": "$VIPER_PTMP/exp/boneohio_20261002_PARITY/gt_orders.parquet",
+      "source_bytes": 5268828,
+      "source_sha256": "3e2a7623acb0588fec98165a791c684b73af5c040dba9a53269d459f0e8b4b36",
+      "output": "wallet/matched_fill_groups_history.parquet",
+      "output_bytes": 3532138,
+      "output_sha256": "5bb5f85d756d8fdda2db67827d831395aacb9cde7199a22eb18c90e762f3746b",
+      "transform": "all original rows; explicit column whitelist; Zstandard Parquet",
+      "rows": 43870,
+      "columns": [
+        "transaction_hash",
+        "token_id",
+        "role",
+        "coin",
+        "mk",
+        "cs",
+        "ce",
+        "is_yes",
+        "sh",
+        "usd",
+        "pnl",
+        "won",
+        "print_ms",
+        "ts",
+        "px",
+        "m",
+        "grp"
+      ],
+      "ranges": {
+        "print_ms": {
+          "min": 1788998419079.0,
+          "max": 1790884146703.0,
+          "nonnull": 43009
+        },
+        "cs": {
+          "min": 1788998100000.0,
+          "max": 1790887800000.0,
+          "nonnull": 43870
+        },
+        "ce": {
+          "min": 1788998400000.0,
+          "max": 1790888100000.0,
+          "nonnull": 43870
+        }
+      },
+      "counts": {
+        "coin": {
+          "btc": 32337,
+          "eth": 7145,
+          "sol": 4388
+        },
+        "mk": {
+          "btc_5m": 25689,
+          "btc_15m": 6648,
+          "eth_5m": 5649,
+          "sol_5m": 3296,
+          "eth_15m": 1496,
+          "sol_15m": 1092
+        },
+        "role": {
+          "MAKER": 33140,
+          "TAKER": 10730
+        }
+      },
+      "interpretation": "43,870 transaction-token groups, 861 unmatched print times. m=print_ms-40 is inferred. Transaction-only opposite-token complement joins are preserved and separately audited. Groups are not exact signed-order identities or a complete submission ledger."
+    },
+    {
+      "source": "$VIPER_PTMP/exp/boneohio_20261002_PARITY/gt_prints.parquet",
+      "source_bytes": 4124298,
+      "source_sha256": "fecd8261f227823cb8bf87d9446b4963cd5f240e73e11cd8c658875a79433c88",
+      "output": "wallet/matched_venue_prints_history.parquet",
+      "output_bytes": 2327861,
+      "output_sha256": "017ec61cc02644a3d0863d38943885640c7252d65aa0ed2ad66498462258dbf1",
+      "transform": "all original rows; explicit column whitelist; Zstandard Parquet",
+      "rows": 43009,
+      "columns": [
+        "venue_ts_ms",
+        "token_id",
+        "is_yes",
+        "price_micros",
+        "size_micros",
+        "side",
+        "transaction_hash"
+      ],
+      "ranges": {
+        "venue_ts_ms": {
+          "min": 1788998419079.0,
+          "max": 1790884146703.0,
+          "nonnull": 43009
+        }
+      },
+      "counts": {},
+      "interpretation": "43,009 original mapped public prints; use exact transaction+token or documented complement links. Venue time is not wallet receipt/match/submission time."
+    },
+    {
+      "source": "$VIPER_PTMP/exp/boneohio_20261001_ENTRY/chain/s0910_part000.parquet",
+      "source_bytes": 13592750,
+      "source_sha256": "edafdce2530587115f6e26e228e0f3eb4a2faadfe9b7be5fded75dad960a6e49",
+      "output": "wallet/chain_order_fill_links.parquet",
+      "output_bytes": 4365881,
+      "output_sha256": "bbbd0b090cfc92873abfef1b752021d1b332e245b2d77b965b8b8ae0e25eb32d",
+      "transform": "filter maker == public BoneOhio address and valid decoded idx >= -1; concatenate sources; explicit public chain-field whitelist",
+      "rows": 57880,
+      "columns": [
+        "tx",
+        "block",
+        "cond",
+        "idx",
+        "token",
+        "maker_amt",
+        "taker_amt",
+        "side",
+        "sig_type",
+        "order_ts_ms",
+        "salt",
+        "fill_amt",
+        "fee_amt",
+        "decoded_role"
+      ],
+      "interpretation": "Per-fill calldata order link, role by matchOrders argument position. fill_amt/fee_amt are exact raw maker-asset units; BUY maker asset is USDC. No observed zero-fill order, signature, signer, builder or counterpart details."
+    },
+    {
+      "source": "$VIPER_PTMP/exp/boneohio_20261001_ENTRY/chain/s0910_part001.parquet",
+      "source_bytes": 5053767,
+      "source_sha256": "0a0098990f0d286dd989bdc2a2dac5cb26ae6a0e2925e8ed7759aa8ea367a8b9",
+      "output": "wallet/chain_order_fill_links.parquet",
+      "output_bytes": 4365881,
+      "output_sha256": "bbbd0b090cfc92873abfef1b752021d1b332e245b2d77b965b8b8ae0e25eb32d",
+      "transform": "filter maker == public BoneOhio address and valid decoded idx >= -1; concatenate sources; explicit public chain-field whitelist",
+      "rows": 57880,
+      "columns": [
+        "tx",
+        "block",
+        "cond",
+        "idx",
+        "token",
+        "maker_amt",
+        "taker_amt",
+        "side",
+        "sig_type",
+        "order_ts_ms",
+        "salt",
+        "fill_amt",
+        "fee_amt",
+        "decoded_role"
+      ],
+      "interpretation": "Per-fill calldata order link, role by matchOrders argument position. fill_amt/fee_amt are exact raw maker-asset units; BUY maker asset is USDC. No observed zero-fill order, signature, signer, builder or counterpart details."
+    },
+    {
+      "source": "$VIPER_PTMP/exp/boneohio_20261002_FINAL/maker/canonical/loser_orders.csv",
+      "source_bytes": 4901,
+      "source_sha256": "7ebaa646d87c6a895affc0c7c667c86e2c4ef00ccd095d59f6d4fdc27ccfc6e1",
+      "output": "historical/maker/diagnostic_contracts.csv",
+      "output_bytes": 438,
+      "output_sha256": "da526a3ca45de232200765821dab8223eb85ce31bf2ff694db3cc2e1a8400cc1",
+      "transform": "unique historical losing order salts; separate known-outcome execution diagnostics",
+      "rows": 5,
+      "columns": [
+        "salt",
+        "coin",
+        "mk",
+        "cs",
+        "ce",
+        "roles",
+        "state",
+        "real_sh",
+        "won",
+        "historical_diagnostic"
+      ],
+      "interpretation": "Known losses outside the latest two days. No signal selection or Q fitting to these outcomes."
+    },
+    {
+      "source": "$VIPER_HOME/vania/boneohio_20261001_ENTRY/pull_trades.py",
+      "source_bytes": 1761,
+      "source_sha256": "4717e233af479ed2fe8f2d5b6c7c800f723a4348eb8cb96a0b4f553eb4a14fe3",
+      "output": null,
+      "transform": "historical wallet extraction/derivation code fingerprint only"
+    },
+    {
+      "source": "$VIPER_HOME/vania/boneohio_20261001_ENTRY/decode_txs.py",
+      "source_bytes": 3860,
+      "source_sha256": "65280d1069b66879612582a4565a6e63f9dde37928a686b124ac0d5433b4ba8a",
+      "output": null,
+      "transform": "historical wallet extraction/derivation code fingerprint only"
+    },
+    {
+      "source": "$VIPER_HOME/vania/boneohio_20261001_ENTRY/orders.py",
+      "source_bytes": 3426,
+      "source_sha256": "6b021714c5cb3ab87c381170d1c05306901b82d63b3ee96239be8c9513d8196e",
+      "output": null,
+      "transform": "historical wallet extraction/derivation code fingerprint only"
+    },
+    {
+      "source": "$VIPER_HOME/vania/boneohio_20261002_PARITY/b_repost.py",
+      "source_bytes": 3610,
+      "source_sha256": "d35b8a9d5eefa6577c7be2dcf99155a8e892efa69d3a4366328d7e0dce938acd",
+      "output": null,
+      "transform": "historical wallet extraction/derivation code fingerprint only"
+    },
+    {
+      "source": "$VIPER_HOME/vania/boneohio_20261002_PARITY/gt.py",
+      "source_bytes": 3117,
+      "source_sha256": "b982cb48ab5d80312babb773b1cb6e3e49afd3cd752516dc2fbf95490f6c69b7",
+      "output": null,
+      "transform": "historical wallet extraction/derivation code fingerprint only"
+    },
+    {
+      "source": "$VIPER_HOME/vania/boneohio_20261001_ENTRY/RESULT.md",
+      "source_bytes": 7818,
+      "source_sha256": "c2547c5564c059a368e71b36c5a210f8de9c8c94f4af610f00d89e76aadff3d1",
+      "output": null,
+      "transform": "source fingerprint only; conclusions superseded/qualified by FINAL"
+    },
+    {
+      "source": "$VIPER_HOME/vania/boneohio_20261002_PARITY/RESULT.md",
+      "source_bytes": 7608,
+      "source_sha256": "bd5dff9c3f1cbf6cb66e61272ce7fee0d337324c68c3cde3091a8675961480bc",
+      "output": null,
+      "transform": "source fingerprint only; conclusions superseded/qualified by FINAL"
+    },
+    {
+      "source": "$VIPER_HOME/vania/boneohio_20261001_ENTRY/rules/RULES.md",
+      "source_bytes": 5224,
+      "source_sha256": "5ce1a1e61cf3c5463e1ba3da45cea9c01fbcbf1a1b33cc6ac1294269bbd9e2db",
+      "output": null,
+      "transform": "source fingerprint only; conclusions superseded/qualified by FINAL"
+    }
+  ],
+  "omissions": [
+    "private handoff",
+    "fleet/trading configurations",
+    "individual own-account Q99 orders",
+    "credentials",
+    "transaction signatures",
+    "large market/feed datasets"
+  ]
+}

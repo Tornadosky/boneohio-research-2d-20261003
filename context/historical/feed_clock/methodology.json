@@ -1,0 +1,194 @@
+{
+  "scope": "2026-09-12 00:00 to 2026-09-13 21:30 UTC; BTC5 low TAKER, reused short recorder window",
+  "initial_wallet_rows": 201,
+  "matched_pairs": 168,
+  "excluded_controls": 33,
+  "decision": "d=m-150=print_ms-190; inferred, not observed submit",
+  "controls": "same side and contract d-30000ms; >2s from any recorded wallet print; conditioning not population precision",
+  "staleness_ms": 1000,
+  "windows_ms": [
+    500,
+    1000
+  ],
+  "model": "fixed standardized logistic C1, fit Sep12/check Sep13; all dates reused; descriptive multiple comparisons, no vendor identification",
+  "availability": "T/E event series retrospective. Receipt-time series uses this recorder location, not BoneOhio. No equalization of acquisition routes. Event/receipt gaps are not pure network latency.",
+  "inventory": [
+    {
+      "feed": "binance_spot_btc",
+      "rows": 1698602,
+      "event_first": 1789163813314,
+      "event_last": 1789335148414,
+      "receipt_first": 1789163813425,
+      "receipt_last": 1789335148524,
+      "recv_minus_event_ms": {
+        "n": 1698602,
+        "negative": 0,
+        "q0": 106.0,
+        "q1": 108.0,
+        "q10": 110.0,
+        "q50": 110.0,
+        "q90": 114.0,
+        "q99": 788.0,
+        "q100": 31672.0
+      }
+    },
+    {
+      "feed": "bybit_perp",
+      "rows": 4583506,
+      "event_first": 1789163813286,
+      "event_last": 1789335148507,
+      "receipt_first": 1789163813374,
+      "receipt_last": 1789335148591,
+      "recv_minus_event_ms": {
+        "n": 4583506,
+        "negative": 0,
+        "q0": 79.0,
+        "q1": 84.0,
+        "q10": 85.0,
+        "q50": 88.0,
+        "q90": 97.0,
+        "q99": 650.0,
+        "q100": 22714.0
+      }
+    },
+    {
+      "feed": "bybit_spot",
+      "rows": 2726993,
+      "event_first": 1789163813355,
+      "event_last": 1789335148415,
+      "receipt_first": 1789163813461,
+      "receipt_last": 1789335148499,
+      "recv_minus_event_ms": {
+        "n": 2726993,
+        "negative": 0,
+        "q0": 79.0,
+        "q1": 84.0,
+        "q10": 87.0,
+        "q50": 92.0,
+        "q90": 131.0,
+        "q99": 780.0800000000745,
+        "q100": 24914.0
+      }
+    },
+    {
+      "feed": "coinbase_perp",
+      "rows": 2302527,
+      "event_first": 1789163813347,
+      "event_last": 1789335148544,
+      "receipt_first": 1789163813397,
+      "receipt_last": 1789335148594,
+      "recv_minus_event_ms": {
+        "n": 2302527,
+        "negative": 0,
+        "q0": 43.0,
+        "q1": 44.0,
+        "q10": 49.0,
+        "q50": 50.0,
+        "q90": 55.0,
+        "q99": 563.0,
+        "q100": 20979.0
+      }
+    },
+    {
+      "feed": "coinbase_spot",
+      "rows": 3048467,
+      "event_first": 1789163813340,
+      "event_last": 1789335148511,
+      "receipt_first": 1789163813390,
+      "receipt_last": 1789335148562,
+      "recv_minus_event_ms": {
+        "n": 3048467,
+        "negative": 0,
+        "q0": 44.0,
+        "q1": 45.0,
+        "q10": 50.0,
+        "q50": 51.0,
+        "q90": 54.0,
+        "q99": 456.0,
+        "q100": 3031.0
+      }
+    },
+    {
+      "feed": "kraken_perp",
+      "rows": 46461257,
+      "event_first": 1789163813370,
+      "event_last": 1789335148563,
+      "receipt_first": 1789163813378,
+      "receipt_last": 1789335148572,
+      "recv_minus_event_ms": {
+        "n": 46461257,
+        "negative": 0,
+        "q0": 4.0,
+        "q1": 7.0,
+        "q10": 8.0,
+        "q50": 10.0,
+        "q90": 164.0,
+        "q99": 1627.0,
+        "q100": 21079.0
+      }
+    },
+    {
+      "feed": "kraken_spot",
+      "rows": 2281206,
+      "event_first": 1789163813460,
+      "event_last": 1789335148524,
+      "receipt_first": 1789163813493,
+      "receipt_last": 1789335148545,
+      "recv_minus_event_ms": {
+        "n": 2281206,
+        "negative": 0,
+        "q0": 5.0,
+        "q1": 9.0,
+        "q10": 10.0,
+        "q50": 22.0,
+        "q90": 459.0,
+        "q99": 1147.0,
+        "q100": 11381.0
+      }
+    },
+    {
+      "feed": "okx_perp_book",
+      "rows": 1609786,
+      "event_first": 1789163813301,
+      "event_last": 1789335148408,
+      "receipt_first": 1789163813431,
+      "receipt_last": 1789335148536,
+      "recv_minus_event_ms": {
+        "n": 1609786,
+        "negative": 0,
+        "q0": 115.0,
+        "q1": 117.0,
+        "q10": 120.0,
+        "q50": 126.0,
+        "q90": 132.0,
+        "q99": 607.0,
+        "q100": 5986.0
+      }
+    },
+    {
+      "feed": "okx_spot_book",
+      "rows": 1295023,
+      "event_first": 1789163813301,
+      "event_last": 1789335148408,
+      "receipt_first": 1789163813430,
+      "receipt_last": 1789335148536,
+      "recv_minus_event_ms": {
+        "n": 1295023,
+        "negative": 0,
+        "q0": 113.0,
+        "q1": 115.0,
+        "q10": 119.0,
+        "q50": 125.0,
+        "q90": 133.0,
+        "q99": 687.0,
+        "q100": 3091.0
+      }
+    }
+  ],
+  "missing_candidates": [
+    "raw individual Binance trade stream not present in loaded historical sources",
+    "individual-symbol Binance bookTicker not separately identified in loaded historical sources",
+    "historical Chainlink not present in loaded historical sources"
+  ],
+  "code_sha256": "a009761da82fcb799035e0919d7d7a25e43a2b08360b47f80d02556b5711d71c"
+}

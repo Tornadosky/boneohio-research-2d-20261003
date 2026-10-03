@@ -1,0 +1,223 @@
+{
+  "repository": "https://github.com/Tornadosky/boneohio-research-2d-20261003",
+  "tag": "data-v1",
+  "format": "safe relative-path tar.gz containing ZSTD Parquet",
+  "data_sha256": "a3a1f6281bdf9f145d440ae134107ab0f2c24dcd53d456dee98baf5d9257affe",
+  "assets": [
+    {
+      "name": "maker-loss-diagnostics.tar.gz",
+      "group": "diagnostics",
+      "bytes": 21342211,
+      "extracted_bytes": 25572439,
+      "sha256": "10bb5c20a0c04e9399517d2f5b9c8a0a6b6324f3392a4364a502a324bee93ce3",
+      "files": 22,
+      "url": "https://github.com/Tornadosky/boneohio-research-2d-20261003/releases/download/data-v1/maker-loss-diagnostics.tar.gz"
+    },
+    {
+      "name": "features-poly-100ms.tar.gz",
+      "group": "features",
+      "bytes": 112728098,
+      "extracted_bytes": 144047241,
+      "sha256": "7ee8eee533956abd49df8ceca90559ec359851c8359b44c34ea9df28de3e01bf",
+      "files": 768,
+      "url": "https://github.com/Tornadosky/boneohio-research-2d-20261003/releases/download/data-v1/features-poly-100ms.tar.gz"
+    },
+    {
+      "name": "catalog-resolutions-coverage.tar.gz",
+      "group": "metadata",
+      "bytes": 288255,
+      "extracted_bytes": 387627,
+      "sha256": "73b62c6b2d2fde62ba05e388735f1701432ea750b41cece257be3a72c1848610",
+      "files": 9,
+      "url": "https://github.com/Tornadosky/boneohio-research-2d-20261003/releases/download/data-v1/catalog-resolutions-coverage.tar.gz"
+    },
+    {
+      "name": "poly-btc_15m-20260930-00.tar.gz",
+      "group": "poly",
+      "bytes": 168100098,
+      "extracted_bytes": 199840316,
+      "sha256": "51c5ddfd15409fd69fad11d171a43e539bfeb60ba1e49b02be6e2562caadb6eb",
+      "files": 96,
+      "url": "https://github.com/Tornadosky/boneohio-research-2d-20261003/releases/download/data-v1/poly-btc_15m-20260930-00.tar.gz",
+      "tenor": "btc_15m",
+      "day": "2026-09-30"
+    },
+    {
+      "name": "poly-btc_15m-20260930-06.tar.gz",
+      "group": "poly",
+      "bytes": 143510029,
+      "extracted_bytes": 170398810,
+      "sha256": "53e6ace8c9bcbd929a635a7e035b44413316c75d5809664d6cdb765814183abe",
+      "files": 96,
+      "url": "https://github.com/Tornadosky/boneohio-research-2d-20261003/releases/download/data-v1/poly-btc_15m-20260930-06.tar.gz",
+      "tenor": "btc_15m",
+      "day": "2026-09-30"
+    },
+    {
+      "name": "poly-btc_15m-20260930-12.tar.gz",
+      "group": "poly",
+      "bytes": 174367597,
+      "extracted_bytes": 207824186,
+      "sha256": "9002e7d48a700d07189e714d3b732b9fb5b4c4b75d503fd282c988baee63e894",
+      "files": 96,
+      "url": "https://github.com/Tornadosky/boneohio-research-2d-20261003/releases/download/data-v1/poly-btc_15m-20260930-12.tar.gz",
+      "tenor": "btc_15m",
+      "day": "2026-09-30"
+    },
+    {
+      "name": "poly-btc_15m-20260930-18.tar.gz",
+      "group": "poly",
+      "bytes": 147299751,
+      "extracted_bytes": 175630513,
+      "sha256": "d3a541df0272ae1099164ea227ef564135c29997e0f36eb45cebd9941b8a04a2",
+      "files": 96,
+      "url": "https://github.com/Tornadosky/boneohio-research-2d-20261003/releases/download/data-v1/poly-btc_15m-20260930-18.tar.gz",
+      "tenor": "btc_15m",
+      "day": "2026-09-30"
+    },
+    {
+      "name": "poly-btc_15m-20261001-00.tar.gz",
+      "group": "poly",
+      "bytes": 151210493,
+      "extracted_bytes": 178966440,
+      "sha256": "b3449fe2dfe93c93e9ad0b4933f4c9544ce4b44ea1c679559c865e80ca900dc6",
+      "files": 96,
+      "url": "https://github.com/Tornadosky/boneohio-research-2d-20261003/releases/download/data-v1/poly-btc_15m-20261001-00.tar.gz",
+      "tenor": "btc_15m",
+      "day": "2026-10-01"
+    },
+    {
+      "name": "poly-btc_15m-20261001-06.tar.gz",
+      "group": "poly",
+      "bytes": 133133216,
+      "extracted_bytes": 158664638,
+      "sha256": "1007d34e145f35454687fe54d17465ac7120cec6a81970884945222643653e9d",
+      "files": 96,
+      "url": "https://github.com/Tornadosky/boneohio-research-2d-20261003/releases/download/data-v1/poly-btc_15m-20261001-06.tar.gz",
+      "tenor": "btc_15m",
+      "day": "2026-10-01"
+    },
+    {
+      "name": "poly-btc_15m-20261001-12.tar.gz",
+      "group": "poly",
+      "bytes": 196031162,
+      "extracted_bytes": 233132782,
+      "sha256": "1022635de54eec7633326863394c726b7144df187e11df9082d5b4f68fc0a21d",
+      "files": 96,
+      "url": "https://github.com/Tornadosky/boneohio-research-2d-20261003/releases/download/data-v1/poly-btc_15m-20261001-12.tar.gz",
+      "tenor": "btc_15m",
+      "day": "2026-10-01"
+    },
+    {
+      "name": "poly-btc_15m-20261001-18.tar.gz",
+      "group": "poly",
+      "bytes": 150595887,
+      "extracted_bytes": 178759400,
+      "sha256": "610043548ddc1d822ffb4763971ca29660b4406b135dd197219f4ff25a8b20c1",
+      "files": 96,
+      "url": "https://github.com/Tornadosky/boneohio-research-2d-20261003/releases/download/data-v1/poly-btc_15m-20261001-18.tar.gz",
+      "tenor": "btc_15m",
+      "day": "2026-10-01"
+    },
+    {
+      "name": "poly-btc_5m-20260930-00.tar.gz",
+      "group": "poly",
+      "bytes": 280251950,
+      "extracted_bytes": 335817216,
+      "sha256": "b7d8beace7d6e5974886ca72355a4684a21b1ae328c0be348458cc8d7015b5a6",
+      "files": 288,
+      "url": "https://github.com/Tornadosky/boneohio-research-2d-20261003/releases/download/data-v1/poly-btc_5m-20260930-00.tar.gz",
+      "tenor": "btc_5m",
+      "day": "2026-09-30"
+    },
+    {
+      "name": "poly-btc_5m-20260930-06.tar.gz",
+      "group": "poly",
+      "bytes": 261606515,
+      "extracted_bytes": 312697536,
+      "sha256": "039253be899a3fed8bd66d3f953979d7a2768396b17ce95cdedc6063bb56e75d",
+      "files": 288,
+      "url": "https://github.com/Tornadosky/boneohio-research-2d-20261003/releases/download/data-v1/poly-btc_5m-20260930-06.tar.gz",
+      "tenor": "btc_5m",
+      "day": "2026-09-30"
+    },
+    {
+      "name": "poly-btc_5m-20260930-12.tar.gz",
+      "group": "poly",
+      "bytes": 339518737,
+      "extracted_bytes": 406198383,
+      "sha256": "38c3fd2351e761bfba55f7efa5455b23563a4f2e40a9e1831ecff32c94004bc7",
+      "files": 288,
+      "url": "https://github.com/Tornadosky/boneohio-research-2d-20261003/releases/download/data-v1/poly-btc_5m-20260930-12.tar.gz",
+      "tenor": "btc_5m",
+      "day": "2026-09-30"
+    },
+    {
+      "name": "poly-btc_5m-20260930-18.tar.gz",
+      "group": "poly",
+      "bytes": 254257587,
+      "extracted_bytes": 305747086,
+      "sha256": "ba3e989fd65c52fa014cc8431c1c9c694e3c893c65979c2e80815062647cb623",
+      "files": 288,
+      "url": "https://github.com/Tornadosky/boneohio-research-2d-20261003/releases/download/data-v1/poly-btc_5m-20260930-18.tar.gz",
+      "tenor": "btc_5m",
+      "day": "2026-09-30"
+    },
+    {
+      "name": "poly-btc_5m-20261001-00.tar.gz",
+      "group": "poly",
+      "bytes": 279219151,
+      "extracted_bytes": 334764779,
+      "sha256": "643b5b79ab2c780ebe2885904d4b2a4c016cb266634b1b1a4facb9e1faae74f2",
+      "files": 288,
+      "url": "https://github.com/Tornadosky/boneohio-research-2d-20261003/releases/download/data-v1/poly-btc_5m-20261001-00.tar.gz",
+      "tenor": "btc_5m",
+      "day": "2026-10-01"
+    },
+    {
+      "name": "poly-btc_5m-20261001-06.tar.gz",
+      "group": "poly",
+      "bytes": 271908886,
+      "extracted_bytes": 326186660,
+      "sha256": "8e1cdf4bdd5c8682171e3f89028b28c28562877e96725677159c711ea14cc9a5",
+      "files": 288,
+      "url": "https://github.com/Tornadosky/boneohio-research-2d-20261003/releases/download/data-v1/poly-btc_5m-20261001-06.tar.gz",
+      "tenor": "btc_5m",
+      "day": "2026-10-01"
+    },
+    {
+      "name": "poly-btc_5m-20261001-12.tar.gz",
+      "group": "poly",
+      "bytes": 355388151,
+      "extracted_bytes": 426608021,
+      "sha256": "20d0ea44cc70e98d9ee2999a84ec17c0630de2abf48ad34561dec193142a3b0d",
+      "files": 288,
+      "url": "https://github.com/Tornadosky/boneohio-research-2d-20261003/releases/download/data-v1/poly-btc_5m-20261001-12.tar.gz",
+      "tenor": "btc_5m",
+      "day": "2026-10-01"
+    },
+    {
+      "name": "poly-btc_5m-20261001-18.tar.gz",
+      "group": "poly",
+      "bytes": 254208008,
+      "extracted_bytes": 303372369,
+      "sha256": "d493a1b271e61f27fe17953f2412a7b52bf2d278f2310889a6696d326693845c",
+      "files": 288,
+      "url": "https://github.com/Tornadosky/boneohio-research-2d-20261003/releases/download/data-v1/poly-btc_5m-20261001-18.tar.gz",
+      "tenor": "btc_5m",
+      "day": "2026-10-01"
+    },
+    {
+      "name": "binance-native-mids-trades.tar.gz",
+      "group": "recorder",
+      "bytes": 91163550,
+      "extracted_bytes": 102153558,
+      "sha256": "28a2888bb26156b6459a7055503e3dabfc435a501d852d83192838f3f3adeeb2",
+      "files": 46,
+      "url": "https://github.com/Tornadosky/boneohio-research-2d-20261003/releases/download/data-v1/binance-native-mids-trades.tar.gz"
+    }
+  ],
+  "download_bytes": 3786129332,
+  "extracted_bytes": 4526770000,
+  "created_utc": "2026-10-03T17:13:48.370362+00:00"
+}

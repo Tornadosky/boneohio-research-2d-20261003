@@ -1,0 +1,541 @@
+{
+  "checked_utc": "2026-10-03T16:45:00.433049+00:00",
+  "scope": "48 main hours plus one warmup and one lifecycle-tail source hour",
+  "main_hour_rules": {
+    "earliest": 48,
+    "last_active": 0,
+    "plain": 0
+  },
+  "hour_manifests": [
+    {
+      "hour_utc": "2026-09-29T23:00:00+00:00",
+      "source": "raw/v3/2026-09-29/23/manifest.json",
+      "exists": true,
+      "source_sha256": "4ae5d4132e30fcf7b8e34cfee041fca586d5a7cb1c329457ec6d5cd7f8e7536a",
+      "source_bytes": 45536,
+      "sequence_note": "sequence and timestamp_received are collector-local provenance; where domains carry the same row, the merge keeps the EARLIEST-RECEIVED copy, equal arrivals breaking by registry order (active: c, h, g, i, k, m). The winner is per row, not per hour -- each row names its own in source_witness",
+      "converter_rule": "earliest",
+      "main_period": false
+    },
+    {
+      "hour_utc": "2026-09-30T00:00:00+00:00",
+      "source": "raw/v3/2026-09-30/00/manifest.json",
+      "exists": true,
+      "source_sha256": "f4d45ba68dad296932da2409d8ee2e0ea3614d2aa20cb2b1b8eaace0b14e1349",
+      "source_bytes": 45491,
+      "sequence_note": "sequence and timestamp_received are collector-local provenance; where domains carry the same row, the merge keeps the EARLIEST-RECEIVED copy, equal arrivals breaking by registry order (active: c, h, g, i, k, m). The winner is per row, not per hour -- each row names its own in source_witness",
+      "converter_rule": "earliest",
+      "main_period": true
+    },
+    {
+      "hour_utc": "2026-09-30T01:00:00+00:00",
+      "source": "raw/v3/2026-09-30/01/manifest.json",
+      "exists": true,
+      "source_sha256": "458f679ab2eb540cdc4a5aa65ae967a13426b60acb053a10193b2d2205b059bd",
+      "source_bytes": 39413,
+      "sequence_note": "sequence and timestamp_received are collector-local provenance; where domains carry the same row, the merge keeps the EARLIEST-RECEIVED copy, equal arrivals breaking by registry order (active: h, g, i, k, m). The winner is per row, not per hour -- each row names its own in source_witness",
+      "converter_rule": "earliest",
+      "main_period": true
+    },
+    {
+      "hour_utc": "2026-09-30T02:00:00+00:00",
+      "source": "raw/v3/2026-09-30/02/manifest.json",
+      "exists": true,
+      "source_sha256": "5a9ea3bcd640a99670a61cdb0da63f1ed900427b155a05ef8356e7f23174844b",
+      "source_bytes": 39591,
+      "sequence_note": "sequence and timestamp_received are collector-local provenance; where domains carry the same row, the merge keeps the EARLIEST-RECEIVED copy, equal arrivals breaking by registry order (active: h, g, i, k, m). The winner is per row, not per hour -- each row names its own in source_witness",
+      "converter_rule": "earliest",
+      "main_period": true
+    },
+    {
+      "hour_utc": "2026-09-30T03:00:00+00:00",
+      "source": "raw/v3/2026-09-30/03/manifest.json",
+      "exists": true,
+      "source_sha256": "36505aec0781613256cbaee98fca7d09a079904e97615a588154cde99b69f6d0",
+      "source_bytes": 39471,
+      "sequence_note": "sequence and timestamp_received are collector-local provenance; where domains carry the same row, the merge keeps the EARLIEST-RECEIVED copy, equal arrivals breaking by registry order (active: h, g, i, k, m). The winner is per row, not per hour -- each row names its own in source_witness",
+      "converter_rule": "earliest",
+      "main_period": true
+    },
+    {
+      "hour_utc": "2026-09-30T04:00:00+00:00",
+      "source": "raw/v3/2026-09-30/04/manifest.json",
+      "exists": true,
+      "source_sha256": "c4c906dde3adb9b8979c0e2a07efcb62c5cea1a2687ccc700a10d6c1f9f7e581",
+      "source_bytes": 39710,
+      "sequence_note": "sequence and timestamp_received are collector-local provenance; where domains carry the same row, the merge keeps the EARLIEST-RECEIVED copy, equal arrivals breaking by registry order (active: h, g, i, k, m). The winner is per row, not per hour -- each row names its own in source_witness",
+      "converter_rule": "earliest",
+      "main_period": true
+    },
+    {
+      "hour_utc": "2026-09-30T05:00:00+00:00",
+      "source": "raw/v3/2026-09-30/05/manifest.json",
+      "exists": true,
+      "source_sha256": "df14075a57ec38369d3b33dd4446c35e1c5a741bf0ed0b72a874f53c708eb562",
+      "source_bytes": 39498,
+      "sequence_note": "sequence and timestamp_received are collector-local provenance; where domains carry the same row, the merge keeps the EARLIEST-RECEIVED copy, equal arrivals breaking by registry order (active: h, g, i, k, m). The winner is per row, not per hour -- each row names its own in source_witness",
+      "converter_rule": "earliest",
+      "main_period": true
+    },
+    {
+      "hour_utc": "2026-09-30T06:00:00+00:00",
+      "source": "raw/v3/2026-09-30/06/manifest.json",
+      "exists": true,
+      "source_sha256": "bbeee22b2377e0d8d9f5c4a5db8e9ccd9968956ce5117cc5b2acdee5bf1bfe04",
+      "source_bytes": 39372,
+      "sequence_note": "sequence and timestamp_received are collector-local provenance; where domains carry the same row, the merge keeps the EARLIEST-RECEIVED copy, equal arrivals breaking by registry order (active: h, g, i, k, m). The winner is per row, not per hour -- each row names its own in source_witness",
+      "converter_rule": "earliest",
+      "main_period": true
+    },
+    {
+      "hour_utc": "2026-09-30T07:00:00+00:00",
+      "source": "raw/v3/2026-09-30/07/manifest.json",
+      "exists": true,
+      "source_sha256": "8f3758654a21912216001f4dc527819f91c5caf6b3ee89434f2bcfe052852350",
+      "source_bytes": 39635,
+      "sequence_note": "sequence and timestamp_received are collector-local provenance; where domains carry the same row, the merge keeps the EARLIEST-RECEIVED copy, equal arrivals breaking by registry order (active: h, g, i, k, m). The winner is per row, not per hour -- each row names its own in source_witness",
+      "converter_rule": "earliest",
+      "main_period": true
+    },
+    {
+      "hour_utc": "2026-09-30T08:00:00+00:00",
+      "source": "raw/v3/2026-09-30/08/manifest.json",
+      "exists": true,
+      "source_sha256": "6bebd457faae701512b5c6b18d09b1f9026e96e947c28d92881c78b43966c4d4",
+      "source_bytes": 39575,
+      "sequence_note": "sequence and timestamp_received are collector-local provenance; where domains carry the same row, the merge keeps the EARLIEST-RECEIVED copy, equal arrivals breaking by registry order (active: h, g, i, k, m). The winner is per row, not per hour -- each row names its own in source_witness",
+      "converter_rule": "earliest",
+      "main_period": true
+    },
+    {
+      "hour_utc": "2026-09-30T09:00:00+00:00",
+      "source": "raw/v3/2026-09-30/09/manifest.json",
+      "exists": true,
+      "source_sha256": "a40d51005175c7158b6ade292fea78da29567deb4a10345217f13ce37690f358",
+      "source_bytes": 39524,
+      "sequence_note": "sequence and timestamp_received are collector-local provenance; where domains carry the same row, the merge keeps the EARLIEST-RECEIVED copy, equal arrivals breaking by registry order (active: h, g, i, k, m). The winner is per row, not per hour -- each row names its own in source_witness",
+      "converter_rule": "earliest",
+      "main_period": true
+    },
+    {
+      "hour_utc": "2026-09-30T10:00:00+00:00",
+      "source": "raw/v3/2026-09-30/10/manifest.json",
+      "exists": true,
+      "source_sha256": "9c7bd1d21ae8ccdf40682ff2857e3cd3c6e091bbebdb3ccea031b6f8ba908269",
+      "source_bytes": 39348,
+      "sequence_note": "sequence and timestamp_received are collector-local provenance; where domains carry the same row, the merge keeps the EARLIEST-RECEIVED copy, equal arrivals breaking by registry order (active: h, g, i, k, m). The winner is per row, not per hour -- each row names its own in source_witness",
+      "converter_rule": "earliest",
+      "main_period": true
+    },
+    {
+      "hour_utc": "2026-09-30T11:00:00+00:00",
+      "source": "raw/v3/2026-09-30/11/manifest.json",
+      "exists": true,
+      "source_sha256": "1bb1ad8013ddc42ed06249b211d88b29f9c583da7b1bc739cc70e1f2d417edcd",
+      "source_bytes": 39461,
+      "sequence_note": "sequence and timestamp_received are collector-local provenance; where domains carry the same row, the merge keeps the EARLIEST-RECEIVED copy, equal arrivals breaking by registry order (active: h, g, i, k, m). The winner is per row, not per hour -- each row names its own in source_witness",
+      "converter_rule": "earliest",
+      "main_period": true
+    },
+    {
+      "hour_utc": "2026-09-30T12:00:00+00:00",
+      "source": "raw/v3/2026-09-30/12/manifest.json",
+      "exists": true,
+      "source_sha256": "465414894aa663c47389b8a05a0e71aa76e05a03aed8f07c5991bf64c77ed750",
+      "source_bytes": 39479,
+      "sequence_note": "sequence and timestamp_received are collector-local provenance; where domains carry the same row, the merge keeps the EARLIEST-RECEIVED copy, equal arrivals breaking by registry order (active: h, g, i, k, m). The winner is per row, not per hour -- each row names its own in source_witness",
+      "converter_rule": "earliest",
+      "main_period": true
+    },
+    {
+      "hour_utc": "2026-09-30T13:00:00+00:00",
+      "source": "raw/v3/2026-09-30/13/manifest.json",
+      "exists": true,
+      "source_sha256": "3164de16809fb0823fc4fb26a006a7c0fd3ee16c4d09cd49d028762882a39d1c",
+      "source_bytes": 39602,
+      "sequence_note": "sequence and timestamp_received are collector-local provenance; where domains carry the same row, the merge keeps the EARLIEST-RECEIVED copy, equal arrivals breaking by registry order (active: h, g, i, k, m). The winner is per row, not per hour -- each row names its own in source_witness",
+      "converter_rule": "earliest",
+      "main_period": true
+    },
+    {
+      "hour_utc": "2026-09-30T14:00:00+00:00",
+      "source": "raw/v3/2026-09-30/14/manifest.json",
+      "exists": true,
+      "source_sha256": "fa359eb32e158942a13501b7511318b675c8f2e8864ddb9094739a42eac20bd5",
+      "source_bytes": 39528,
+      "sequence_note": "sequence and timestamp_received are collector-local provenance; where domains carry the same row, the merge keeps the EARLIEST-RECEIVED copy, equal arrivals breaking by registry order (active: h, g, i, k, m). The winner is per row, not per hour -- each row names its own in source_witness",
+      "converter_rule": "earliest",
+      "main_period": true
+    },
+    {
+      "hour_utc": "2026-09-30T15:00:00+00:00",
+      "source": "raw/v3/2026-09-30/15/manifest.json",
+      "exists": true,
+      "source_sha256": "20e31834257de2f87c7470a8752a51f95a6322ce44d3c67802fe1583602754b4",
+      "source_bytes": 39219,
+      "sequence_note": "sequence and timestamp_received are collector-local provenance; where domains carry the same row, the merge keeps the EARLIEST-RECEIVED copy, equal arrivals breaking by registry order (active: h, g, i, k, m). The winner is per row, not per hour -- each row names its own in source_witness",
+      "converter_rule": "earliest",
+      "main_period": true
+    },
+    {
+      "hour_utc": "2026-09-30T16:00:00+00:00",
+      "source": "raw/v3/2026-09-30/16/manifest.json",
+      "exists": true,
+      "source_sha256": "37e1d4ff49a1e1883bc98efbafea9bbc8a13d729eca15b1f3b20a681b4d19a94",
+      "source_bytes": 39365,
+      "sequence_note": "sequence and timestamp_received are collector-local provenance; where domains carry the same row, the merge keeps the EARLIEST-RECEIVED copy, equal arrivals breaking by registry order (active: h, g, i, k, m). The winner is per row, not per hour -- each row names its own in source_witness",
+      "converter_rule": "earliest",
+      "main_period": true
+    },
+    {
+      "hour_utc": "2026-09-30T17:00:00+00:00",
+      "source": "raw/v3/2026-09-30/17/manifest.json",
+      "exists": true,
+      "source_sha256": "4b9459bf3022f77b9ba1004c14826ddce9d470e1e912e5a29a9b9ad64d97565e",
+      "source_bytes": 39206,
+      "sequence_note": "sequence and timestamp_received are collector-local provenance; where domains carry the same row, the merge keeps the EARLIEST-RECEIVED copy, equal arrivals breaking by registry order (active: h, g, i, k, m). The winner is per row, not per hour -- each row names its own in source_witness",
+      "converter_rule": "earliest",
+      "main_period": true
+    },
+    {
+      "hour_utc": "2026-09-30T18:00:00+00:00",
+      "source": "raw/v3/2026-09-30/18/manifest.json",
+      "exists": true,
+      "source_sha256": "4a479c7ed81dcaf7743d40ac83f92a612e9444987ccfb0386d129784e49a0498",
+      "source_bytes": 39541,
+      "sequence_note": "sequence and timestamp_received are collector-local provenance; where domains carry the same row, the merge keeps the EARLIEST-RECEIVED copy, equal arrivals breaking by registry order (active: h, g, i, k, m). The winner is per row, not per hour -- each row names its own in source_witness",
+      "converter_rule": "earliest",
+      "main_period": true
+    },
+    {
+      "hour_utc": "2026-09-30T19:00:00+00:00",
+      "source": "raw/v3/2026-09-30/19/manifest.json",
+      "exists": true,
+      "source_sha256": "5d590887bbe2cf3e1d681ea584ca72032f3fab1444b6e949b55decd71ad72cbb",
+      "source_bytes": 39475,
+      "sequence_note": "sequence and timestamp_received are collector-local provenance; where domains carry the same row, the merge keeps the EARLIEST-RECEIVED copy, equal arrivals breaking by registry order (active: h, g, i, k, m). The winner is per row, not per hour -- each row names its own in source_witness",
+      "converter_rule": "earliest",
+      "main_period": true
+    },
+    {
+      "hour_utc": "2026-09-30T20:00:00+00:00",
+      "source": "raw/v3/2026-09-30/20/manifest.json",
+      "exists": true,
+      "source_sha256": "2f3ff40f5fddf65a2ecb6ed16b43f7bae8a68ad42e09743d57e039118e769ed4",
+      "source_bytes": 39589,
+      "sequence_note": "sequence and timestamp_received are collector-local provenance; where domains carry the same row, the merge keeps the EARLIEST-RECEIVED copy, equal arrivals breaking by registry order (active: h, g, i, k, m). The winner is per row, not per hour -- each row names its own in source_witness",
+      "converter_rule": "earliest",
+      "main_period": true
+    },
+    {
+      "hour_utc": "2026-09-30T21:00:00+00:00",
+      "source": "raw/v3/2026-09-30/21/manifest.json",
+      "exists": true,
+      "source_sha256": "c75673173050ecb461eadfcdabe506fc9ddbfa55cd833f3d9870b6b8d19d8e94",
+      "source_bytes": 39293,
+      "sequence_note": "sequence and timestamp_received are collector-local provenance; where domains carry the same row, the merge keeps the EARLIEST-RECEIVED copy, equal arrivals breaking by registry order (active: h, g, i, k, m). The winner is per row, not per hour -- each row names its own in source_witness",
+      "converter_rule": "earliest",
+      "main_period": true
+    },
+    {
+      "hour_utc": "2026-09-30T22:00:00+00:00",
+      "source": "raw/v3/2026-09-30/22/manifest.json",
+      "exists": true,
+      "source_sha256": "5d74390635e390d71888ca9cc4f9c4df36209286f03b7dba390928cf30932a45",
+      "source_bytes": 39533,
+      "sequence_note": "sequence and timestamp_received are collector-local provenance; where domains carry the same row, the merge keeps the EARLIEST-RECEIVED copy, equal arrivals breaking by registry order (active: h, g, i, k, m). The winner is per row, not per hour -- each row names its own in source_witness",
+      "converter_rule": "earliest",
+      "main_period": true
+    },
+    {
+      "hour_utc": "2026-09-30T23:00:00+00:00",
+      "source": "raw/v3/2026-09-30/23/manifest.json",
+      "exists": true,
+      "source_sha256": "98ff2f4ed5756fbda8b7896a448651b61a6a0ae27dcfbc68898f24d7299da55e",
+      "source_bytes": 39443,
+      "sequence_note": "sequence and timestamp_received are collector-local provenance; where domains carry the same row, the merge keeps the EARLIEST-RECEIVED copy, equal arrivals breaking by registry order (active: h, g, i, k, m). The winner is per row, not per hour -- each row names its own in source_witness",
+      "converter_rule": "earliest",
+      "main_period": true
+    },
+    {
+      "hour_utc": "2026-10-01T00:00:00+00:00",
+      "source": "raw/v3/2026-10-01/00/manifest.json",
+      "exists": true,
+      "source_sha256": "6a583531f322091e4170391cbd5b6cfbcfb222fc86f90a3fd39f1d1957b7e0ad",
+      "source_bytes": 39362,
+      "sequence_note": "sequence and timestamp_received are collector-local provenance; where domains carry the same row, the merge keeps the EARLIEST-RECEIVED copy, equal arrivals breaking by registry order (active: h, g, i, k, m). The winner is per row, not per hour -- each row names its own in source_witness",
+      "converter_rule": "earliest",
+      "main_period": true
+    },
+    {
+      "hour_utc": "2026-10-01T01:00:00+00:00",
+      "source": "raw/v3/2026-10-01/01/manifest.json",
+      "exists": true,
+      "source_sha256": "4c298973ae6a0391da3d203b2f7e73f2c02f232757344971906332d47c325230",
+      "source_bytes": 39130,
+      "sequence_note": "sequence and timestamp_received are collector-local provenance; where domains carry the same row, the merge keeps the EARLIEST-RECEIVED copy, equal arrivals breaking by registry order (active: h, g, i, k, m). The winner is per row, not per hour -- each row names its own in source_witness",
+      "converter_rule": "earliest",
+      "main_period": true
+    },
+    {
+      "hour_utc": "2026-10-01T02:00:00+00:00",
+      "source": "raw/v3/2026-10-01/02/manifest.json",
+      "exists": true,
+      "source_sha256": "2f5b97d9e403ba0459954f2459bce123429b6344cc44e5b5abac6c65d78bf2cc",
+      "source_bytes": 39276,
+      "sequence_note": "sequence and timestamp_received are collector-local provenance; where domains carry the same row, the merge keeps the EARLIEST-RECEIVED copy, equal arrivals breaking by registry order (active: h, g, i, k, m). The winner is per row, not per hour -- each row names its own in source_witness",
+      "converter_rule": "earliest",
+      "main_period": true
+    },
+    {
+      "hour_utc": "2026-10-01T03:00:00+00:00",
+      "source": "raw/v3/2026-10-01/03/manifest.json",
+      "exists": true,
+      "source_sha256": "420d9edbdca133ca870af90850b9a48276e471948006b50bca22594b50227402",
+      "source_bytes": 39090,
+      "sequence_note": "sequence and timestamp_received are collector-local provenance; where domains carry the same row, the merge keeps the EARLIEST-RECEIVED copy, equal arrivals breaking by registry order (active: h, g, i, k, m). The winner is per row, not per hour -- each row names its own in source_witness",
+      "converter_rule": "earliest",
+      "main_period": true
+    },
+    {
+      "hour_utc": "2026-10-01T04:00:00+00:00",
+      "source": "raw/v3/2026-10-01/04/manifest.json",
+      "exists": true,
+      "source_sha256": "cecbca895d681e98f0714874fbc77fa8b07637dab7d165481df55c7e898336de",
+      "source_bytes": 39419,
+      "sequence_note": "sequence and timestamp_received are collector-local provenance; where domains carry the same row, the merge keeps the EARLIEST-RECEIVED copy, equal arrivals breaking by registry order (active: h, g, i, k, m). The winner is per row, not per hour -- each row names its own in source_witness",
+      "converter_rule": "earliest",
+      "main_period": true
+    },
+    {
+      "hour_utc": "2026-10-01T05:00:00+00:00",
+      "source": "raw/v3/2026-10-01/05/manifest.json",
+      "exists": true,
+      "source_sha256": "3a460160e13daee78fe26aaab629ca97a144b5956cf6f1b36fa0a9f16e2ad50e",
+      "source_bytes": 39224,
+      "sequence_note": "sequence and timestamp_received are collector-local provenance; where domains carry the same row, the merge keeps the EARLIEST-RECEIVED copy, equal arrivals breaking by registry order (active: h, g, i, k, m). The winner is per row, not per hour -- each row names its own in source_witness",
+      "converter_rule": "earliest",
+      "main_period": true
+    },
+    {
+      "hour_utc": "2026-10-01T06:00:00+00:00",
+      "source": "raw/v3/2026-10-01/06/manifest.json",
+      "exists": true,
+      "source_sha256": "da6c98e0f6647b12da1338bb86e74857115ad8062fe49303cc0f1e1c54c24ec1",
+      "source_bytes": 39197,
+      "sequence_note": "sequence and timestamp_received are collector-local provenance; where domains carry the same row, the merge keeps the EARLIEST-RECEIVED copy, equal arrivals breaking by registry order (active: h, g, i, k, m). The winner is per row, not per hour -- each row names its own in source_witness",
+      "converter_rule": "earliest",
+      "main_period": true
+    },
+    {
+      "hour_utc": "2026-10-01T07:00:00+00:00",
+      "source": "raw/v3/2026-10-01/07/manifest.json",
+      "exists": true,
+      "source_sha256": "bbcdf5afd3fc797fe69fcfbd66fe6f73064e854b8579b923563b6f66ba7e41f1",
+      "source_bytes": 39307,
+      "sequence_note": "sequence and timestamp_received are collector-local provenance; where domains carry the same row, the merge keeps the EARLIEST-RECEIVED copy, equal arrivals breaking by registry order (active: h, g, i, k, m). The winner is per row, not per hour -- each row names its own in source_witness",
+      "converter_rule": "earliest",
+      "main_period": true
+    },
+    {
+      "hour_utc": "2026-10-01T08:00:00+00:00",
+      "source": "raw/v3/2026-10-01/08/manifest.json",
+      "exists": true,
+      "source_sha256": "43eada1f516502776c82a3fcfb5012095bc142e968fecfc8fe52ace67e285a75",
+      "source_bytes": 39354,
+      "sequence_note": "sequence and timestamp_received are collector-local provenance; where domains carry the same row, the merge keeps the EARLIEST-RECEIVED copy, equal arrivals breaking by registry order (active: h, g, i, k, m). The winner is per row, not per hour -- each row names its own in source_witness",
+      "converter_rule": "earliest",
+      "main_period": true
+    },
+    {
+      "hour_utc": "2026-10-01T09:00:00+00:00",
+      "source": "raw/v3/2026-10-01/09/manifest.json",
+      "exists": true,
+      "source_sha256": "b4a732e3a708befbbecf6ed23a6de31757d210bd66dc728aa1e09571016e33cb",
+      "source_bytes": 39660,
+      "sequence_note": "sequence and timestamp_received are collector-local provenance; where domains carry the same row, the merge keeps the EARLIEST-RECEIVED copy, equal arrivals breaking by registry order (active: h, g, i, k, m). The winner is per row, not per hour -- each row names its own in source_witness",
+      "converter_rule": "earliest",
+      "main_period": true
+    },
+    {
+      "hour_utc": "2026-10-01T10:00:00+00:00",
+      "source": "raw/v3/2026-10-01/10/manifest.json",
+      "exists": true,
+      "source_sha256": "4801dcc11c2c7a3d14a14e0fb152efa89d3248e3f1d7d0c6e3d22e95032be23e",
+      "source_bytes": 39614,
+      "sequence_note": "sequence and timestamp_received are collector-local provenance; where domains carry the same row, the merge keeps the EARLIEST-RECEIVED copy, equal arrivals breaking by registry order (active: h, g, i, k, m). The winner is per row, not per hour -- each row names its own in source_witness",
+      "converter_rule": "earliest",
+      "main_period": true
+    },
+    {
+      "hour_utc": "2026-10-01T11:00:00+00:00",
+      "source": "raw/v3/2026-10-01/11/manifest.json",
+      "exists": true,
+      "source_sha256": "3faacfd78fbdf24c3d23f3d7010d6d89bec4aaef3d34131953fe07db9fbd7d6a",
+      "source_bytes": 39444,
+      "sequence_note": "sequence and timestamp_received are collector-local provenance; where domains carry the same row, the merge keeps the EARLIEST-RECEIVED copy, equal arrivals breaking by registry order (active: h, g, i, k, m). The winner is per row, not per hour -- each row names its own in source_witness",
+      "converter_rule": "earliest",
+      "main_period": true
+    },
+    {
+      "hour_utc": "2026-10-01T12:00:00+00:00",
+      "source": "raw/v3/2026-10-01/12/manifest.json",
+      "exists": true,
+      "source_sha256": "c12ba2731a5843255d2667919069b7ba9cb84c1e9de8b074c901f1ab747a10ad",
+      "source_bytes": 39525,
+      "sequence_note": "sequence and timestamp_received are collector-local provenance; where domains carry the same row, the merge keeps the EARLIEST-RECEIVED copy, equal arrivals breaking by registry order (active: h, g, i, k, m). The winner is per row, not per hour -- each row names its own in source_witness",
+      "converter_rule": "earliest",
+      "main_period": true
+    },
+    {
+      "hour_utc": "2026-10-01T13:00:00+00:00",
+      "source": "raw/v3/2026-10-01/13/manifest.json",
+      "exists": true,
+      "source_sha256": "bf54792ff1228de90066f07c61491e91533062e581d0754b007330c1d5be9b29",
+      "source_bytes": 39550,
+      "sequence_note": "sequence and timestamp_received are collector-local provenance; where domains carry the same row, the merge keeps the EARLIEST-RECEIVED copy, equal arrivals breaking by registry order (active: h, g, i, k, m). The winner is per row, not per hour -- each row names its own in source_witness",
+      "converter_rule": "earliest",
+      "main_period": true
+    },
+    {
+      "hour_utc": "2026-10-01T14:00:00+00:00",
+      "source": "raw/v3/2026-10-01/14/manifest.json",
+      "exists": true,
+      "source_sha256": "341362d50cd0f71f64fe2d28967640a7a1ba78abfd1d0759ee29457500179525",
+      "source_bytes": 39523,
+      "sequence_note": "sequence and timestamp_received are collector-local provenance; where domains carry the same row, the merge keeps the EARLIEST-RECEIVED copy, equal arrivals breaking by registry order (active: h, g, i, k, m). The winner is per row, not per hour -- each row names its own in source_witness",
+      "converter_rule": "earliest",
+      "main_period": true
+    },
+    {
+      "hour_utc": "2026-10-01T15:00:00+00:00",
+      "source": "raw/v3/2026-10-01/15/manifest.json",
+      "exists": true,
+      "source_sha256": "1f08c30fb70027170b9bb79558c005045a6e49e9c352ccdd77fc741d2442c5c9",
+      "source_bytes": 39225,
+      "sequence_note": "sequence and timestamp_received are collector-local provenance; where domains carry the same row, the merge keeps the EARLIEST-RECEIVED copy, equal arrivals breaking by registry order (active: h, g, i, k, m). The winner is per row, not per hour -- each row names its own in source_witness",
+      "converter_rule": "earliest",
+      "main_period": true
+    },
+    {
+      "hour_utc": "2026-10-01T16:00:00+00:00",
+      "source": "raw/v3/2026-10-01/16/manifest.json",
+      "exists": true,
+      "source_sha256": "8650dff1e09dd120ce1bcf0dfe26de0d4c32514af121ec410d9567e9b6b836b2",
+      "source_bytes": 39601,
+      "sequence_note": "sequence and timestamp_received are collector-local provenance; where domains carry the same row, the merge keeps the EARLIEST-RECEIVED copy, equal arrivals breaking by registry order (active: h, g, i, k, m). The winner is per row, not per hour -- each row names its own in source_witness",
+      "converter_rule": "earliest",
+      "main_period": true
+    },
+    {
+      "hour_utc": "2026-10-01T17:00:00+00:00",
+      "source": "raw/v3/2026-10-01/17/manifest.json",
+      "exists": true,
+      "source_sha256": "e90eb4634255dce16e07358e78d1dcb71a6a5ecdaa217a713593fa478360c152",
+      "source_bytes": 39516,
+      "sequence_note": "sequence and timestamp_received are collector-local provenance; where domains carry the same row, the merge keeps the EARLIEST-RECEIVED copy, equal arrivals breaking by registry order (active: h, g, i, k, m). The winner is per row, not per hour -- each row names its own in source_witness",
+      "converter_rule": "earliest",
+      "main_period": true
+    },
+    {
+      "hour_utc": "2026-10-01T18:00:00+00:00",
+      "source": "raw/v3/2026-10-01/18/manifest.json",
+      "exists": true,
+      "source_sha256": "bd913f824383f9fae74f517ea07969b131aa2f0ca855d039140bbff474d5552a",
+      "source_bytes": 39712,
+      "sequence_note": "sequence and timestamp_received are collector-local provenance; where domains carry the same row, the merge keeps the EARLIEST-RECEIVED copy, equal arrivals breaking by registry order (active: h, g, i, k, m). The winner is per row, not per hour -- each row names its own in source_witness",
+      "converter_rule": "earliest",
+      "main_period": true
+    },
+    {
+      "hour_utc": "2026-10-01T19:00:00+00:00",
+      "source": "raw/v3/2026-10-01/19/manifest.json",
+      "exists": true,
+      "source_sha256": "b00b8eed982781a34d222e3f941db6389c9910532abc9a21a24af20dfdaf76b7",
+      "source_bytes": 39629,
+      "sequence_note": "sequence and timestamp_received are collector-local provenance; where domains carry the same row, the merge keeps the EARLIEST-RECEIVED copy, equal arrivals breaking by registry order (active: h, g, i, k, m). The winner is per row, not per hour -- each row names its own in source_witness",
+      "converter_rule": "earliest",
+      "main_period": true
+    },
+    {
+      "hour_utc": "2026-10-01T20:00:00+00:00",
+      "source": "raw/v3/2026-10-01/20/manifest.json",
+      "exists": true,
+      "source_sha256": "96deceb6e368798e7b9277bf190e6b8effe5ca66bb8f3c3209e1ff96ddb00bab",
+      "source_bytes": 39341,
+      "sequence_note": "sequence and timestamp_received are collector-local provenance; where domains carry the same row, the merge keeps the EARLIEST-RECEIVED copy, equal arrivals breaking by registry order (active: h, g, i, k, m). The winner is per row, not per hour -- each row names its own in source_witness",
+      "converter_rule": "earliest",
+      "main_period": true
+    },
+    {
+      "hour_utc": "2026-10-01T21:00:00+00:00",
+      "source": "raw/v3/2026-10-01/21/manifest.json",
+      "exists": true,
+      "source_sha256": "97b22b38cc262db9880f384211eae20e8e1bd44d4740c21da962f00ce7455733",
+      "source_bytes": 39282,
+      "sequence_note": "sequence and timestamp_received are collector-local provenance; where domains carry the same row, the merge keeps the EARLIEST-RECEIVED copy, equal arrivals breaking by registry order (active: h, g, i, k, m). The winner is per row, not per hour -- each row names its own in source_witness",
+      "converter_rule": "earliest",
+      "main_period": true
+    },
+    {
+      "hour_utc": "2026-10-01T22:00:00+00:00",
+      "source": "raw/v3/2026-10-01/22/manifest.json",
+      "exists": true,
+      "source_sha256": "d0973f6f7abf175591d452f59b2e3570a760d41b3d2d7d2a743d27cb405bb679",
+      "source_bytes": 39265,
+      "sequence_note": "sequence and timestamp_received are collector-local provenance; where domains carry the same row, the merge keeps the EARLIEST-RECEIVED copy, equal arrivals breaking by registry order (active: h, g, i, k, m). The winner is per row, not per hour -- each row names its own in source_witness",
+      "converter_rule": "earliest",
+      "main_period": true
+    },
+    {
+      "hour_utc": "2026-10-01T23:00:00+00:00",
+      "source": "raw/v3/2026-10-01/23/manifest.json",
+      "exists": true,
+      "source_sha256": "87b797558f3b540f23a704af02f17b59ca785da881394908ce1d716c1918f481",
+      "source_bytes": 39124,
+      "sequence_note": "sequence and timestamp_received are collector-local provenance; where domains carry the same row, the merge keeps the EARLIEST-RECEIVED copy, equal arrivals breaking by registry order (active: h, g, i, k, m). The winner is per row, not per hour -- each row names its own in source_witness",
+      "converter_rule": "earliest",
+      "main_period": true
+    },
+    {
+      "hour_utc": "2026-10-02T00:00:00+00:00",
+      "source": "raw/v3/2026-10-02/00/manifest.json",
+      "exists": true,
+      "source_sha256": "d57ae3e05579ccc808b443db49fbc345f96afe9f818776a811453d14c4ec7469",
+      "source_bytes": 39272,
+      "sequence_note": "sequence and timestamp_received are collector-local provenance; where domains carry the same row, the merge keeps the EARLIEST-RECEIVED copy, equal arrivals breaking by registry order (active: h, g, i, k, m). The winner is per row, not per hour -- each row names its own in source_witness",
+      "converter_rule": "earliest",
+      "main_period": false
+    }
+  ],
+  "conversion": {
+    "source_timestamp_received_unit": "microseconds",
+    "source_venue_timestamp_unit": "milliseconds",
+    "earliest_or_plain": "ts_ns=max(timestamp_received_us*1000, venue_ts_ms*1000000)",
+    "last_active": "ts_ns=max((timestamp_received_us-arrival_skew_us)*1000, venue_ts_ms*1000000)",
+    "branch_selection": "hour manifest sequence_note: EARLIEST wins, else LAST ACTIVE, else plain; missing/unreadable manifest -> plain",
+    "adapter": "pf2cache.pf_tables preserves supplied ts_ns. Its separate reclock function is not called by the pflow-only converter.",
+    "derived_prune_rows": "venue-BBO prune rows reuse their parent timestamp and receive newly assigned seq; synthetic cleanup events, not separate receives"
+  },
+  "source_code": [
+    {
+      "source": "vendor_20260930_PFCACHE/pfcache.py:119-155",
+      "sha256": "67c89e5b305548264f29bbb3576610456e569d2b8d1935c3bd267f625dbb8ac2"
+    },
+    {
+      "source": "vendor_20261001_PFEXT/pfcache.py:122-168",
+      "sha256": "68b75bb06e8b9acb36456a11ee975e41fa940ea61d761b0d0bdf85525e194096"
+    },
+    {
+      "source": "vendor_20260930_CACHECMP/pf2cache.py:110-138",
+      "sha256": "0f7e487a32df8f0300fa4feabcc3379daf28d35b73f23a6990ada14394622f7c"
+    }
+  ],
+  "limits": [
+    "Vendor merged/adjusted receive provenance, not BoneOhio receipt or our native recorder location.",
+    "Clock clipping can change source arrival for rows where venue timestamp is later.",
+    "No constant synthetic venue+median-lag conversion was found in the pflow-only source path.",
+    "The converter source header geography/latency comments are not independently certified target facts.",
+    "Derived depth_clock carries these timestamps but is not an independent source capture."
+  ]
+}
